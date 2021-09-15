@@ -9,22 +9,17 @@ font-weight:700;
 font-style:normal;
 font-display:fallback}*{padding:0;
 margin:0;
-box-sizing:border-box
 }
 
 html{
 font-family:Stratford-Regular,helvetica,sans-serif;
--webkit-text-size-adjust:100%;
--ms-text-size-adjust:100%;
-text-size-adjust:100%;
 background-color:rgb(236,224,207);
 color:rgb(0,0,0);
+
 }
 
-body{
--webkit-font-smoothing:antialiased;
--moz-font-smoothing:antialiased;
--moz-osx-font-smoothing:grayscale;
+.body {
+  overflow-y: scroll;
 }
 
 ::selection{
@@ -38,20 +33,23 @@ text-decoration:none;
 border-bottom:2px solid rgb(0,0,0)
 }
 
-a:active,a:hover{
-border-bottom:0px 
-}
-
 a,h1,h2,h3,p,span{
 font-weight:600;
 font-style:normal;
 font-size:22px;
-line-height:1.3
+line-height:1.3;
 }
 
 #wrapper{
 margin:40px;
 max-width:600px
+}
+
+#media{
+margin:40px;
+max-width:2000px
+overflow:visible;
+position: relative;
 }
 
 article{
@@ -60,12 +58,24 @@ padding-bottom:30px
 
 @media only screen and (max-width:600px){
 #wrapper{margin:20px}
+#media{margin:20px}
 a,h1,h2,h3,p,span{line-height:1.3	}
 p{margin-top:6px}
 article{padding-bottom:28px}
 }
-
 </style>
+
+<script>
+function CopyToClipboard(id)
+{
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText("almquist.henrik@gmail.com");
+
+  /* Alert the copied text */
+  alert("Copied : " + " almquist.henrik@gmail.com");
+} 
+</script> 
 </head>
 
 <body>
@@ -99,4 +109,4 @@ article{padding-bottom:28px}
 <p><a href="011.html"> Visual Materiality</a> : The Eyes on the Skin</p
 </article>
 
-</div></div></div></body></html>
+</div></body></html>
