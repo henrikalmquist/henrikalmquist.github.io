@@ -55,18 +55,30 @@ max-width:600px
 
 #media{
 margin:40px;
-max-width:2000px
+max-width:2000px;
 overflow:visible;
 position: relative;
+}
+
+#table{
+width:650px;
+border:0px;
+align:left;
+cellpadding:0;
+cellspacing:0;
 }
 
 article{
 padding-bottom:30px
 }
 
-@media only screen and (max-width:1000px){
-#wrapper{margin:20px}
-#media{margin:20px}
+@media only screen and (max-width:800px){
+#wrapper{margin:20px;
+max-width:1000px;}
+#media{margin:20px;
+max-width:1000x;}
+#table{
+width:1000px;}
 }
 </style>
 
@@ -84,10 +96,7 @@ function CopyToClipboard(id)
 </head>
 
 <body>
-<table width="800" border="0" align="left" cellpadding="0" cellspacing="0">
-<tr align="left" valign="top">
-<td width="800" height="20"><p class="text">
-
+<table style="table" > <tr> <td style="table">
 <div id="wrapper">
 
 <article>
