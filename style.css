@@ -1,6 +1,6 @@
 <style>
 @font-face{
-font-family:Stratford-Regular;
+font-family:"Stratford-Regular";
 src: url(Stratford-Regular.otf);
 font-weight:600;
 padding-top: 0px;
@@ -15,7 +15,7 @@ margin:0;
 }
 
 html{
-font-family:Stratford-Regular,helvetica,sans-serif;
+font-family:Stratford-Regular;
 color:rgb(0,0,0);
 }
 
