@@ -1,7 +1,7 @@
 <style>
 @font-face{
+<link href="https://www.dafontfree.net/embed/c3RyYXRmb3JkLXJlZ3VsYXItcmVndWxhciZkYXRhLzI4L3MvMTQ0MjI1L1N0cmF0Zm9yZC1SZWd1bGFyLnR0Zg" rel="stylesheet" type="text/css"/>
 font-family:"Stratford-Regular";
-src: url(Stratford-Regular.otf) format("opentype");
 font-weight:700;
 padding-top: 0px 0px 0px 0px;
 	left: auto;
@@ -98,7 +98,7 @@ padding-bottom:30px
 #media1000{max-width:100%; margin: 0px 20px 0px 20px;}
 #media1400{max-width:100%; margin: 0px 20px 0px 20px;}
 #media2000{max-width:100%; margin: 0px 20px 0px 20px;}
-article{padding-bottom:40px}
+article{padding-bottom:50px}
 a,h1,h2,h3,p,span{line-height:1.4;font-weight:600;font-size:24px;}
 #imgscreen {display: none;}
 #imgphone {display: block;}
