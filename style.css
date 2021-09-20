@@ -1,18 +1,16 @@
 <style>
 @font-face{
 font-family:"Stratford-Regular";
-src: url(Stratford-Regular.otf);
-font-weight:600;
-padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+src: url(Stratford-Regular.otf) format("opentype");
+font-weight:700;
+padding-top: 0px 0px 0px 0px;
 	left: auto;
 	top: auto;
-	margin-top: 0px;
-	padding: 0;
-margin:0;
+	margin-top: 0px;	
+	font-display:fallback
 }
+	
+*{padding: 0;margin:0;}
 
 html{
 font-family:Stratford-Regular;
@@ -36,9 +34,9 @@ border-bottom:2px solid rgb(0,0,0)
 
 a,h1,h2,h3,p,span{
 font-weight:700;
-font-style:normal;
+font-style:;
 font-size:22px;
-line-height:1.3;
+line-height:1.4;
 }
 
 mark.red {
@@ -58,33 +56,33 @@ mark.purple {
 #imgphone {display:none}
 
 #wrapper600{
-margin-left:40px; margin-top:0px; margin-right:40px; margin-bottom:0px;
+margin: 0px 40px 0px 40px;
 max-width:600px;
 overflow:visible;
 position: relative;
 }
 
 #wrappertop{
-margin-left:40px; margin-top:40px; margin-right:40px; margin-bottom:0px;
+margin: 40px 40px 0px 40px;
 max-width:600px;
 overflow:visible;
 position: relative;
 }
 
 #media1000{
-margin-left:40px; margin-top:0px; margin-right:40px; margin-bottom:0px;
+margin: 0px 40px 0px 40px;
 max-width:1000px;
 overflow:visible;
 position: relative;
 }
 #media1400{
-margin-left:40px; margin-top:0px; margin-right:40px; margin-bottom:0px;
+margin: 0px 40px 0px 40px;
 max-width:1400px;
 overflow:visible;
 position: relative;
 }
 #media2000{
-margin-left:40px; margin-top:0px; margin-right:40px; margin-bottom:0px;
+margin: 0px 40px 0px 40px;
 max-width:2000px;
 overflow:visible;
 position: relative;
@@ -95,11 +93,11 @@ padding-bottom:30px
 }
 
 @media only screen and (max-width:1000px){
-#wrapper600{margin-left:20px; margin-right:20px;max-width:100%;}
-#wrappertop{margin-left:20px; margin-top:20px; margin-right:20px; max-width:100%;}
-#media1000{margin-left:20px; margin-right:20px; max-width:100%;}
-#media1400{margin-left:20px; margin-right:20px; max-width:100%;}
-#media2000{margin-left:20px; margin-right:20px; max-width:100%;}
+#wrapper600{max-width:100%; margin: 0px 20px 0px 20px;}
+#wrappertop{max-width:100%; margin: 20px 20px 0px 20px;}
+#media1000{max-width:100%; margin: 0px 20px 0px 20px;}
+#media1400{max-width:100%; margin: 0px 20px 0px 20px;}
+#media2000{max-width:100%; margin: 0px 20px 0px 20px;}
 article{padding-bottom:40px}
 a,h1,h2,h3,p,span{line-height:1.4;font-weight:600;font-size:24px;}
 #imgscreen {display: none;}
