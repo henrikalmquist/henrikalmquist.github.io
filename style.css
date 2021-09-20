@@ -1,13 +1,14 @@
 <style>
 @font-face{
-<link href="https://www.dafontfree.net/embed/c3RyYXRmb3JkLXJlZ3VsYXItcmVndWxhciZkYXRhLzI4L3MvMTQ0MjI1L1N0cmF0Zm9yZC1SZWd1bGFyLnR0Zg" rel="stylesheet" type="text/css"/>
-font-family:"Stratford-Regular";
+font-family:extra;
+src:url(stratford-regular-webfont.woff) format("woff");
+src:url(stratford-regular-webfont.woff2) format("woff2");
 font-weight:700;
 padding-top: 0px 0px 0px 0px;
-	left: auto;
-	top: auto;
-	margin-top: 0px;	
-	font-display:fallback
+left: auto;
+top: auto;
+margin-top: 0px;	
+font-display:fallback
 }
 	
 *{padding: 0;margin:0;}
