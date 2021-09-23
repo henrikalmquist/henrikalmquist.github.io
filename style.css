@@ -1,19 +1,19 @@
 <style>
 @font-face{
-font-family:stratford-regular;
-src:url(stratford-regular-webfont.woff) format("woff");
-src:url(stratford-regular.woff2) format("woff2");
+font-family:"Stratford";
+src:url(stratford-regular.eot);
+src:url(stratford-regular.woff) format("woff"), url(stratford-regular.woff2) format("woff2"),url(stratford-regular.otf) format("otf"),url(stratford-regular.svg) format("svg"),url(stratford-regular.ttf) format("ttf");
 font-weight:700;
 padding-top: 0px 0px 0px 0px;
 left: auto;
 top: auto;
 margin-top: 0px;	
-font-display:fallback
+font-display:fallback;
 }
 	
 *{padding: 0;margin:0;}
 
-html{font-family:stratford-regular;
+html{font-family:Stratford;
 color:rgb(0,0,0);
 }
 
@@ -35,7 +35,7 @@ border-bottom:2px solid rgb(0,0,0)
 a,h1,h2,h3,p,span{
 font-weight:700;
 font-style:;
-font-size:22px;
+font-size:21.5px;
 line-height:1.4;
 }
 
