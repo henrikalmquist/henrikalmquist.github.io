@@ -1,8 +1,8 @@
 <style>
 @font-face{
 font-family:"stratford", Times, serif;
-src:url('../henrikalmquist.github.io/stratford-regular.eot');
-src:url('../henrikalmquist.github.io/stratford-regular.woff') format("woff"), url('../henrikalmquist.github.io/stratford-regular.woff2') format("woff2"),url('../henrikalmquist.github.io/stratford-regular.otf') format("otf"),url('../henrikalmquist.github.io/stratford-regular.svg') format("svg"),url('../henrikalmquist.github.io/stratford-regular.ttf') format("ttf");
+src:url('/css/fonts/stratford-regular.eot');
+src:url('/css/fonts/stratford-regular.woff') format("woff"), url('/css/fonts/stratford-regular.woff2') format("woff2"),url('/css/fonts/stratford-regular.otf') format("otf"),url('/css/fonts/stratford-regular.svg') format("svg"),url('/css/fonts/stratford-regular.ttf') format("ttf");
 font-weight:700;
 padding-top: 0px 0px 0px 0px;
 left: auto;
