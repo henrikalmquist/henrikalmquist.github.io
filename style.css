@@ -3,16 +3,8 @@
 font-family:"stratford";
 src:url('/css/fonts/stratford-regular.eot');
 src:url('/css/fonts/stratford-regular.woff') format('woff'), url('/css/fonts/stratford-regular.woff2') format("woff2"),url('/css/fonts/stratford-regular.otf') format("otf"),url('/css/fonts/stratford-regular.svg') format("svg"),url('/css/fonts/stratford-regular.ttf') format("ttf");
-font-weight:700;
-padding-top: 0px 0px 0px 0px;
-left: auto;
-top: auto;
-margin-top: 0px;	
-font-display:fallback;
 }
-	
 *{padding: 0;margin:0;}
-
 html{font-family:"stratford", Times, serif;
 color:rgb(0,0,0);
 }
@@ -22,86 +14,26 @@ color:rgb(0,0,0);
   font-family:"stratford", Times, serif;
 }
 
-::selection{
-text-shadow:none;
-color:rgb(0,0,0)
-}
-
-a{
-color:rgb(0,0,0);
-text-decoration:none;	
-border-bottom:2px solid rgb(0,0,0)
-}
-
-a,h1,h2,h3,p,span{
-font-weight:700;
-font-style:;
-font-size:21.5px;
-line-height:1.4;
-}
-
-mark.red {
-	color:rgb(255,0,0);
-	background:none;
-}
-mark.blue {
-	color:rgb(0,0,255);
-	background:none;
-}
-mark.purple {
-	color:rgb(255,0,255);
-	background:none;
-}
+::selection{text-shadow:none; color:rgb(100,100,100)}
+a{color:rgb(0,0,0); text-decoration:none;}
+a:hover{color:rgb(100,100,100);}
+a,h2,p,span{font-weight:300; font-size:18px; line-height:1.4;}
+h1{font-weight:300; font-size:45px; line-height:1.4;}
+article{padding-bottom:0px; padding-top:20px;}
 
 #imgscreen {display:block;}
 #imgphone {display:none}
 
-#wrapper600{
-margin: 0px 40px 0px 40px;
-max-width:600px;
-overflow:visible;
-position: relative;
+#Center{margin:auto; text-align: center; position: relative;top: 125px;}
+
+#Bottom{position: fixed; left: 50%; bottom: 20px; 
+transform: translate(-50%, -50%); margin: auto;
 }
 
-#wrappertop{
-margin: 40px 40px 0px 40px;
-max-width:600px;
-overflow:visible;
-position: relative;
+@media only screen and (max-width:1000px){	
+#Center{max-width:100%;}
+a,h2,h3,p,span{font-size:24px;}
+h1{font-size:36px;}
 }
 
-#media1000{
-margin: 0px 40px 0px 40px;
-max-width:1000px;
-overflow:visible;
-position: relative;
-}
-#media1400{
-margin: 0px 40px 0px 40px;
-max-width:1400px;
-overflow:visible;
-position: relative;
-}
-#media2000{
-margin: 0px 40px 0px 40px;
-max-width:2000px;
-overflow:visible;
-position: relative;
-}
-
-article{
-padding-bottom:30px
-}
-
-@media only screen and (max-width:1000px){
-#wrapper600{max-width:100%; margin: 0px 20px 0px 20px;}
-#wrappertop{max-width:100%; margin: 20px 20px 0px 20px;}
-#media1000{max-width:100%; margin: 0px 20px 0px 20px;}
-#media1400{max-width:100%; margin: 0px 20px 0px 20px;}
-#media2000{max-width:100%; margin: 0px 20px 0px 20px;}
-article{padding-bottom:50px}
-a,h1,h2,h3,p,span{line-height:1.4;font-weight:600;font-size:24px;}
-#imgscreen {display: none;}
-#imgphone {display: block;}
-}
 </style>
