@@ -17,16 +17,17 @@ color:rgb(0,0,0);
 ::selection{text-shadow:none; color:rgb(100,100,100)}
 a{color:rgb(0,0,0); text-decoration:none;}
 a:hover{color:rgb(100,100,100);}
-a,h2,p,span{font-weight:300; font-size:18px; line-height:1.4; width:200;}
-h1{font-weight:300; font-size:45px; line-height:1.4;}
+h1{font-weight:300; font-size:45px;}
+a,h2,p,span{font-weight:300; font-size:18px;}
+h3{font-weight:300; font-size:18px;color:rgb(200,200,200);}
 article{padding-bottom:0px; padding-top:20px;}
 
 #imgscreen {display:block;}
 #imgphone {display:none}
 
-#Center{margin:auto; text-align: center; position: relative; top: 125px; max-width:600;}
+#Center{margin:auto; text-align: center; position: relative; top: 100px; max-width:600;}
 
-#Bottom{position: fixed; left: 50%; bottom: 20px; 
+#Bottom{position: fixed; left: 50%; bottom: 10px; 
 transform: translate(-50%, -50%); margin: auto;
 }
 
