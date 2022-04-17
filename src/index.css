@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "STRATFORD";
+    src: url("../src/assets/fonts/stratford-regular.otf");
+  }
