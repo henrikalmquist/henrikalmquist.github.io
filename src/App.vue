@@ -15,24 +15,24 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-import About from './components/About.vue';
+import About from './components/About.vue'
 
-const cvLcoation = "assets/almquist-cv.pdf";
+const cvLcoation = "almquist-cv.pdf";
 const mail = "almquist.henrik@gmail.com";
 const instagram = "https://www.instagram.com/henkyfant/";
 
 const images = [
     {
-        src: "/src/assets/img/_MG_5801.jpg",
-        text: "**test**"
+        src: "img/_MG_5801.jpg",
+        text: `**test**`
     },
     {
-        src: "/src/assets/img/almquist_kampen-25-sofielund-malmö_site.jpg",
-        text: "# Malmö"
+        src: "img/almquist_kampen-25-sofielund-malmö_site.jpg",
+        text: `# Malmö`
     },
     {
-        src: "/src/assets/img/almquist_kampen-25-sofielund-malmö_site.jpg",
-        text: "Malmö2"
+        src: "img/almquist_kampen-25-sofielund-malmö_site.jpg",
+        text: `Malmö2`
     }
 ]
 
