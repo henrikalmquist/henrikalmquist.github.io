@@ -1,23 +1,26 @@
 {
-  "name": "almquist.portfolio",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "markdown-it": "^12.3.2",
-    "vue": "^3.2.25",
-    "vue3-carousel": "^0.1.38"
-  },
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.2",
-    "@vitejs/plugin-vue": "^2.3.1",
-    "autoprefixer": "^10.4.4",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.24",
-    "vite": "^2.9.2"
-  }
+    "name": "almquist.portfolio",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "dependencies": {
+        "markdown-it": "^12.3.2",
+        "vue": "^3.2.25",
+        "vue3-carousel": "^0.1.38"
+    },
+    "devDependencies": {
+        "@tailwindcss/typography": "^0.5.2",
+        "@vitejs/plugin-vue": "^2.3.1",
+        "autoprefixer": "^10.4.4",
+        "gh-pages": "^3.2.3",
+        "postcss": "^8.4.12",
+        "tailwindcss": "^3.0.24",
+        "vite": "^2.9.2"
+    }
 }
