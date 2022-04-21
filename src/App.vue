@@ -1,43 +1,75 @@
 <template>
-    <div class="flex flex-col h-screen justify-between font-stratford">
-        <Header class="h-10" />
-        <div class="container mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl">
-            <h1 class="text-5xl mb-2">Almquist</h1>
-            <About :images="images" :description="description" />
+    <div class="flex flex-col h-screen justify-between font-stratford bg-backgroundGray">
+        <Header class="h-16" />
+        <div class="container mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl mt-5">
+            <h1 class="text-5xl"><button @click="imagesVisible = true">Almquist</button></h1>
+            <ContactInformation class="h-10 mb-2"
+                :cv-location="cvLcoation"
+                :mail="mail"
+                :instagram="instagram"
+                :images-visible="imagesVisibleComputed"
+                @introClicked="introClicked"/>
+            <images-container v-if="imagesVisibleComputed" :images="images" :description="description" />
+            <about-text v-else :description="description" />
         </div>
-        <Footer class="h-10 bottom-0" :cv-location="cvLcoation" :mail="mail" :instagram="instagram" />
     </div>
     
 </template>
 
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+<script>
 import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
-import About from './components/About.vue'
+import ContactInformation from './components/ContactInformation.vue'
+import ImagesContainer from "./components/ImagesContainer.vue";
+import AboutText from "./components/AboutText.vue";
 
-const cvLcoation = "almquist-cv.pdf";
-const mail = "almquist.henrik@gmail.com";
-const instagram = "https://www.instagram.com/henkyfant/";
+export default {
+    data() {
+        return {
+            imagesVisible: true,
+            images: [
+                {
+                    src: "img/Almquist_DSCF1488_Brasilien.jpg",
+                    text: `[Casa Mangaberias]
 
-const images = [
-    {
-        src: "img/_MG_5801.jpg",
-        text: `**test**`
+Refurbishment of a 60s concrete dream. Restructuring and redefining the spaces for a more open Mangaberias Belo Horizonte, Brasil.`
+                },
+                {
+                    src: "img/_MG_5801.jpg",
+                    text: `[Casa Mangaberias]
+
+Meditation room with a view on the garden. New openings are excavated in the solid concrete and new walls are filled with painted block elements. `
+                },
+                {
+                    src: "img/_MG_5801.jpg",
+                    text: `[Follo Museum Extension] 
+
+A glazed space links all the internal program and creates a weather protected space for meeting between the public and the `
+                },
+                {
+                    src: "img/004.jpg",
+                    text: `[Follo Museum Extension]`
+                },
+            ],
+            description: `Henrik Almquist is a practicing architect in Paris currently working at Studio Muoto. Having participated in early conception phases and. Etc ets.
+
+He holds a Master of Architecture from ENSA Paris Malaquais and a Bachelor of Science from TU Chalmers Sweden in the program of Architecture and Engineering. With two distinct different perspectives, the first technical and, the second driven by a theoretical and social approach with a stronger artistic expression. `,
+            cvLcoation: "almquist-cv.pdf",
+            mail: "almquist.henrik@gmail.com",
+            instagram: "https://www.instagram.com/henkyfant/",
+        };
     },
-    {
-        src: "img/almquist_kampen-25-sofielund-malmö_site.jpg",
-        text: `# Malmö`
+    computed: {
+        imagesVisibleComputed() {
+            return this.imagesVisible;
+        },
     },
-    {
-        src: "img/almquist_kampen-25-sofielund-malmö_site.jpg",
-        text: `Malmö2`
-    }
-]
-
-const description = `# Intro
-Henrik Almquist is a practicing architect I Paris currently working at Studio Muoto. He holds a Master of Architecture from ENSA Paris Malaquais and a Bachelor of Science from TU Chalmers Sweden.`;
+    methods: {
+        introClicked(){
+            this.imagesVisible = !this.imagesVisible;
+        },
+    },
+    components: { Header, ContactInformation, ImagesContainer, AboutText }
+}
 
 </script>
 

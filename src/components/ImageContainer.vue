@@ -2,8 +2,7 @@
     <div>
         <img class="my-4 h-auto md:h-4/5" :src="imageSrc">
         <div class="flex flex-col items-center">
-            <button class="text-3xl" :class="expandButtonClassComputed" @click="textVisible =!textVisible">{{expandSignComputed}}</button>
-            <p class="mt-2 prose" v-show="textVisible" v-html="imageTextComputed"></p>
+            <p class="mt-2 prose px-2" v-html="imageTextComputed"></p>
         </div>        
     </div>
 </template>
@@ -12,22 +11,11 @@
 import MarkdownIt from "markdown-it";
 const markdown = new MarkdownIt();
 export default {
-    data() {
-        return {
-            textVisible: false
-        }
-    },
     props: {
         imageSrc: String,
         imageText: String,
     },
     computed: {
-        expandSignComputed() {
-            return this.textVisible ? "-" : "+";
-        },
-        expandButtonClassComputed() {
-            return this.textVisible ? "" : "animate-pulse";
-        },
         imageTextComputed(){
             return markdown.render(this.imageText);
         }

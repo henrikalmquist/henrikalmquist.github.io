@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+        'backgroundGray': 'rgb(245,245,245)',
+    },
     extend: {
       fontFamily: {
         stratford: ["STRATFORD", "serif"],

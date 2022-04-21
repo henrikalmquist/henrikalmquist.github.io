@@ -10,6 +10,7 @@
         "deploy": "gh-pages -d dist"
     },
     "dependencies": {
+        "@heroicons/vue": "^1.0.6",
         "markdown-it": "^12.3.2",
         "vue": "^3.2.25",
         "vue3-carousel": "^0.1.38"
