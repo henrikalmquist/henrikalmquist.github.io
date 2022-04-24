@@ -9,8 +9,8 @@
                 :instagram="instagram"
                 :images-visible="imagesVisibleComputed"
                 @introClicked="introClicked"/>
-            <images-container v-if="imagesVisibleComputed" :images="images" :description="description" class="h-1/2" />
-            <about-text v-else :description="description" class="h-1/2" />
+            <images-container v-if="imagesVisibleComputed" :images="images" :description="description" class="h-full md:h-2/3" />
+            <about-text v-else :description="description" class="h-full md:h-2/3" />
         </div>
     </div>
     
@@ -30,19 +30,16 @@ export default {
                 {
                     src: "img/Almquist_DSCF1488_Brasilien.jpg",
                     text: `[Casa Mangaberias]
-
 Refurbishment of a 60s concrete dream. Restructuring and redefining the spaces for a more open Mangaberias Belo Horizonte, Brasil.`
                 },
                 {
-                    src: "img/_MG_5801.jpg",
+                    src: "img/MG_5801.jpg",
                     text: `[Casa Mangaberias]
-
 Meditation room with a view on the garden. New openings are excavated in the solid concrete and new walls are filled with painted block elements. `
                 },
                 {
-                    src: "img/_MG_5801.jpg",
-                    text: `[Follo Museum Extension] 
-
+                    src: "img/MG_5801.jpg",
+                    text: `[Follo Museum Extension]
 A glazed space links all the internal program and creates a weather protected space for meeting between the public and the `
                 },
                 {
