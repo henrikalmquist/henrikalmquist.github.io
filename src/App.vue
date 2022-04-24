@@ -9,8 +9,8 @@
                 :instagram="instagram"
                 :images-visible="imagesVisibleComputed"
                 @introClicked="introClicked"/>
-            <images-container v-if="imagesVisibleComputed" :images="images" :description="description"/>
-            <about-text v-else :description="description"/>
+            <images-container v-if="imagesVisibleComputed" :images="images" :description="description" class="h-full md:h-2/3" />
+            <about-text v-else :description="description" class="h-full md:h-2/3 " />
         </div>
     </div>
     
