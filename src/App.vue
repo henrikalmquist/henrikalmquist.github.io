@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-col h-screen justify-between font-stratford mb-4">
-        <Header class="h-16" />
+    <div class="flex flex-col h-screen justify-between font-stratford">
+        <Header class="h-1/6" />
         <div class="container mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl mt-5 relative">
             <h1 class="text-5xl"><button @click="imagesVisible = true">Almquist</button></h1>
             <ContactInformation class="h-10 mb-2"
