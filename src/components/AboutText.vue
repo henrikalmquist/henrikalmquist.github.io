@@ -1,6 +1,6 @@
 <template>
-    <div class="h-full">         
-        <article class="h-full mt-4 px-4 md:px-0 prose text-justify" v-html="descriptionComputed">
+    <div>         
+        <article class="mt-4 px-4 md:px-0 prose text-justify" v-html="descriptionComputed">
         </article>       
     </div>
 </template>
