@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col h-screen justify-between font-stratford bg-backgroundGray">
+    <div class="flex flex-col h-screen justify-between font-stratford mb-4">
         <Header class="h-16" />
-        <div class="container mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl mt-5">
+        <div class="container mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl mt-5 relative">
             <h1 class="text-5xl"><button @click="imagesVisible = true">Almquist</button></h1>
             <ContactInformation class="h-10 mb-2"
                 :cv-location="cvLcoation"
@@ -9,8 +9,8 @@
                 :instagram="instagram"
                 :images-visible="imagesVisibleComputed"
                 @introClicked="introClicked"/>
-            <images-container v-if="imagesVisibleComputed" :images="images" :description="description" />
-            <about-text v-else :description="description" />
+            <images-container v-if="imagesVisibleComputed" :images="images" :description="description" class="h-1/2" />
+            <about-text v-else :description="description" class="h-1/2" />
         </div>
     </div>
     

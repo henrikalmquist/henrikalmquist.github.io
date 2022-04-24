@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img class="my-4 h-auto md:h-4/5" :src="imageSrc">
+        <img class="my-4 md:h-full" :src="imageSrc">
         <div class="flex flex-col items-center italic w-5/6 mx-auto">
             <p class="mt-2 prose px-2" v-html="imageTextComputed"></p>
         </div>        
