@@ -1,6 +1,6 @@
 <template>
     <div class="mx-auto flex flex-nowrap justify-center text-lg items-center">
-        <button title="Into" @click="$emit('introClicked')" >
+        <button title="About" @click="$emit('introClicked')" >
             <UserIcon v-if="imagesVisible" class="h-4 w-4 my-auto"/>
             <PhotographIcon v-else="imagesVisible" class="h-4 w-4 my-auto"/>
         </button>

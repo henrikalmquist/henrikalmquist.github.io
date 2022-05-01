@@ -1,8 +1,7 @@
 <template>
     <div class="flex flex-col h-screen justify-between font-stratford">
-        <Header class="h-20" />
-        <div class="container mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl">
-            <h1 class="text-5xl"><button @click="imagesVisible = true">Almquist</button></h1>
+        <div class="container mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl pt-5 md:pt-10">
+            <h1 class="text-5xl"><button @click="imagesVisible = true" :class="headerClassComputed">Almquist</button></h1>
             <ContactInformation class="h-10 mb-2"
                 :cv-location="cvLcoation"
                 :mail="mail"
@@ -59,6 +58,9 @@ He holds a Master of Architecture from ENSA Paris Malaquais and a Bachelor of Sc
         imagesVisibleComputed() {
             return this.imagesVisible;
         },
+        headerClassComputed() { 
+            return this.imagesVisible ? "cursor-default" : "";
+        }
     },
     methods: {
         introClicked(){

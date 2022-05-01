@@ -1,7 +1,7 @@
 <template>
     <div>
-        <img class="my-4 md:h-full mx-auto object-contain" :src="imageSrc">
-        <div class="flex flex-col items-center italic w-full md:w-5/6 mx-auto text-sm p-2 pb-4 prose text-justify" v-html="imageTextComputed">
+        <img class="my-4 md:h-full mx-auto object-contain cursor-crosshair" :src="imageSrc" @click="$emit('nextClicked')">
+        <div class="flex flex-col items-center italic w-full md:w-5/6 mx-auto text-sm p-2 pb-4 prose text-justify cursor-crosshair" @click="$emit('nextClicked')" v-html="imageTextComputed">
         </div>        
     </div>
 </template>

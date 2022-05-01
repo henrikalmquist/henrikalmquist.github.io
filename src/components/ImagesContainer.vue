@@ -1,8 +1,8 @@
 <template>
     <Transition name="fade" mode="out-in">
         <div :key="imageIndexComputed">
-            <AboutText v-if="displayAboutTextComputed" :description="description" class="cursor-pointer" @click="nextClicked" />
-            <image-container v-else :image-src="imageComputed.src" :image-text="imageComputed.text" class="cursor-pointer h-full" @click="nextClicked" />
+            <AboutText v-if="displayAboutTextComputed" :description="description" class="cursor-crosshair" @click="nextClicked" />
+            <image-container v-else :image-src="imageComputed.src" :image-text="imageComputed.text" class="h-full" @nextClicked="nextClicked" />
         </div>
     </Transition>
 </template>
