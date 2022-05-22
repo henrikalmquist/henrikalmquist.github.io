@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col h-screen justify-between font-stratford">
-        <div class="container mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl pt-5 md:pt-10">
+        <div class="container mb-16 md:mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl pt-5 md:pt-10">
             <h1 class="text-5xl"><a href="/">Almquist</a></h1>
             <ContactInformation class="h-10 mb-2"
                 :cv-location="cvLcoation"
