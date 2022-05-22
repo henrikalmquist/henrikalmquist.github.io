@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col h-screen justify-between font-stratford">
         <div class="container mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl pt-5 md:pt-10">
-            <h1 class="text-5xl"><button @click="imagesVisible = true" :class="headerClassComputed">Almquist</button></h1>
+            <h1 class="text-5xl"><a href="/">Almquist</a></h1>
             <ContactInformation class="h-10 mb-2"
                 :cv-location="cvLcoation"
                 :mail="mail"
@@ -29,15 +29,12 @@ export default {
             description: Data.about,
             cvLcoation: "almquist-cv.pdf",
             mail: "henrik@almquist.eu",
-            instagram: "https://www.instagram.com/henkyfant/",
+            instagram: "https://www.instagram.com/almquisthenrik/",
         };
     },
     computed: {
         imagesVisibleComputed() {
             return this.imagesVisible;
-        },
-        headerClassComputed() { 
-            return this.imagesVisible ? "cursor-default" : "";
         }
     },
     methods: {
