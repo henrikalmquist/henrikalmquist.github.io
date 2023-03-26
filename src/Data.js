@@ -10,7 +10,7 @@ The two practices and the different perspective from the schools have formed a d
             src: "img/Almquist_Casa-Mangabeiras-Exteriour.jpg",
             text: `Early sketches for a refurbishment of a 60s concrete dream. Restructuring and redefining the spaces for a more open interaction inside as well as towards the outside. Ongoing commission. - Casa Mangaberias
             
-[Click on the image]`
+[Click on the image ]`
         },
         {
             src: "img/Almquist_Follo-Museum-Extension_01.jpg",
