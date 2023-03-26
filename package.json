@@ -10,18 +10,18 @@
         "deploy": "gh-pages -d dist"
     },
     "dependencies": {
-        "@heroicons/vue": "^1.0.6",
-        "markdown-it": "^12.3.2",
-        "vue": "^3.2.25",
-        "vue3-carousel": "^0.1.38"
+        "@heroicons/vue": "^2.0.16",
+        "markdown-it": "^13.0.1",
+        "vue": "^3.2.47",
+        "vue3-carousel": "^0.2.14"
     },
     "devDependencies": {
-        "@tailwindcss/typography": "^0.5.2",
-        "@vitejs/plugin-vue": "^2.3.1",
-        "autoprefixer": "^10.4.4",
-        "gh-pages": "^3.2.3",
-        "postcss": "^8.4.12",
-        "tailwindcss": "^3.0.24",
-        "vite": "^2.9.2"
+        "@tailwindcss/typography": "^0.5.9",
+        "@vitejs/plugin-vue": "^4.1.0",
+        "autoprefixer": "^10.4.14",
+        "gh-pages": "^5.0.0",
+        "postcss": "^8.4.21",
+        "tailwindcss": "^3.2.7",
+        "vite": "^4.2.1"
     }
 }

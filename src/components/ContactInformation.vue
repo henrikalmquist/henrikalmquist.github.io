@@ -1,18 +1,16 @@
 <template>
     <div class="mx-auto flex flex-nowrap justify-center text-lg items-center">
         <button title="About" @click="$emit('introClicked')" >
-            <UserIcon v-if="imagesVisible" class="h-4 w-4 my-auto"/>
+            <UserIcon v-if="imagesVisible" class="h-4 w-4 my-auto mx-2"/>
             <PhotographIcon v-else="imagesVisible" class="h-4 w-4 my-auto"/>
         </button>
-        <span class="mx-2">/</span>
-        <a title="Email" href @click="mailClick"> <MailIcon class="h-4 w-4 my-auto"/> </a>
-        <span class="mx-2">/</span>
-        <a title="Instagram" :href="instagram"> <CameraIcon class="h-4 w-4 my-auto"/> </a>
+        <a title="Email" href @click="mailClick"> <EnvelopeIcon class="h-4 w-4 my-auto mx-2"/> </a>
+        <a title="Instagram" :href="instagram"> <CameraIcon class="h-4 w-4 my-auto mx-2"/> </a>
     </div>
 </template>
 
 <script>
-import { UserIcon, PhotographIcon, MailIcon, CameraIcon } from '@heroicons/vue/outline';
+import { UserIcon, PhotographIcon, EnvelopeIcon, CameraIcon } from '@heroicons/vue/24/outline';
 
 export default {
     name: "ContactInformation",
@@ -28,7 +26,7 @@ export default {
             e.preventDefault();
         },
     },
-    components: { UserIcon, PhotographIcon, MailIcon, CameraIcon }
+    components: { UserIcon, PhotographIcon, EnvelopeIcon, CameraIcon }
 }
 </script>
 
