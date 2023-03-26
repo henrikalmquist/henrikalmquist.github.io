@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     colors: {
-        'backgroundGray': 'rgb(245,245,245)',
+        'backgroundGray': 'rgb(255,255,255)',
     },
     extend: {
       fontFamily: {
