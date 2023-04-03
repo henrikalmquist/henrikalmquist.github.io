@@ -7,15 +7,15 @@ The two practices and the different perspective from the schools have formed a d
     `,
     images: [
         {
-            src: "img/Almquist_Casa-Mangabeiras-01.jpg",
-            text: `2110 Casa Mangabeiras - Early sketches for a refurbishment of a 60s concrete dream. Restructuring and redefining the spaces for a more open interaction inside as well as towards the outside. Ongoing commission.
+            src: "img/Almquist_Casa-Mangabeira-01.jpg",
+            text: `2110 Casa Mangabeira - Early sketches for a refurbishment of a 60s concrete dream. Restructuring and redefining the spaces for a more open interaction inside as well as towards the outside. Ongoing commission.
             
 [Click on the image ]
 `
         },
         {
-            src: "img/Almquist_Casa-Mangabeiras-02.jpg",
-            text: `2110 Casa Mangabeiras - An excavated opening in the solid concrete wall offers a view from the meditation room onto the garden outside. The smooth white surfaces are contrasted by the organic form of the concrete.
+            src: "img/Almquist_Casa-Mangabeira-02.jpg",
+            text: `2110 Casa Mangabeira - An excavated opening in the solid concrete wall offers a view from the meditation room onto the garden outside. The smooth white surfaces are contrasted by the organic form of the concrete.
 
 . | . . . . . . . . . . . .
             `
