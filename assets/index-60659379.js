@@ -49,7 +49,7 @@ The two practices and the different perspective from the schools have formed a d
             `},{src:"img/Almquist_Sofielund-01.jpg",text:`2006 Sofielund - The task lies in interacting with what already exists and to propose a solution of continuity by integrating social values into the economic driven urban regeneration. By interlocking the two perspectives, a protocol driven design proposes new urban forms.
 
 . . . . . . . . . | . . . .
-            `},{src:"img/Almquist_Slide-All-Open.jpg",text:`1908 Slide All Open - Three walls can be totally slid open towards the garden, making the space as much a building as a terrace. In the back an alcove, a tokonoma, defines the rear end of the space. Traditional tea house, ongoing commission. 
+            `},{src:"img/Almquist_Slide-All-Open.jpg",text:`1908 Slide All Open - Three walls can be totally slid open towards the garden, making the space as much a building as a terrace. In the back an alcove, a tokonoma, defines the rear end of the space. Traditional tea house, private commission. 
 
 . . . . . . . . . . | . . .
             `},{src:"img/Almquist_Furniture-02.jpg",text:`1612 Nothing to Hide - Taking the form of a simple and standardised letterbox, this one does, however, show the family (and all the neighbours) when new post has arrived. Why hide all your advertisement?
