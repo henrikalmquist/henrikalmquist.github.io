@@ -78,7 +78,7 @@ The two practices and the different perspective from the schools have formed a d
         },
         {
             src: "img/Almquist_Slide-All-Open.jpg",
-            text: `1908 Slide All Open - Three walls can be totally slid open towards the garden, making the space as much a building as a terrace. In the back an alcove, a tokonoma, defines the rear end of the space. Traditional tea house, ongoing commission. 
+            text: `1908 Slide All Open - Three walls can be totally slid open towards the garden, making the space as much a building as a terrace. In the back an alcove, a tokonoma, defines the rear end of the space. Traditional tea house, private commission. 
 
 . . . . . . . . . . | . . .
             `
