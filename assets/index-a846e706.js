@@ -40,7 +40,7 @@ The two practices and the different perspective from the schools have formed a d
             `},{src:"img/Almquist_Follo-Museum-Extension-02.jpg",text:`2010 Follo Museum Extension - Adding a new workshop atelier for several traditional crafts, Follo Museum hopes to expand  the visitor’s experience with practical exercise as well as gathering numerous associations under the same roof. 
 
 . . . . . . | . . . . . . .
-            `},{src:"img/Almquist_Brunnsparken-01.jpg",text:`2209 Brunnsparken - The small kiosk activates the public space in opening its different shutters, giving protection for the passer by, a standing coffee or a seated meal. Competition Gothenburg 2022.
+            `},{src:"img/Almquist_Brunnsparken -01.jpg",text:`2209 Brunnsparken - The small kiosk activates the public space in opening its different shutters, giving protection for the passer by, a standing coffee or a seated meal. Competition Gothenburg 2022.
 
 . . . . . . . | . . . . . .
             `},{src:"img/Almquist_Sofielund-02.jpg",text:`2006 Sofielund - The dominating principles of urban growth through densification, and its inherited political and economic processes, area put to trial as the industrial area of Sofielund, Malmö, manifests different qualities and responses to what a mixed and dynamic city could be. Publication in Kritik Tidsskrift 2021.
