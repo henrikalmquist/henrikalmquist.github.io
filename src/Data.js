@@ -56,7 +56,7 @@ The two practices and the different perspective from the schools have formed a d
             `
         },
         {
-            src: "img/Almquist_Brunnsparken-01.jpg",
+            src: "img/Almquist_Brunnsparken -01.jpg",
             text: `2209 Brunnsparken - The small kiosk activates the public space in opening its different shutters, giving protection for the passer by, a standing coffee or a seated meal. Competition Gothenburg 2022.
 
 . . . . . . . | . . . . . .
