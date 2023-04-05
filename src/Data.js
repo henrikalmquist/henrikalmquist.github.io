@@ -4,7 +4,8 @@ export default{
 Henrik Almquist is a Swedish Architect currently practicing in Stockholm at Arrhov Frick Arkitekter (2022-). He holds a Master of Art from ENSA Paris Malaquais and a Bachelor of Science from Chalmers Tekniska Högskola in Architecture and Engineering. The professional experiences, including the time in Paris at Studio Muoto (2020-2021) and Sou Fujimoto (2017-2019), has been an important training in how technical detailing and precise drawing in all phases are important to clearly formulate the intentions of the architectural vision. Saddling many seats - the economists, the structural engineers, the urbanist - the architect combines all the views into one coherent oeuvre in a real dialogue with its situation. 
     
 The two practices and the different perspective from the schools have formed a dual approach on architecture and urbanism. An expanding theoretical conception is backed up by a technical knowledge and a thorough method in the formulation of strategies and the crafting of space. Taking into account what is already there, in terms of the place and the needs of the project, a situated architecture can be imagined and be given form. 
-    `,
+    
+`,
     images: [
         {
             src: "img/Almquist_Casa-Mangabeira-01.jpg",
