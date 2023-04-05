@@ -20,14 +20,7 @@ The two practices and the different perspective from the schools have formed a d
 . | . . . . . . . . . . . .
             `
         },
-        {
-            src: "img/Almquist_Villa-Daempluckan-01.jpg",
-            text: `2209 Villa Dämpluckan - Lightly placed on the ground, the wooden structure takes in the nature around and permits people to live as much as outside as inside. Project done at Arrhov Frick Arkitektkontor.
-            
-. . | . . . . . . . . . . .
-            `
-        },
-        {
+                {
             src: "img/Almquist_Follo-Museum-Extension-01.jpg",
             text: `2010 Follo Museum Extension - Organised along a non-heated gallery, the activities can spill out onto the courtyard, inviting the public to take part in the buildings diverse program. Competition Norway 2020.
             
@@ -39,13 +32,6 @@ The two practices and the different perspective from the schools have formed a d
             text: `1707 Joining and Bending - Having two directions, the curve gestures the continuation of either the back- or armrest. The stool can be used by itself but also be placed next to another twin to form a bench. 
             
 . . . . | . . . . . . . . .
-            `
-        },
-        {
-            src: "img/Almquist_Villa-Daempluckan-02.jpg",
-            text: `2209 Villa Dämpluckan - Placed on the high point of the island, sliding all open the window frames, an exquisite view can be enjoyed from all parts of the house. Project done at Arrhov Frick Arkitektkontor. 
-            
-. . . . . | . . . . . . . .
             `
         },
         {
