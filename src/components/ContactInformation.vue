@@ -1,11 +1,11 @@
 <template>
-    <div class="mx-auto flex flex-nowrap justify-center text-lg items-center">
-        <button title="About" @click="$emit('introClicked')" >
-            <UserIcon v-if="imagesVisible" class="h-4 w-4 my-auto mx-2"/>
-            <PhotographIcon v-else="imagesVisible" class="h-4 w-4 my-auto"/>
+     <div class="mt-4 px-4 md:px-0 text-justify leading-6">     
+        <button class="mx-1" title="About" @click="$emit('introClicked')" >
+            <span v-if="imagesVisible">Profile</span>
+            <span v-else>Projects</span>
         </button>
-        <a title="Email" href @click="mailClick"> <EnvelopeIcon class="h-4 w-4 my-auto mx-2"/> </a>
-        <a title="Instagram" :href="instagram"> <CameraIcon class="h-4 w-4 my-auto mx-2"/> </a>
+        <a class="mx-1" title="Contact" href @click="mailClick">Contact</a>
+        <a class="mx-1" title="Instagram" :href="instagram">Instagram</a>
     </div>
 </template>
 
