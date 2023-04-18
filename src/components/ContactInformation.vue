@@ -1,11 +1,6 @@
 <template>
-     <div class="mt-4 px-4 md:px-0 text-justify leading-6">     
-        <button class="mx-1" title="About" @click="$emit('introClicked')" >
-            <span v-if="imagesVisible">Profile</span>
-            <span v-else>Projects</span>
-        </button>
-        <a class="mx-1" title="Contact" href @click="mailClick">Contact</a>
-        <a class="mx-1" title="Instagram" :href="instagram">Instagram</a>
+     <div class="mt-1 px-1 md:px-1 text-justify leading-1">     
+    
     </div>
 </template>
 

@@ -1,15 +1,17 @@
 <template>
     <div class="flex flex-col h-screen justify-between font-stratford">
-        <div class="container mb-16 md:mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl pt-5 md:pt-10">
-            <h1 class="text-5xl"><a href="/">Almquist</a></h1>
-            <ContactInformation class="h-10 mb-2"
+        <div class="container mb-16 md:mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl">
+            <h1 class="text-5xl cursor-pointer my-5 md:my-10" @click="introClicked">
+                Almquist
+            </h1>   
+            <!-- <ContactInformation class="h-10 mb-2"
                 :cv-location="cvLcoation"
                 :mail="mail"
                 :instagram="instagram"
                 :images-visible="imagesVisibleComputed"
-                @introClicked="introClicked"/>
+                @introClicked="introClicked"/> -->
             <images-container v-show="imagesVisibleComputed" :images="images" :description="description" class="h-full md:h-2/3" />
-            <about-text v-show="!imagesVisibleComputed" :description="description" class="h-full md:h-2/3 " />
+            <about-text v-show="!imagesVisibleComputed" :description="description" class="h-full md:h-2/3" />
         </div>
     </div>    
 </template>

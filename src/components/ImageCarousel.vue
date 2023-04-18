@@ -6,7 +6,7 @@
 
         <template #addons>
             <!-- <div class="right-5 top-1/3 text-7xl absolute h-16 w-16 animate-pulse flex items-center justify-center bg-neutral-200/[.1] rounded-full shadow-2xl shadow-current">
-                <button class="text-black" @click="nextClicked"><span> > </span></button>
+                <button @click="nextClicked"><span> > </span></button>
             </div> -->
             <div class="right-0 top-1/4 md:top-1/3 absolute animate-pulse md:hidden md:group-hover:block">
                 <button class="text-black/50 md:text-black/[.1] text-6xl md:text-9xl" @click="nextClicked"><span> > </span></button>
