@@ -20,7 +20,7 @@ Henrik Almquist is a Swedish Architect currently practicing in Stockholm at Arrh
     
 The two practices and the different perspective from the schools have formed a dual approach on architecture and urbanism. An expanding theoretical conception is backed up by a technical knowledge and a thorough method in the formulation of strategies and the crafting of space. Taking into account what is already there, in terms of the place and the needs of the project, a situated architecture can be imagined and be given form. 
 
-henrik@almquist.eu - @almquisthenrik - 0033793513461
+henrik@almquist.eu - instagram: @almquisthenrik - 0033793513461
 `,images:[{src:"img/Almquist_Casa-Mangabeira-01.jpg",text:`AAA2110 Casa Mangabeira - Early sketches for a refurbishment of a 60s concrete dream. Restructuring and redefining the spaces for a more open interaction inside as well as towards the outside. Ongoing commission.
             
 [Click on the image ]
