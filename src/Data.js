@@ -1,13 +1,13 @@
 export default{
     about: 
     
-    `Architecture is about the city, the collective practice of living together in a complex societal system. The city is about architecture, the small and large interventions of independent objects that constitute a rich and divers whole. Conceiving this, is a play with the contrast of a given situation and the dreams of its inhabitants, looking forward and backwards, proposing a functional strategy above functional.   
+`Henrik Almquist is an architect based in Stockholm and Paris. Working with all sets of scale - from an exhibition, to the villa, to the urban block - he approaches a situation with a sensitivity to the site, the people and what is already there. In conjuring an architecture of an open framework, the needs, dreams and functions are left to mediate an ever-expanding and versatile space. 
 
-Henrik Almquist is a Swedish Architect currently practicing in Stockholm at Arrhov Frick Arkitekter (2022-). He holds a Master of Art from ENSA Paris Malaquais and a Bachelor of Science from Chalmers Tekniska Högskola in Architecture and Engineering. The professional experiences, including the time in Paris at Studio Muoto (2020-2021) and Sou Fujimoto (2017-2019), has been an important training in how technical detailing and precise drawing in all phases are important to clearly formulate the intentions of the architectural vision. Saddling many seats - the economists, the structural engineers, the urbanist - the architect combines all the views into one coherent oeuvre in a real dialogue with its situation. 
-    
-The two practices and the different perspective from the schools have formed a dual approach on architecture and urbanism. An expanding theoretical conception is backed up by a technical knowledge and a thorough method in the formulation of strategies and the crafting of space. Taking into account what is already there, in terms of the place and the needs of the project, a situated architecture can be imagined and be given form. 
+He holds a Master of Art from ENSA Paris Malaquais and a Bachelor of Science from TU Chalmers in Architecture and Engineering. The professional experience from numerous renowned international offices have been an important training in how technical detailing and precise drawing in all phases are important to clearly formulate the intentions of the architectural vision. Combining all the views - economy, structure, ecology, social, society and culture - the architect creates one coherent oeuvre in a real dialogue with its situation.     
 
-m: henrik@almquist.eu  /  i: @almquisthenrik
+m. henrik@almquist.eu / i. @almquisthenrik
+
+Arrhov Frick Arkitektkontor (2022-2023), Studio Muoto (2021-2022), ENSA Paris-Malaquais MA in Architecture (2018-2020), Sou Fujimoto Paris (2017-2019), White Arkitekter Stockholm (2016-2017), Chalmers Tekniska Högskola BSc in Architecture and Engineering (2012-2015)
 `,
     images: [
         {
