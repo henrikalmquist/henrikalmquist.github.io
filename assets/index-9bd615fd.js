@@ -21,6 +21,8 @@ He holds a Master of Art from ENSA Paris Malaquais and a Bachelor of Science fro
 m. henrik@almquist.eu / i. @almquisthenrik
 
 Arrhov Frick Arkitektkontor (2022-2023), Studio Muoto (2021-2022), ENSA Paris-Malaquais MA in Architecture (2018-2020), Sou Fujimoto Paris (2017-2019), White Arkitekter Stockholm (2016-2017), Chalmers Tekniska Högskola BSc in Architecture and Engineering (2012-2015)
+
+* All documents by the author + team
 `,images:[{src:"img/Almquist_Casa-Mangabeira-01.jpg",text:`AAA2110 Casa Mangabeira - Early sketches for a refurbishment of a 60s concrete dream. Restructuring and redefining the spaces for a more open interaction inside as well as towards the outside. Ongoing commission.
             
 [Click on the image ]
