@@ -1,25 +1,20 @@
 <template>
     <div class="flex flex-col h-screen justify-between font-stratford">
-        <div class="container mb-16 md:mb-auto mx-auto flex flex-col items-center h-5/6 max-w-6xl">
-            <h1 class="text-5xl cursor-pointer my-5 md:my-10" @click="introClicked">
-                Almquist
-            </h1>   
-            <!-- <ContactInformation class="h-10 mb-2"
-                :cv-location="cvLcoation"
-                :mail="mail"
-                :instagram="instagram"
-                :images-visible="imagesVisibleComputed"
-                @introClicked="introClicked"/> -->
-            <images-container v-show="imagesVisibleComputed" :images="images" :description="description" class="h-full md:h-2/3" />
-            <about-text v-show="!imagesVisibleComputed" :description="description" class="h-full md:h-2/3" />
+        <div class="container mb-16 md:mb-auto mx-auto flex flex-col max-w-6xl">
+            <h1 class="sticky top-0 text-5xl my-5 md:my-5">
+                AAA
+                <span class="ml-3 cursor-pointer" style="font-size: 50%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></span>
+            </h1>
+            <feature-columns v-show="imagesVisibleComputed" :features="features" :intro-text="introText" :rem-unit="remUnit" class="h-full md:h-2/3" />
+            <about-text v-show="!imagesVisibleComputed" :description="aboutText" class="h-full md:h-2/3" />
         </div>
     </div>    
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import ContactInformation from './components/ContactInformation.vue'
-import ImagesContainer from "./components/ImagesContainer.vue";
+// import Header from './components/Header.vue'
+// import ContactInformation from './components/ContactInformation.vue'
+import FeatureColumns from "./components/FeatureColumns.vue";
 import AboutText from "./components/AboutText.vue";
 import Data from "./Data.js"
 
@@ -27,8 +22,10 @@ export default {
     data() {
         return {
             imagesVisible: true,
-            images: Data.images,
-            description: Data.about,
+            features: Data.features,
+            introText: Data.intro,
+            remUnit: Data.spacingInRem,
+            aboutText: Data.about,
             cvLcoation: "almquist-cv.pdf",
             mail: "henrik@almquist.eu",
             instagram: "https://www.instagram.com/almquisthenrik/",
@@ -37,6 +34,9 @@ export default {
     computed: {
         imagesVisibleComputed() {
             return this.imagesVisible;
+        },
+        navigateToTherPageTextComputed() {
+            return this.imagesVisible ? "Contact" : "Work";
         }
     },
     methods: {
@@ -44,7 +44,7 @@ export default {
             this.imagesVisible = !this.imagesVisible;
         },
     },
-    components: { Header, ContactInformation, ImagesContainer, AboutText }
+    components: { FeatureColumns, AboutText }
 }
 
 </script>

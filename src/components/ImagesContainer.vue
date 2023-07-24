@@ -1,17 +1,25 @@
 <template>
-    <div class="h-full">
+    <div :style="outerMarginComputed">
         <Transition name="fade" mode="out-in">
-        <div :key="imageIndexComputed" class="h-full">
-            <AboutText v-if="displayAboutTextComputed" :description="description" class="cursor-crosshair" @click="nextClicked" />
-            <image-container v-else :image-src="imageComputed.src" :image-text="imageComputed.text" class="h-full" @nextClicked="nextClicked" />
+        <div :key="imageIndexComputed" v-if="hasImagesComputed" :style="imageSiceComputed">
+            <image-container :image-src="imageComputed" class="h-full" @nextClicked="nextClicked" />
         </div>
         </Transition>
+        <div class="flex flex-col items-center w-full text-sm prose text-black text-justify" style="max-width: inherit;" :class="textClassComputed" @click="nextClicked">
+            <div v-if="hasImagesComputed" class="w-full flex justify-between">
+                <div v-if="header" v-text="header"></div>
+                <div> {{ imageIndexComputed + 1 }}/{{ amountOfImagesComputed }} </div>
+            </div>
+            <div v-html="imageTextComputed"></div>
+        </div>
     </div>
 </template>
 
 <script>
 import ImageContainer from './ImageContainer.vue';
 import AboutText from "./AboutText.vue";
+import MarkdownIt from "markdown-it";
+const markdown = new MarkdownIt({breaks: true});
 export default {
     name: "ImagesContainer",
     components: {
@@ -21,20 +29,18 @@ export default {
     data() {
         return {
             imageIndex: 0,
-            displayAboutText: false,
         }
     },
     props: {
         images: Array,
+        header: String,
         description: String,
+        remUnit: Number,
     },
     methods: {
         nextClicked() {
             let next = this.imageIndex + 1;
-            this.displayAboutText = false;
-            if(next === this.amountOfImagesComputed){
-                this.displayAboutText = true;
-            }else if(next >= this.amountOfImagesComputed){
+            if(next >= this.amountOfImagesComputed){
                 next = 0;
             }
             this.imageIndex = next;
@@ -52,6 +58,25 @@ export default {
         },
         displayAboutTextComputed() {
             return this.displayAboutText;
+        },
+        imageTextComputed(){
+            return this.description; //markdown.render(this.description);
+        },
+        hasImagesComputed() {
+            return this.amountOfImagesComputed > 0; 
+        },
+        textClassComputed() {
+            if(this.hasImagesComputed){
+                return "cursor-crosshair mt-4"
+            }
+            return "";
+        },
+        outerMarginComputed(){
+            return `margin-bottom: ${this.remUnit}rem`;
+        },
+        imageSiceComputed() {
+            return `height: ${this.remUnit * 5}rem`;
+
         }
     }
 }
