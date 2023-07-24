@@ -12,6 +12,19 @@
 <script>
 import ImagesContainer from './ImagesContainer.vue';
 const ColumnCount = 2;
+
+function reOrderFeatures(features){
+    const groupBy = (x,f) => x.reduce((a,b,i)=>((a[f(b,i,x)]||=[]).push(b),a),[]);
+    const randomOrder = (array) => array.sort((a, b) => crypto.randomUUID() > crypto.randomUUID() ? 1 : -1 );
+    let groups = groupBy(features.filter(f => f.prio != null), f => f.prio);
+    var result = [];
+    groups.forEach(group => {
+        var reOrdered = randomOrder(group);
+        result = [...result, ...reOrdered];
+    });
+    return result;
+}
+
 export default {
     name: "FeatureColumns",
     components: {
@@ -28,11 +41,7 @@ export default {
         remUnit: Number,
     },
     mounted: function () {
-        // for (let index = 0; index < ColumnCount; index++) {
-        //     featureColumns[index] = { features: [], totalHeight: 0 };
-            
-        // }
-        let reorderedFeatures = this.features.sort((a, b) => crypto.randomUUID() > crypto.randomUUID() ? 1 : -1 );
+        let reorderedFeatures = reOrderFeatures(this.features);
         let featureColumns = [];
         featureColumns[0] = [ { text: this.introText, images: [] } ]
         let count = 0;
@@ -44,9 +53,6 @@ export default {
             count++;
         });
         this.featureColumns = featureColumns;
-    },
-    methods: {
-        
     },
     computed: {
         featureColumnsComputed(){

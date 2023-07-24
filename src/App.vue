@@ -6,7 +6,7 @@
                 <span class="ml-3 cursor-pointer" style="font-size: 50%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></span>
             </h1>
             <feature-columns v-show="imagesVisibleComputed" :features="features" :intro-text="introText" :rem-unit="remUnit" class="h-full md:h-2/3" />
-            <about-text v-show="!imagesVisibleComputed" :description="aboutText" class="h-full md:h-2/3" />
+            <about-text v-show="!imagesVisibleComputed" :description="aboutText" :rem-unit="remUnit" class="h-full md:h-2/3" />
         </div>
     </div>    
 </template>

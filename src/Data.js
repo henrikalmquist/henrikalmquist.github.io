@@ -50,7 +50,7 @@ export default{
             prio: null,
         }
     ],
-    spacingInRem: 4,
+    spacingInRem: 8,
     about: 
     
 `Henrik Almquist (SAR/MSA) holds a Master of Art from ENSA Paris Malaquais and a Bachelor of Science from TU Chalmers in Architecture and Engineering. The professional experience from numerous renowned international offices have been an important training in how technical detailing and precise drawing in all phases are important to clearly formulate the intentions of the architectural vision. Combining all the views - economy, structure, ecology, social, society and culture - the architect creates one coherent oeuvre in a real dialogue with  its situation.
@@ -93,6 +93,6 @@ Projects:
 + 2019 – Comp. Bridge in Ängelholm, Sweden. Integrating existing with new.
 + 2019 – Set designer. Freelance on a film set of commercials for hotels in Myrtle Beach, South Carolina. Organisation and staging the frame of the shoot.
 + 2019 – Priv. tea house, Myrtle Beach USA. Opening up with large sliding partitions towards the garden. Exposed wood construction. Conception and construction drawings. 15 sqm.
-+ 2018 – Priv. apartment renovation Östgötagatan 24, Stockholm. 65 sqm.
++ 2018 – Priv. apartment renovation Östgötagatan 26, Stockholm. 65 sqm.
 `,
 }

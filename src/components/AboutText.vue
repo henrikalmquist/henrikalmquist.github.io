@@ -1,6 +1,6 @@
 <template>
     <div>         
-        <article class="mt-4 px-4 md:px-0 prose text-black text-justify leading-6 about-text" style="" v-html="descriptionComputed">
+        <article class="mt-4 px-4 md:px-0 prose text-black text-justify leading-6 about-text" :style="articleStyleComputed" v-html="descriptionComputed">
         </article>       
     </div>
 </template>
@@ -16,12 +16,16 @@ export default {
         };
     },
     props: {
-        description: String
+        description: String,
+        remUnit: Number
     },
     computed: {
         descriptionComputed(){
             return markdown.render(this.description);
         },
+        articleStyleComputed(){
+            return `width: ${ this.remUnit * 4 * 2 + 1}rem; column-gap: ${this.remUnit}rem;`
+        }
     },
 }
 </script>
