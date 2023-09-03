@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.prose {
+    --tw-prose-bullets: 2 6 23;
+}
+
 @font-face {
     font-family: "STRATFORD";
     src: url("../src/assets/fonts/stratford-regular.otf");

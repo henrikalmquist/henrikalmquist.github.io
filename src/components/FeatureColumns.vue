@@ -1,10 +1,10 @@
 <template>
     <div class="h-full grid grid-cols-2" :style="gapComputed">
-        <div>
-            <images-container v-for="feature in featureColumnsComputed[0]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" />
+        <div :style="firstComlumeStyleComputed">
+            <images-container v-for="feature in featureColumnsComputed[0]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" />
         </div>
         <div>
-            <images-container v-for="feature in featureColumnsComputed[1]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" />
+            <images-container v-for="feature in featureColumnsComputed[1]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" />
         </div>
     </div>
 </template>
@@ -39,20 +39,10 @@ export default {
         features: Array,
         introText: String,
         remUnit: Number,
+        useMarkdown: Boolean,
     },
     mounted: function () {
-        let reorderedFeatures = reOrderFeatures(this.features);
-        let featureColumns = [];
-        featureColumns[0] = [ { text: this.introText, images: [] } ]
-        let count = 0;
-        reorderedFeatures.forEach(feature => {
-            if(!Array.isArray(featureColumns[count % ColumnCount])){
-                featureColumns[count % ColumnCount] = [];
-            }
-            featureColumns[count % ColumnCount].push(feature);
-            count++;
-        });
-        this.featureColumns = featureColumns;
+        this.reShuffleFeatures();
     },
     computed: {
         featureColumnsComputed(){
@@ -60,8 +50,25 @@ export default {
         },
         gapComputed(){
             return `gap: ${this.remUnit}rem;`;
+        },
+        firstComlumeStyleComputed(){
+            return this.useMarkdown ? `margin-top: -1.25rem;` : "";
         }
     },
+    methods: {
+        reShuffleFeatures(){
+            let reorderedFeatures = reOrderFeatures(this.features);
+            let featureColumns = [];
+            featureColumns[0] = this.introText ? [ { text: this.introText, images: [] } ] : [];
+            let count = 0;
+            reorderedFeatures.forEach(feature => {
+                if(!Array.isArray(featureColumns[count % ColumnCount])){
+                    featureColumns[count % ColumnCount] = [];
+                }
+                featureColumns[count % ColumnCount].push(feature);
+                count++;
+            });
+            this.featureColumns = featureColumns;
         }
     }
 }

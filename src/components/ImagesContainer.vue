@@ -5,7 +5,7 @@
             <image-container :image-src="imageComputed" :max-height="imageRemSizeComputed" @nextClicked="nextClicked" />
         </div>
         </Transition>
-        <div class="flex flex-col items-center w-full text-sm prose text-black text-justify" style="max-width: inherit;" :class="textClassComputed" @click="nextClicked">
+        <div class="flex flex-col items-center w-full leading-5 prose text-black text-justify" style="max-width: inherit;" :class="textClassComputed" @click="nextClicked">
             <div v-if="hasImagesComputed" class="w-full flex mb-1 justify-between">
                 <div v-if="header" v-text="header"></div>
                 <div v-if="amountOfImagesComputed > 1"> {{ imageIndexComputed + 1 }}/{{ amountOfImagesComputed }} </div>
@@ -36,6 +36,7 @@ export default {
         header: String,
         description: String,
         remUnit: Number,
+        useMarkdown: Boolean,
     },
     methods: {
         nextClicked() {
@@ -60,7 +61,7 @@ export default {
             return this.displayAboutText;
         },
         imageTextComputed(){
-            return this.description; //markdown.render(this.description);
+            return this.useMarkdown ? markdown.render(this.description) : this.description;
         },
         hasImagesComputed() {
             return this.amountOfImagesComputed > 0; 
