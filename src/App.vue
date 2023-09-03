@@ -1,11 +1,11 @@
 <template>
     <div class="flex flex-col h-screen justify-between font-stratford">
-        <div class="container mb-16 md:mb-auto mx-auto flex flex-col max-w-6xl">
-            <h1 class="sticky top-0 text-5xl my-5 md:my-5">
-                AAA
+        <div class="container mb-16 md:mb-auto mx-auto flex flex-col" :style="containerWidthCalculated">
+            <h1 class="sticky top-0 text-5xl my-5 md:my-5" title="Almquist Architecture Agency">
+                <span @click="reShuffleContent">AAA</span>
                 <span class="ml-3 cursor-pointer" style="font-size: 50%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></span>
             </h1>
-            <feature-columns v-show="imagesVisibleComputed" :features="features" :intro-text="introText" :rem-unit="remUnit" class="h-full md:h-2/3" />
+            <feature-columns v-show="imagesVisibleComputed" :features="featuresComputed" :intro-text="introText" :rem-unit="remUnit" class="h-full md:h-2/3" />
             <about-text v-show="!imagesVisibleComputed" :description="aboutText" :rem-unit="remUnit" class="h-full md:h-2/3" />
         </div>
     </div>    
@@ -36,8 +36,14 @@ export default {
             return this.imagesVisible;
         },
         navigateToTherPageTextComputed() {
-            return this.imagesVisible ? "Contact" : "Work";
-        }
+            return this.imagesVisible ? "Agency" : "Architecture";
+        },
+        containerWidthCalculated() {
+            return `max-width: ${this.remUnit * (5 * 2 + 1)}rem;`;
+        },
+        featuresComputed() {
+            return this.features;
+        },
     },
     methods: {
         introClicked(){

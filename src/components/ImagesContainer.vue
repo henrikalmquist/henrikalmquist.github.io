@@ -75,8 +75,8 @@ export default {
             return `margin-bottom: ${this.remUnit}rem`;
         },
         imageRemSizeComputed() {
-            let randomNumber = Math.floor(Math.random() * 3);
-            return this.remUnit * 5 - ((this.amountOfImagesComputed + randomNumber) % 4) * 3;
+            // let randomNumber = Math.floor(Math.random() * 3);
+            return this.remUnit * 4; // - ((this.amountOfImagesComputed + randomNumber) % 4) * 3;
 
         }
     }

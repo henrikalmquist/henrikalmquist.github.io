@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full grid grid-cols-2 gap-6">
+    <div class="h-full grid grid-cols-2" :style="gapComputed">
         <div>
             <images-container v-for="feature in featureColumnsComputed[0]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" />
         </div>
@@ -57,6 +57,11 @@ export default {
     computed: {
         featureColumnsComputed(){
             return this.featureColumns;
+        },
+        gapComputed(){
+            return `gap: ${this.remUnit}rem;`;
+        }
+    },
         }
     }
 }

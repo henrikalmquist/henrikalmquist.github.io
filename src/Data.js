@@ -50,7 +50,7 @@ export default{
             prio: null,
         }
     ],
-    spacingInRem: 8,
+    spacingInRem: 6,
     about: 
     
 `Henrik Almquist (SAR/MSA) holds a Master of Art from ENSA Paris Malaquais and a Bachelor of Science from TU Chalmers in Architecture and Engineering. The professional experience from numerous renowned international offices have been an important training in how technical detailing and precise drawing in all phases are important to clearly formulate the intentions of the architectural vision. Combining all the views - economy, structure, ecology, social, society and culture - the architect creates one coherent oeuvre in a real dialogue with  its situation.
