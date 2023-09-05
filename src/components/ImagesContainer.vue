@@ -2,10 +2,10 @@
     <div :style="outerMarginComputed">
         <Transition name="fade" mode="out-in">
         <div :key="imageIndexComputed" v-if="hasImagesComputed">
-            <image-container :image-src="imageComputed" :max-height="imageRemSizeComputed" @nextClicked="nextClicked" />
+            <image-container :image-src="imageComputed" :max-height="imageRemSizeComputed" :center-content="centerContent" @nextClicked="nextClicked" />
         </div>
         </Transition>
-        <div class="flex flex-col items-center w-full leading-5 prose text-black text-justify" style="max-width: inherit;" :class="textClassComputed" @click="nextClicked">
+        <div class="flex flex-col w-full leading-5 prose text-black text-justify" style="max-width: inherit;" :class="textClassComputed" @click="nextClicked">
             <div v-if="hasImagesComputed" class="w-full flex mb-1 justify-between">
                 <div v-if="header" v-text="header"></div>
                 <div v-if="amountOfImagesComputed > 1"> {{ imageIndexComputed + 1 }}/{{ amountOfImagesComputed }} </div>
@@ -37,6 +37,7 @@ export default {
         description: String,
         remUnit: Number,
         useMarkdown: Boolean,
+        centerContent: Boolean,
     },
     methods: {
         nextClicked() {
@@ -67,10 +68,11 @@ export default {
             return this.amountOfImagesComputed > 0; 
         },
         textClassComputed() {
+            let result = "";
             if(this.hasImagesComputed){
-                return "cursor-crosshair mt-4"
+                result = "cursor-crosshair mt-4"
             }
-            return "";
+            return result;
         },
         outerMarginComputed(){
             return `margin-bottom: ${this.remUnit}rem`;

@@ -1,15 +1,15 @@
 <template>
     <div v-if="isSmallScreenComputed" class="h-full">
         <div :style="firstComlumeStyleComputed">
-            <images-container v-for="feature in singelFeatureColumnComputed" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" />
+            <images-container v-for="feature in singelFeatureColumnComputed" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="!useMarkdown" />
         </div>
     </div>
     <div v-else class="h-full grid grid-cols-2" :style="gapComputed">
         <div :style="firstComlumeStyleComputed">
-            <images-container v-for="feature in featureColumnsComputed[0]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" />
+            <images-container v-for="feature in featureColumnsComputed[0]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="!useMarkdown"  />
         </div>
         <div>
-            <images-container v-for="feature in featureColumnsComputed[1]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" />
+            <images-container v-for="feature in featureColumnsComputed[1]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="!useMarkdown"  />
         </div>
     </div>
 </template>
