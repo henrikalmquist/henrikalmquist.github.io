@@ -1,5 +1,10 @@
 <template>
-    <div class="h-full grid grid-cols-2" :style="gapComputed">
+    <div v-if="isSmallScreenComputed" class="h-full">
+        <div :style="firstComlumeStyleComputed">
+            <images-container v-for="feature in singelFeatureColumnComputed" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" />
+        </div>
+    </div>
+    <div v-else class="h-full grid grid-cols-2" :style="gapComputed">
         <div :style="firstComlumeStyleComputed">
             <images-container v-for="feature in featureColumnsComputed[0]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" />
         </div>
@@ -11,6 +16,7 @@
 
 <script>
 import ImagesContainer from './ImagesContainer.vue';
+import { useMatchMedia } from '../utilities/useMatchMedia';
 const ColumnCount = 2;
 
 function reOrderFeatures(features){
@@ -33,6 +39,7 @@ export default {
     data() {
         return {
             featureColumns : [],
+            singelFeatureColumn : [],
         }
     },
     props: {
@@ -48,11 +55,17 @@ export default {
         featureColumnsComputed(){
             return this.featureColumns;
         },
+        singelFeatureColumnComputed(){
+            return this.singelFeatureColumn;
+        },
         gapComputed(){
             return `gap: ${this.remUnit}rem;`;
         },
         firstComlumeStyleComputed(){
             return this.useMarkdown ? `margin-top: -1.25rem;` : "";
+        },
+        isSmallScreenComputed(){
+            return useMatchMedia("(max-width: 768px)").value;
         }
     },
     methods: {
@@ -60,6 +73,7 @@ export default {
             let reorderedFeatures = reOrderFeatures(this.features);
             let featureColumns = [];
             featureColumns[0] = this.introText ? [ { text: this.introText, images: [] } ] : [];
+            this.singelFeatureColumn = [...featureColumns[0], ...reorderedFeatures];
             let count = 0;
             reorderedFeatures.forEach(feature => {
                 if(!Array.isArray(featureColumns[count % ColumnCount])){

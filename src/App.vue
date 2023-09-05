@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col h-screen justify-between font-stratford">
+    <div class="flex flex-col h-screen justify-between font-stratford sm:mx-4 mx-2">
         <div class="container mb-16 md:mb-auto mx-auto flex flex-col" :style="containerWidthCalculated">
             <h1 class="sticky top-0 text-5xl my-5 md:my-5" title="Almquist Architecture Agency">
                 <a class="cursor-pointer" @click="reShuffleContent">AAA</a>
