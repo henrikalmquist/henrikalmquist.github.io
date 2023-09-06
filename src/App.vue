@@ -53,11 +53,10 @@ export default {
                     prio: 1,
                 },
                 {
-                    images: ["img/AAA004/AAA004_Follo_Museum_01.jpg"],
+                    images: ["img/AAA000/AAA000_Postbox_01.jpg"],
                     header: ``,
-                    text: `Contact: henrik@almquist.eu
-
-Instagram: almquisthenrik`,
+                    text: `Please reach out for any inquiries: contact@a-a-a.se
+                    More on Instagram: @almquisthenrik`,
                     prio: 100,
                 },
             ]

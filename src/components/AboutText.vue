@@ -1,6 +1,6 @@
 <template>
     <div>         
-        <article class="mt-4 px-4 md:px-0 prose text-black text-justify leading-5 about-text" :style="articleStyleComputed" v-html="descriptionComputed">
+        <article class="mt-4 px-4 md:px-0 prose text-black text-justify leading-6 about-text" :style="articleStyleComputed" v-html="descriptionComputed">
         </article>       
     </div>
 </template>
