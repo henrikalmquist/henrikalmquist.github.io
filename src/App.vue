@@ -3,7 +3,7 @@
         <div class="container mb-16 md:mb-auto mx-auto flex flex-col" :style="containerWidthCalculated">
             <h1 class="sticky top-0 text-5xl my-5 md:my-5" title="Almquist Architecture Agency">
                 <a class="cursor-pointer" @click="reShuffleContent">AAA</a>
-                <a class="ml-3 cursor-pointer underline-entire" style="font-size: 50%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
+                <a class="ml-3 cursor-pointer underline-entire" style="font-size: 40%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
             </h1>
             <feature-columns v-show="imagesVisibleComputed" :features="featuresComputed" :intro-text="introText" :rem-unit="remUnit" class="h-full md:h-2/3" />
             <feature-columns v-show="!imagesVisibleComputed" :features="aboutFeaturesComputed" :rem-unit="remUnit" :use-markdown="true" class="h-full md:h-2/3" />

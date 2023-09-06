@@ -79,7 +79,7 @@ An open and a generous architecture that grows and can evolve over time, creatin
             In constructing a utopia based on a different view of what is sacred, the project pushes an ecological narrative of a society that lives and flourish in the ruin, on the consequences, of our society. Everything revolves around the harvesting and the reuse of the found objects, at times instigating large infrastructural projects, at others, inspiring a direct dialogue with the horizon through a simple frame of driftwood.
             / Explorative studio proposal at ENSA Paris-Malaquais. 2018.
             `,
-            prio: 2,
+            prio: 3,
         },
         {
             images: ["img/AAA014/AAA014_01_2.jpg"],
@@ -97,7 +97,7 @@ An open and a generous architecture that grows and can evolve over time, creatin
             images: ["img/AAA014/AAA014_03_1.jpg"],
             header: ``,
             text: ``,
-            prio: 1,
+            prio: 2,
         },
         {
             images: ["img/AAA014/AAA014_04_2.jpg"],
@@ -151,7 +151,7 @@ An open and a generous architecture that grows and can evolve over time, creatin
             images: ["img/AAA014/AAA014_12_2.jpg"],
             header: ``,
             text: ``,
-            prio: 2,
+            prio: 3,
         },
     ],
     spacingInRem: 7,
