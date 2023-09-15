@@ -54,7 +54,7 @@ An open and a generous architecture that grows and can evolve over time, creatin
             The task lies in interacting with what already exists and to propose a solution of continuity by integrating social values into the economic driven urban regeneration. Acting on the scales of urbanism and architecture, this project proposes a design approach of an active form. By defining a protocol, a new balance is expressed between the three following logics; the specificity of the local practices and their related spaces; the generic city and its market driven urbanisation; the interstitial space that assures a temporality of use.
             / Strategic development plan for Sofielund Industrial Area. Malmö, Sweden. Master thesis at ENSA Paris-Malaquais 2019.
             `,
-            prio: 2,
+            prio: 3,
         },
         {
             images: ["img/AAA013/AAA012_Casa_Mangabeira_01.jpg", "img/AAA012/AAA012_Casa_Mangabeira_02.jpg", "img/AAA012/AAA012_Casa_Mangabeira_03.jpg", "img/AAA012/AAA012_Casa_Mangabeira_04.jpg"],
@@ -91,7 +91,7 @@ An open and a generous architecture that grows and can evolve over time, creatin
             images: ["img/AAA014/AAA014_02_1.jpg"],
             header: ``,
             text: ``,
-            prio: 1,
+            prio: 2,
         },
         {
             images: ["img/AAA014/AAA014_03_1.jpg"],

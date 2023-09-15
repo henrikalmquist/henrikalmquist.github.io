@@ -2,8 +2,9 @@
     <div class="flex flex-col h-screen justify-between font-stratford sm:mx-4 mx-2">
         <div class="container mb-16 md:mb-auto mx-auto flex flex-col" :style="containerWidthCalculated">
             <h1 class="sticky top-0 text-5xl my-5 md:my-5" title="Almquist Architecture Agency">
-                <a class="cursor-pointer" @click="reShuffleContent">AAA</a>
-                <a class="ml-3 cursor-pointer underline-entire" style="font-size: 40%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
+                <!-- <a class="cursor-pointer" @click="reShuffleContent">AAA</a> -->
+                <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
+                <a class="cursor-crosshair underline-entire" style="font-size: 75%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
             </h1>
             <feature-columns v-show="imagesVisibleComputed" :features="featuresComputed" :intro-text="introText" :rem-unit="remUnit" class="h-full md:h-2/3" />
             <feature-columns v-show="!imagesVisibleComputed" :features="aboutFeaturesComputed" :rem-unit="remUnit" :use-markdown="true" class="h-full md:h-2/3" />
@@ -37,7 +38,7 @@ export default {
             return this.imagesVisible;
         },
         navigateToTherPageTextComputed() {
-            return this.imagesVisible ? "Agency" : "Architecture";
+            return this.imagesVisible ? "AAA. Architecture" : "AAA. Agency";
         },
         containerWidthCalculated() {
             return `max-width: ${this.remUnit * (5 * 2 + 1)}rem;`;
@@ -55,7 +56,7 @@ export default {
                 {
                     images: ["img/AAA000/AAA000_Postbox_01.jpg"],
                     header: ``,
-                    text: `Please reach out for any inquiries: contact@a-a-a.se
+                    text: `Please reach out at: henrik@a-a-a.se
                     More on Instagram: @almquisthenrik`,
                     prio: 100,
                 },
