@@ -38,7 +38,7 @@ export default {
             return this.imagesVisible;
         },
         navigateToTherPageTextComputed() {
-            return this.imagesVisible ? "AAA. Architecture" : "AAA. Agency";
+            return this.imagesVisible ? "AAA Architecture" : "AAA Agency";
         },
         containerWidthCalculated() {
             return `max-width: ${this.remUnit * (5 * 2 + 1)}rem;`;

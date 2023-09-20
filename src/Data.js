@@ -1,13 +1,10 @@
 export default{
     intro: `
     Almquist Architecture Agency is based between Stockholm and Paris. 
-Working with all sets of scales - from the exhibition space, the villa, to the urban block – the practice approaches a situation with a sensitivity to the site, the people and what is already there. 
-Identifying the key values, dreaming together with the client, the design aims to create something functional above the mere function. 
-This means fully understanding the potential in the given economy of the project, mastering the technical aspects and seeking sustainable approaches in all levels of the process. 
-All this, while making it a place for people.
-An open and a generous architecture that grows and can evolve over time, creating a space for many purposes and for the beauty of living. … (read more)
-
+    Working with all sets of scales - from the exhibition space, the villa, to the urban block – the practice approaches a situation with a sensitivity to the site, the people and what is already there. 
+    Identifying the key values, dreaming together with the client, the design aims to create something functional above the mere function. … (read more)
     `,
+    
     features: [
         {
             images: ["img/AAA012/AAA012_Casa_Mangabeira_01.jpg", "img/AAA012/AAA012_Casa_Mangabeira_02.jpg", "img/AAA012/AAA012_Casa_Mangabeira_03.jpg", "img/AAA012/AAA012_Casa_Mangabeira_04.jpg"],
@@ -49,7 +46,7 @@ An open and a generous architecture that grows and can evolve over time, creatin
         },
         {
             images: ["img/AAA007/AAA007_Sofielund_01.jpg", "img/AAA007/AAA007_Sofielund_02.jpg", "img/AAA007/AAA007_Sofielund_03.jpg"],
-            header: "AAA018 Sofielund ",
+            header: "AAA007 Sofielund ",
             text: `
             The task lies in interacting with what already exists and to propose a solution of continuity by integrating social values into the economic driven urban regeneration. Acting on the scales of urbanism and architecture, this project proposes a design approach of an active form. By defining a protocol, a new balance is expressed between the three following logics; the specificity of the local practices and their related spaces; the generic city and its market driven urbanisation; the interstitial space that assures a temporality of use.
             / Strategic development plan for Sofielund Industrial Area. Malmö, Sweden. Master thesis at ENSA Paris-Malaquais 2019.
@@ -79,7 +76,7 @@ An open and a generous architecture that grows and can evolve over time, creatin
             In constructing a utopia based on a different view of what is sacred, the project pushes an ecological narrative of a society that lives and flourish in the ruin, on the consequences, of our society. Everything revolves around the harvesting and the reuse of the found objects, at times instigating large infrastructural projects, at others, inspiring a direct dialogue with the horizon through a simple frame of driftwood.
             / Explorative studio proposal at ENSA Paris-Malaquais. 2018.
             `,
-            prio: 3,
+            prio: null,
         },
         {
             images: ["img/AAA014/AAA014_01_2.jpg"],
@@ -97,7 +94,7 @@ An open and a generous architecture that grows and can evolve over time, creatin
             images: ["img/AAA014/AAA014_03_1.jpg"],
             header: ``,
             text: ``,
-            prio: 2,
+            prio: null,
         },
         {
             images: ["img/AAA014/AAA014_04_2.jpg"],
@@ -139,7 +136,7 @@ An open and a generous architecture that grows and can evolve over time, creatin
             images: ["img/AAA014/AAA014_10_1.jpg"],
             header: ``,
             text: ``,
-            prio: 2,
+            prio: null,
         },
         {
             images: ["img/AAA014/AAA014_11_3.jpg"],
@@ -152,6 +149,12 @@ An open and a generous architecture that grows and can evolve over time, creatin
             header: ``,
             text: ``,
             prio: 3,
+        },
+        {
+            images: ["img/AAA014/AAA014_13_2.jpg"],
+            header: ``,
+            text: ``,
+            prio: 2,
         },
     ],
     spacingInRem: 7,
