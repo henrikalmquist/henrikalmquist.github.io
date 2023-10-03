@@ -56,7 +56,7 @@ export default {
                 {
                     images: ["img/AAA000/AAA000_Postbox_01.jpg"],
                     header: ``,
-                    text: `Please reach out at: henrik@a-a-a.se
+                    text: `For any inquiries: henrik@a-a-a.se
                     More on Instagram: @almquisthenrik`,
                     prio: 100,
                 },
