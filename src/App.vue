@@ -29,7 +29,7 @@ export default {
             remUnit: Data.spacingInRem,
             aboutText: Data.about,
             cvLcoation: "almquist-cv.pdf",
-            mail: "henrik@almquist.eu",
+            mail: "henrik@a-a-a.se",
             instagram: "https://www.instagram.com/almquisthenrik/",
         };
     },
