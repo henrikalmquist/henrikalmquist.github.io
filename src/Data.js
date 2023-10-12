@@ -130,7 +130,7 @@ export default{
             images: ["img/AAA014/AAA014_07_1.jpg"],
             header: ``,
             text: ``,
-            prio: 1,
+            prio: null,
         },
         {
             images: ["img/AAA014/AAA014_08_1.jpg"],
@@ -167,6 +167,12 @@ export default{
             header: ``,
             text: ``,
             prio: null,
+        },
+        {
+            images: ["img/AAA014/AAA014_14_3.jpg"],
+            header: ``,
+            text: ``,
+            prio: 3,
         },
     ],
     spacingInRem: 7,
