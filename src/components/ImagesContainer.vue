@@ -5,7 +5,7 @@
             <image-container :image-src="imageComputed" :max-height="imageRemSizeComputed" :center-content="centerContent" @nextClicked="nextClicked" />
         </div>
         </Transition>
-        <div class="flex flex-col w-full leading-6 prose text-black text-justify cursor-crosshair" style="max-width: inherit;" :class="textClassComputed" @click="nextClicked">
+        <div class="flex flex-col w-full prose text-black text-justify cursor-crosshair" style="max-width: inherit;" :class="textClassComputed" @click="nextClicked">
             <div v-if="hasImagesComputed" class="w-full flex mb-3 justify-between">
                 <div v-if="header" v-text="header"></div>
                 <div v-if="amountOfImagesComputed > 1"> {{ imageIndexComputed + 1 }}/{{ amountOfImagesComputed }} </div>
@@ -77,7 +77,10 @@ export default {
                 result = "mt-4"
             }
             if(this.type === "intro"){
-                result += " font-stratford";
+                result += " font-stratford leading-6";
+            }
+            else{
+                result += " leading-5";
             }
             return result;
         },
