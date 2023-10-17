@@ -6,10 +6,10 @@
     </div>
     <div v-else class="h-full grid grid-cols-2" :style="gapComputed">
         <div :style="firstComlumeStyleComputed">
-            <images-container v-for="feature in featureColumnsComputed[0]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="!useMarkdown"  />
+            <images-container v-for="feature in featureColumnsComputed[0]" :header="feature.header" :images="feature.images" :description="feature.text" :type="feature.type" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="!useMarkdown" @descriptionClicked="featureClicked" />
         </div>
         <div>
-            <images-container v-for="feature in featureColumnsComputed[1]" :header="feature.header" :images="feature.images" :description="feature.text" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="!useMarkdown"  />
+            <images-container v-for="feature in featureColumnsComputed[1]" :header="feature.header" :images="feature.images" :description="feature.text" :type="feature.type" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="!useMarkdown" @descriptionClicked="featureClicked" />
         </div>
     </div>
 </template>
@@ -72,7 +72,7 @@ export default {
         reShuffleFeatures(){
             let reorderedFeatures = reOrderFeatures(this.features);
             let featureColumns = [];
-            featureColumns[0] = this.introText ? [ { text: this.introText, images: [] } ] : [];
+            featureColumns[0] = this.introText ? [ { text: this.introText, images: [], type: "intro" } ] : [];
             this.singelFeatureColumn = [...featureColumns[0], ...reorderedFeatures];
             let count = 0;
             reorderedFeatures.forEach(feature => {
@@ -83,6 +83,9 @@ export default {
                 count++;
             });
             this.featureColumns = featureColumns;
+        },
+        featureClicked(feature){
+            this.$emit('featureClicked', feature);
         }
     }
 }

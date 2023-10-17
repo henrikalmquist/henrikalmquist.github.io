@@ -6,8 +6,8 @@
                 <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
                 <a class="cursor-crosshair underline-entire" style="font-size: 75%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
             </h1>
-            <feature-columns v-show="imagesVisibleComputed" :features="featuresComputed" :intro-text="introText" :rem-unit="remUnit" class="h-full md:h-2/3" />
-            <feature-columns v-show="!imagesVisibleComputed" :features="aboutFeaturesComputed" :rem-unit="remUnit" :use-markdown="true" class="h-full md:h-2/3" />
+            <feature-columns v-show="imagesVisibleComputed" :features="featuresComputed" :intro-text="introText" :rem-unit="remUnit" @featureClicked="featureClicked" class="h-full md:h-2/3" />
+            <feature-columns v-show="!imagesVisibleComputed" :features="aboutFeaturesComputed" :rem-unit="remUnit" @featureClicked="featureClicked" :use-markdown="true" class="h-full md:h-2/3" />
             <!-- <about-text v-show="!imagesVisibleComputed" :description="aboutText" :rem-unit="remUnit" class="h-full md:h-2/3" /> -->
         </div>
     </div>    
@@ -73,6 +73,11 @@ export default {
             // this.features = null;
             // this.features = features;
             location.reload();
+        },
+        featureClicked(feature) {
+            if (feature.type === "intro") {
+                this.imagesVisible = false;
+            }
         },
     },
     components: { FeatureColumns, AboutText }
