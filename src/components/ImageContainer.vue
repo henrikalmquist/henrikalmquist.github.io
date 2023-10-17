@@ -10,10 +10,14 @@ export default {
         imageSrc: String,
         maxHeight: Number,
         centerContent: Boolean,
+        isSmallScreen: Boolean,
     },
     computed: {
         imageStyleComputed(){
-            return `height: ${this.maxHeight}rem`
+            if(this.isSmallScreen){
+                return 'height: 76vw;'
+            }
+            return `max-height: ${this.maxHeight}rem`
         },
         imageClassComputed(){
             let result = "";

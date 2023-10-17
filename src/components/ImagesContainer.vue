@@ -2,7 +2,7 @@
     <div :style="outerMarginComputed">
         <Transition name="fade" mode="out-in">
         <div :key="imageIndexComputed" v-if="hasImagesComputed">
-            <image-container :image-src="imageComputed" :max-height="imageRemSizeComputed" :center-content="centerContent" @nextClicked="nextClicked" />
+            <image-container :image-src="imageComputed" :max-height="imageRemSizeComputed" :center-content="centerContent" :isSmallScreen="isSmallScreen" @nextClicked="nextClicked" />
         </div>
         </Transition>
         <div class="flex flex-col w-full prose text-black text-justify cursor-crosshair" style="max-width: inherit;" :class="textClassComputed" @click="nextClicked">
@@ -39,6 +39,7 @@ export default {
         remUnit: Number,
         useMarkdown: Boolean,
         centerContent: Boolean,
+        isSmallScreen: Boolean,
     },
     methods: {
         nextClicked() {
@@ -85,7 +86,8 @@ export default {
             return result;
         },
         outerMarginComputed(){
-            return `margin-bottom: ${this.remUnit}rem`;
+            let remSize = this.isSmallScreen ? this.remUnit * 2 / 3 : this.remUnit;
+            return `margin-bottom: ${remSize}rem`;
         },
         imageRemSizeComputed() {
             // let randomNumber = Math.floor(Math.random() * 3);

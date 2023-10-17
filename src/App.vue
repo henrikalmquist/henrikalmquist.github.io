@@ -53,6 +53,7 @@ export default {
                     images: [],
                     text: this.aboutText,
                     prio: 1,
+                    type: "intro",
                 },
                 {
                     images: ["img/AAA000/AAA000_Postbox_01.jpg"],
