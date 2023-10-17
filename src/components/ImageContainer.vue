@@ -17,7 +17,7 @@ export default {
             if(this.isSmallScreen){
                 return 'height: 76vw;'
             }
-            return `max-height: ${this.maxHeight}rem`
+            return `height: ${this.maxHeight}rem`
         },
         imageClassComputed(){
             let result = "";

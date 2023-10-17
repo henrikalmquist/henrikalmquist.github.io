@@ -91,6 +91,9 @@ export default {
         },
         imageRemSizeComputed() {
             // let randomNumber = Math.floor(Math.random() * 3);
+            if(this.type === "intro"){
+                return this.remUnit * 5;
+            }
             return this.remUnit * 4; // - ((this.amountOfImagesComputed + randomNumber) % 4) * 3;
 
         }

@@ -61,6 +61,7 @@ export default {
                     text: `For any inquiries: henrik@a-a-a.se
                     More on Instagram: @almquisthenrik`,
                     prio: 100,
+                    type: "intro",
                 },
             ]
         }
