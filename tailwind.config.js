@@ -10,6 +10,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
+        times: ["TIMES", "serif"],
         stratford: ["STRATFORD", "serif"],
       },
     },

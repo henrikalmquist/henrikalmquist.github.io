@@ -10,19 +10,19 @@
 }
 
 @font-face {
-    font-family: "STRATFORD01";
+    font-family: "STRATFORD";
     src: url("../src/assets/fonts/stratford-regular.otf");
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "STRATFORD01";
+    font-family: "STRATFORD";
     src: url("../src/assets/fonts/Stratford-W01-Roman-Italic.otf");
     font-style: italic;
 }
 
 @font-face {
-    font-family: "STRATFORD";
+    font-family: "TIMES";
     src: url("../src/assets/fonts/times.ttf");
     font-weight: normal;
 }

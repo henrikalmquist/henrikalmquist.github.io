@@ -74,7 +74,10 @@ export default {
         textClassComputed() {
             let result = "";
             if(this.hasImagesComputed){
-                result = "cursor-crosshair mt-4"
+                result = "mt-4"
+            }
+            if(this.type === "intro"){
+                result += " font-stratford";
             }
             return result;
         },
