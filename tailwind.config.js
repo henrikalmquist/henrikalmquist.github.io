@@ -13,6 +13,9 @@ module.exports = {
         times: ["TIMES", "serif"],
         stratford: ["STRATFORD", "serif"],
       },
+      screens: {
+        'xs': '440px',
+      },
     },
   },
   plugins: [

@@ -5,7 +5,7 @@
             <image-container :image-src="imageComputed" :max-height="imageRemSizeComputed" :center-content="centerContent" :isSmallScreen="isSmallScreen" @nextClicked="nextClicked" />
         </div>
         </Transition>
-        <div class="flex flex-col w-full prose text-black text-justify cursor-crosshair" style="max-width: inherit;" :class="textClassComputed" @click="nextClicked">
+        <div class="flex flex-col w-full prose text-black text-justify cursor-cross" style="max-width: inherit;" :class="textClassComputed" @click="nextClicked">
             <div v-if="hasImagesComputed" class="w-full flex mb-3 justify-between">
                 <div v-if="header" v-text="header"></div>
                 <div v-if="amountOfImagesComputed > 1"> {{ imageIndexComputed + 1 }}/{{ amountOfImagesComputed }} </div>

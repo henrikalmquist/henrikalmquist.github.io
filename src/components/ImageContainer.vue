@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img class="md:h-full object-contain cursor-crosshair" :class="imageClassComputed" :style="imageStyleComputed" :src="imageSrc" @click="$emit('nextClicked')">                
+        <img class="md:h-full object-contain cursor-cross" :class="imageClassComputed" :style="imageStyleComputed" :src="imageSrc" @click="$emit('nextClicked')">                
     </div>
 </template>
 

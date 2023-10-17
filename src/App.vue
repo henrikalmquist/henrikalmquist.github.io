@@ -1,11 +1,11 @@
 <template>
-    <div class="flex flex-col h-screen justify-between font-times sm:mx-4 mx-2">
+    <div class="flex flex-col h-screen justify-between font-times sm:mx-4 mx-2 cursor-cross">
         <div class="container mb-16 md:mb-auto mx-auto flex flex-col" :style="containerWidthCalculated">
             <h1 class="sticky top-0 text-5xl my-5 md:my-5 font-stratford flex justify-between " title="Almquist Architecture Agency">
                 <!-- <a class="cursor-pointer" @click="reShuffleContent">AAA</a> -->
                 <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
-                <a class="cursor-crosshair underline-entire" style="font-size: 75%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
-                <span class="text-sm self-end">henrik@a-a-a.se</span>
+                <a class="cursor-cross underline-entire" style="font-size: 75%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
+                <span class="text-sm xs:self-end hidden xs:inline">henrik@a-a-a.se</span>
             </h1>
             <feature-columns v-show="imagesVisibleComputed" :features="featuresComputed" :intro-text="introText" :rem-unit="remUnit" @featureClicked="featureClicked" class="h-full md:h-2/3" />
             <feature-columns v-show="!imagesVisibleComputed" :features="aboutFeaturesComputed" :rem-unit="remUnit" @featureClicked="featureClicked" :use-markdown="true" class="h-full md:h-2/3" />
@@ -98,4 +98,7 @@ export default {
     width: 5rem;
     content: '';
 } */
+.cursor-cross{
+    cursor: crosshair; /* url("/src/assets/images/AAA_cross_128x128-01.png"),*/
+}
 </style>
