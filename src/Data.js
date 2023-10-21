@@ -194,5 +194,7 @@ Henrik Almquist (SAR/MSA) has worked at renowned offices from Stockholm, Paris a
 + Strategic urban development plan in Hallonbergen, Stockholm. At White Arkitekter Stockholm, 2017.
 
 Collaborations: *Morgane Alonzo, **Markus Gustafsson, ***Joel Mattson
+
+More on Instagram: @almquisthenrik
 `,
 }
