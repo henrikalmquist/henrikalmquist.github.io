@@ -195,6 +195,8 @@ Henrik Almquist (SAR/MSA) has worked at renowned offices from Stockholm, Paris a
 
 Collaborations: *Morgane Alonzo, **Markus Gustafsson, ***Joel Mattson
 
+For any inquiries: henrik@a-a-a.se
+
 More on Instagram: @almquisthenrik
 `,
 }
