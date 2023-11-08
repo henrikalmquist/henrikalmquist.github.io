@@ -5,7 +5,7 @@
                 <!-- <a class="cursor-pointer" @click="reShuffleContent">AAA</a> -->
                 <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
                 <a class="cursor-cross underline-entire" style="font-size: 75%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
-                <span class="text-base xs:self-end hidden xs:inline">For any inquiries: henrik@a-a-a.se</span>
+                <span class="text-base xs:self-end hidden xs:inline">For any inquiries: contact@a-a-a.se</span>
             </h1>
             <feature-columns v-show="imagesVisibleComputed" :features="featuresComputed" :intro-text="introText" :rem-unit="remUnit" @featureClicked="featureClicked" class="h-full md:h-2/3" />
             <feature-columns v-show="!imagesVisibleComputed" :features="aboutFeaturesComputed" :rem-unit="remUnit" @featureClicked="featureClicked" :use-markdown="true" class="h-full md:h-2/3" />
@@ -30,7 +30,7 @@ export default {
             remUnit: Data.spacingInRem,
             aboutText: Data.about,
             cvLcoation: "almquist-cv.pdf",
-            mail: "henrik@a-a-a.se",
+            mail: "contact@a-a-a.se",
             instagram: "https://www.instagram.com/almquisthenrik/",
         };
     },
