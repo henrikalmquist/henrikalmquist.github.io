@@ -7,6 +7,17 @@ export default{
     
     features: [
         {
+            images: ["img/AAA019/AAA019_Generative_Care_01.jpg", "img/AAA019/AAA019_Generative_Care_02.jpg", "img/AAA019/AAA019_Generative_Care_03.jpg"],
+            header: "AAA019 Generative Care",
+            text: `
+            Centrally located in Växjö, the brief asked, what happens with the whole built environement if the hospital moves? 
+            We proposed a first phase with three interventions that helps the city to understand how the existing structures can be reused, at the same time, mediating what citizens are expecting. 
+            The second phase is a hypothesis of what could be learnt from the site and how that would take form. 
+            / Winning entry in the urban planing competition Europan 17, 2023. * ****
+            `,
+            prio: 1,
+        },
+        {
             images: ["img/AAA012/AAA012_Casa_Mangabeira_01.jpg", "img/AAA012/AAA012_Casa_Mangabeira_02.jpg", "img/AAA012/AAA012_Casa_Mangabeira_03.jpg", "img/AAA012/AAA012_Casa_Mangabeira_04.jpg"],
             header: "AAA012 Casa Mangabeira",
             text: `
@@ -15,7 +26,7 @@ export default{
             A room for meditation is extended in the back, offering a view of a new garden.
             / Renovation of private residency 300 sqm. Belo Horizonte Brasil. Design proposal 2021-2022.
             `,
-            prio: 1,
+            prio: 3,
         },
         {
             images: ["img/AAA004/AAA004_Follo_Museum_01.jpg", "img/AAA004/AAA004_Follo_Museum_02.jpg", "img/AAA004/AAA004_Follo_Museum_03.jpg"],
@@ -26,7 +37,7 @@ export default{
             Organised along a half-tempered gallery, the visitors are invited to participate and encourages a flexible use of the building. 
             / Workshop extension for traditional crafts 800 sqm. Follo museum Norway. Competition entry 2020. ** *** 
             `,
-            prio: 2,
+            prio: 3,
         },
         {
             images: ["img/AAA013/AAA013_Brunnsparken_01.jpg", "img/AAA013/AAA013_Brunnsparken_02.jpg", "img/AAA013/AAA013_Brunnsparken_03.jpg", "img/AAA013/AAA013_Brunnsparken_04.jpg", "img/AAA013/AAA013_Brunnsparken_05.jpg"],
@@ -193,7 +204,7 @@ Henrik Almquist (SAR/MSA) has worked at renowned offices from Stockholm, Paris a
 + Apartment building in southern France, Montpelier, 110 apartments. Construction phase. At Sou Fujimoto Architects Paris, 2017-2019
 + Strategic urban development plan in Hallonbergen, Stockholm. At White Arkitekter Stockholm, 2017.
 
-Collaborations: *Morgane Alonzo, **Markus Gustafsson, ***Joel Mattson
+Collaborations: *Morgane Alonzo, **Markus Gustafsson, ***Joel Mattson, ****Léa Ganteil and Oscar Aparicio Chavez
 
 For any inquiries: contact@a-a-a.se
 
