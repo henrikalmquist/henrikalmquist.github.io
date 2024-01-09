@@ -13,12 +13,12 @@ export default{
             Centrally located in Växjö, the brief asked, what happens with the whole built environement if the hospital moves? 
             We proposed a first phase with three interventions that helps the city to understand how the existing structures can be reused, at the same time, mediating what citizens are expecting. 
             The second phase is a hypothesis of what could be learnt from the site and how that would take form. 
-            / Winning entry in the urban planing competition Europan 17, 2023. * ****
+            / Winning entry in the urban planing competition Europan 17, 2023. Collaboration MA, LG, OC.
             `,
             prio: 1,
         },
         {
-            images: ["img/AAA012/AAA012_Casa_Mangabeira_01.jpg", "img/AAA012/AAA012_Casa_Mangabeira_02.jpg", "img/AAA012/AAA012_Casa_Mangabeira_03.jpg", "img/AAA012/AAA012_Casa_Mangabeira_04.jpg"],
+            images: ["img/AAA012/AAA012_Casa_Mangabeira_02.jpg", "img/AAA012/AAA012_Casa_Mangabeira_03.jpg", "img/AAA012/AAA012_Casa_Mangabeira_01.jpg", "img/AAA012/AAA012_Casa_Mangabeira_04.jpg"],
             header: "AAA012 Casa Mangabeira",
             text: `
             Walls are moved, removed and added, finding new uses and enhancing dormant qualities in the building. 
@@ -35,7 +35,7 @@ export default{
             Like the country road passes through a village, the visitors are guided into the courtyard framed by the existing museum and the new extension. 
             Delicately integrating the new building in the forest, augmenting the sites unique character, a natural point of arrival and space for events is created. 
             Organised along a half-tempered gallery, the visitors are invited to participate and encourages a flexible use of the building. 
-            / Workshop extension for traditional crafts 800 sqm. Follo museum Norway. Competition entry 2020. ** *** 
+            / Workshop extension for traditional crafts 800 sqm. Follo museum Norway. Competition entry 2020. Collaboration MG, JM. 
             `,
             prio: 3,
         },
@@ -47,7 +47,7 @@ export default{
             I.e., offering a pause for the passer-by, protection for a short standing coffee, calmness for a seated meal or a quick take-a-away. 
             The simple and economical wooden structure is built off site and lifted in place. 
             The versatile design allows the building to adapted to many different uses, prolonging its longevity. 
-            / Public kiosk 18 sqm. Gothenburg. Competition entry 2022. * **
+            / Public kiosk 18 sqm. Gothenburg. Competition entry 2022. Collaboration MA, MG.
             `,
             prio: 1,
         },
@@ -58,7 +58,7 @@ export default{
             Entering the courtyard all visitors are struck by the vivid activity in the space, a constantly changing landscape full of impressions. 
             Built from reusable materials, the structure creates an open framework that gives space to what is already there to grow. 
             The sound from the courtyard is recorded, delayed one day and then replayed in the interior acoustically separated room, offering a sort of collective memory. 
-            / Meeting pavilion 15 sqm. Art fair Kunsthal Charlottenborg Copenhagen. Competition entry 2023. * 
+            / Meeting pavilion 15 sqm. Art fair Kunsthal Charlottenborg Copenhagen. Competition entry 2023. Collaboration MA.
             `,
             prio: 2,
         },
@@ -89,7 +89,7 @@ export default{
             Seamlessly integrated into the wooden frames, mosquito nets assure a pleasant comfort all around the year. 
             / Tea house 15 sqm. Myrtle Beach South Carolina USA. Design and construction drawings. 
             `,
-            prio: 3,
+            prio: null,
         },
         {
             images: ["img/AAA006/AAA006_Sacred_Matter_01.jpg", "img/AAA006/AAA006_Sacred_Matter_02.jpg", "img/AAA006/AAA006_Sacred_Matter_03.jpg", "img/AAA006/AAA006_Sacred_Matter_04.gif"],
@@ -194,20 +194,27 @@ Almquist Architecture Agency is based between Stockholm and Paris. In working wi
 
 This means fully understanding the potential in the given economy of the project, mastering the technical aspects and seeking sustainable approaches in all levels of the process. All this, while making it a place for people. An open and a generous architecture that grows and can evolve over time, creating a space for many purposes and for the beauty of living. 
 
-Henrik Almquist (SAR/MSA) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early sketches to seeing through to the construction phase. A foundation that was also formed by an education in architecture and engineering from Chalmers in Sweden and an explorative and artistic master degree from ENSA Paris-Malaquais in France.  Lately, Henrik is also teaching at the architecture school of Lund Technical University (LTH). Former experiences in short: 
+Henrik Almquist (SAR/MSA) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early sketches to seeing through to the construction phase. A foundation that was also formed by an education in architecture and engineering from Chalmers in Sweden and an explorative and artistic master degree from ENSA Paris-Malaquais in France.  Lately, Henrik is also teaching at the architecture school of Lund Technical University (LTH).
 
-+ Renovation of and furniture design for the National Museum of Architecture in Stockholm, 1’600 sqm. Conception to construction drawings. At Arrhov Frick Arkitektkontor Stockholm, 2022-2023
-+ Private villa of 140 sqm in Stockholm archipelago. Conception to construction drawings. At Arrhov Frick Arkitektkontor Stockholm, 2022-2023. 
-+ Culture house and artist residency in Paris, 7’000 sqm. Competition entry. At Studio Muoto, 2022.
-+ Two social housing projects in Paris, 40 respectively 130 apartments. Conception to construction drawings. At Studio Muoto Paris, 2021-2022.
-+ Renovation of private villa, 300 sqm. Belo Horizonte, Brazil. Design proposal 2021-2022.
-+ Apartment building in southern France, Montpelier, 110 apartments. Construction phase. At Sou Fujimoto Architects Paris, 2017-2019
-+ Strategic urban development plan in Hallonbergen, Stockholm. At White Arkitekter Stockholm, 2017.
+/
 
-Collaborations: *Morgane Alonzo, **Markus Gustafsson, ***Joel Mattson, ****Léa Ganteil and Oscar Aparicio Chavez
+The photos on the front page without a legend are part of an ongoing art project investigating atmospheres and possibilities of existing spaces. Seeing the qualities of what is already there, how can the architecture be inspired by the everyday spaces that surround us. 
+
+Collaborations with MG Morgane Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. All graphical documents made by AAA or mentioned collaborations.
 
 For any inquiries: contact@a-a-a.se
-
 More on Instagram: @almquisthenrik
 `,
+
+// + Renovation of and furniture design for the National Museum of Architecture in Stockholm, 1’600 sqm. Conception to construction drawings. At Arrhov Frick Arkitektkontor Stockholm, 2022-2023
+// + Private villa of 140 sqm in Stockholm archipelago. Conception to construction drawings. At Arrhov Frick Arkitektkontor Stockholm, 2022-2023. 
+// + Culture house and artist residency in Paris, 7’000 sqm. Competition entry. At Studio Muoto, 2022.
+// + Two social housing projects in Paris, 40 respectively 130 apartments. Conception to construction drawings. At Studio Muoto Paris, 2021-2022.
+// + Renovation of private villa, 300 sqm. Belo Horizonte, Brazil. Design proposal 2021-2022.
+// + Apartment building in southern France, Montpelier, 110 apartments. Construction phase. At Sou Fujimoto Architects Paris, 2017-2019
+// + Strategic urban development plan in Hallonbergen, Stockholm. At White Arkitekter Stockholm, 2017.
+
+// Collaborations: *Morgane Alonzo, **Markus Gustafsson, ***Joel Mattson, ****Léa Ganteil and Oscar Aparicio Chavez
+
 }
+
