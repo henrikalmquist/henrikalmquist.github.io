@@ -64,7 +64,7 @@ Almquist Architecture Agency is based between Stockholm and Paris. In working wi
 
 This means fully understanding the potential in the given economy of the project, mastering the technical aspects and seeking sustainable approaches in all levels of the process. All this, while making it a place for people. An open and a generous architecture that grows and can evolve over time, creating a space for many purposes and for the beauty of living. 
 
-Henrik Almquist (Arkitekt SAR/MSA, Architecte DE) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early sketches to seeing through to the construction phase. A foundation that was formed by an education in architecture and engineering from Chalmers in Sweden and an explorative and artistic master degree from ENSA Paris-Malaquais in France.  Lately, Henrik is also teaching at the architecture school of Lund University (LTH).
+Henrik Almquist (Arkitekt SAR/MSA, Architecte D.E.) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early sketches to seeing through to the construction phase. A foundation that was formed by an education in architecture and engineering from Chalmers in Sweden and an explorative and artistic master degree from ENSA Paris-Malaquais in France.  Lately, Henrik is also teaching at the architecture school of Lund University (LTH).
 
 
 
