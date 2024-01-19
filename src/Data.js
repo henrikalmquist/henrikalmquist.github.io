@@ -186,24 +186,24 @@ export default{
             prio: 3,
         },
     ],
-    spacingInRem: 7,
+    spacingInRem: 8,
     about: 
     
 `
-Almquist Architecture Agency is based between Stockholm and Paris. In working with all sets of scales – from the exhibition space, the villa, to the urban block – the practice approaches a situation with a sensitivity to the site, the people and what is already there. Identifying the key values, dreaming together with the client, the design aims to create something functional above the mere function. 
+Almquist Architecture Agency is based between Stockholm and Paris. In working with all sets of scales – from the exhibition space, the villa, to the urban block – the practice approaches a situation with a sensitivity to the site, the people and what is already existing. Identifying the key values, dreaming together with the client, the design aims to create something functional above the mere function. 
 
 This means fully understanding the potential in the given economy of the project, mastering the technical aspects and seeking sustainable approaches in all levels of the process. All this, while making it a place for people. An open and a generous architecture that grows and can evolve over time, creating a space for many purposes and for the beauty of living. 
 
-Henrik Almquist (SAR/MSA) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early sketches to seeing through to the construction phase. A foundation that was also formed by an education in architecture and engineering from Chalmers in Sweden and an explorative and artistic master degree from ENSA Paris-Malaquais in France.  Lately, Henrik is also teaching at the architecture school of Lund Technical University (LTH).
+Henrik Almquist (Arkitekt SAR/MSA, Architecte DE) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early sketches to seeing through to the construction phase. A foundation that was formed by an education in architecture and engineering from Chalmers in Sweden and an explorative and artistic master degree from ENSA Paris-Malaquais in France.  Lately, Henrik is also teaching at the architecture school of Lund University (LTH).
 
-/
+
 
 The photos on the front page without a legend are part of an ongoing art project investigating atmospheres and possibilities of existing spaces. Seeing the qualities of what is already there, how can the architecture be inspired by the everyday spaces that surround us. 
 
-Collaborations with MG Morgane Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. All graphical documents made by AAA or mentioned collaborations.
+Collaborations with MG Morgane Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. All graphical documents made by AAA or mentioned collaborators.
 
 For any inquiries: contact@a-a-a.se
-More on Instagram: @almquisthenrik
+More on instagram: @almquisthenrik
 `,
 
 // + Renovation of and furniture design for the National Museum of Architecture in Stockholm, 1’600 sqm. Conception to construction drawings. At Arrhov Frick Arkitektkontor Stockholm, 2022-2023
