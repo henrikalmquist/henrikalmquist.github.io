@@ -5,7 +5,7 @@
                 <!-- <a class="cursor-pointer" @click="reShuffleContent">AAA</a> -->
                 <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
                 <a class="cursor-cross underline-entire" style="font-size: 75%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
-                <span class="text-base xs:self-end">contact@a-a-a.se</span>
+                <span class="text-base xs:self-end hidden xs:inline">contact@a-a-a.se</span>
                 <!-- <span class="text-base xs:self-end hidden xs:inline">contact@a-a-a.se</span> -->
             </h1>
             <feature-columns v-show="imagesVisibleComputed" :features="featuresComputed" :intro-text="introText" :rem-unit="remUnit" @featureClicked="featureClicked" class="h-full md:h-2/3" />
