@@ -13,7 +13,7 @@ export default{
             Centrally located in Växjö, the brief asked, what happens with the whole built environement if the hospital moves? 
             We proposed a first phase with three interventions that helps the city to understand how the existing structures can be reused, at the same time, mediating what citizens are expecting. 
             The second phase is a hypothesis of what could be learnt from the site and how that would take form. 
-            / Winning entry in the urban planing competition Europan 17, 2023. Collaboration MA, LG, OC.
+            / Winning entry in the urban planing competition Europan 17, 2023. Collaborations MA, LG, OC.
             `,
             prio: 1,
         },
@@ -35,9 +35,9 @@ export default{
             Like the country road passes through a village, the visitors are guided into the courtyard framed by the existing museum and the new extension. 
             Delicately integrating the new building in the forest, augmenting the sites unique character, a natural point of arrival and space for events is created. 
             Organised along a half-tempered gallery, the visitors are invited to participate and encourages a flexible use of the building. 
-            / Workshop extension for traditional crafts 800 sqm. Follo museum Norway. Competition entry 2020. Collaboration MG, JM. 
+            / Workshop extension for traditional crafts 800 sqm. Follo museum Norway. Competition entry 2020. Collaborations MG, JM. 
             `,
-            prio: 3,
+            prio: null,
         },
         {
             images: ["img/AAA013/AAA013_Brunnsparken_01.jpg", "img/AAA013/AAA013_Brunnsparken_02.jpg", "img/AAA013/AAA013_Brunnsparken_03.jpg", "img/AAA013/AAA013_Brunnsparken_04.jpg", "img/AAA013/AAA013_Brunnsparken_05.jpg"],
@@ -47,7 +47,7 @@ export default{
             I.e., offering a pause for the passer-by, protection for a short standing coffee, calmness for a seated meal or a quick take-a-away. 
             The simple and economical wooden structure is built off site and lifted in place. 
             The versatile design allows the building to adapted to many different uses, prolonging its longevity. 
-            / Public kiosk 18 sqm. Gothenburg. Competition entry 2022. Collaboration MA, MG.
+            / Public kiosk 18 sqm. Gothenburg. Competition entry 2022. Collaborations MA, MG.
             `,
             prio: 1,
         },
@@ -165,7 +165,7 @@ export default{
             images: ["img/AAA014/AAA014_11_3.jpg"],
             header: ``,
             text: ``,
-            prio: null,
+            prio: 3,
         },
         {
             images: ["img/AAA014/AAA014_12_2.jpg"],
@@ -204,6 +204,10 @@ Collaborations with MG Morgane Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez
 
 For any inquiries: contact@a-a-a.se
 More on instagram: @almquisthenrik
+
+Almquist Architecture Agency AB
+Swedish organisation no: 556574-6152
+
 `,
 
 // + Renovation of and furniture design for the National Museum of Architecture in Stockholm, 1’600 sqm. Conception to construction drawings. At Arrhov Frick Arkitektkontor Stockholm, 2022-2023
