@@ -18,7 +18,7 @@
     Almquist Architecture Agency is based between Stockholm and Paris. 
     In working with all sets of scales – from the exhibition space, the villa, to the urban block – the practice approaches a situation with a sensitivity to the site, the people and what is already there. 
     Identifying the key values, dreaming together with the client, the design aims to create something functional above the mere function. … (read more)
-    `,features:[{images:["img/AAA019/AAA019_Generative_Care_01.jpg","img/AAA019/AAA019_Generative_Care_02.jpg","img/AAA019/AAA019_Generative_Care_03.jpg"],header:"AAA019 Generative Care",text:`
+    `,features:[{images:["img/AAA019/AAA019_Generative_Care_01.jpg","img/AAA019/AAA019_Generative_Care_02.jpg","img/AAA019/AAA019_Generative_Care_03.jpg","img/AAA019/AAA019_Generative_Care_04.jpg","img/AAA019/AAA019_Generative_Care_05.jpg"],header:"AAA019 Generative Care",text:`
             Centrally located in Växjö, the brief asked, what happens with the whole built environement if the hospital moves? 
             We proposed a first phase with three interventions that helps the city to understand how the existing structures can be reused, at the same time, mediating what citizens are expecting. 
             The second phase is a hypothesis of what could be learnt from the site and how that would take form. 
