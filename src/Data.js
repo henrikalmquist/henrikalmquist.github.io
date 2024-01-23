@@ -7,7 +7,7 @@ export default{
     
     features: [
         {
-            images: ["img/AAA019/AAA019_Generative_Care_01.jpg", "img/AAA019/AAA019_Generative_Care_02.jpg", "img/AAA019/AAA019_Generative_Care_03.jpg"],
+            images: ["img/AAA019/AAA019_Generative_Care_01.jpg", "img/AAA019/AAA019_Generative_Care_02.jpg", "img/AAA019/AAA019_Generative_Care_03.jpg", "img/AAA019/AAA019_Generative_Care_04.jpg", "img/AAA019/AAA019_Generative_Care_05.jpg"],
             header: "AAA019 Generative Care",
             text: `
             Centrally located in Växjö, the brief asked, what happens with the whole built environement if the hospital moves? 
