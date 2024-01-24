@@ -1,7 +1,7 @@
 export default{
     intro: `
     Almquist Architecture Agency is based between Stockholm and Paris. 
-    In working with all sets of scales – from the exhibition space, the villa, to the urban block – the practice approaches a situation with a sensitivity to the site, the people and what is already there. 
+    In working with all sets of scales – from the exhibition space, the villa, to the urban block – the practice approaches a situation with a sensitivity to the site, the people and what is already existing. 
     Identifying the key values, dreaming together with the client, the design aims to create something functional above the mere function. … (read more)
     `,
     
