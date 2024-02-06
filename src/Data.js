@@ -102,6 +102,16 @@ export default{
             prio: null,
         },
         {
+            images: ["img/AAA020/AAA020_Vacant_Potential_01.jpg", "img/AAA020/AAA020_Vacant_Potential_02.jpg", "img/AAA020/AAA020_Vacant_Potential_03.jpg"],
+            header: "AAA020 Vacant Potential",
+            text: `
+            The way we work and live in the city is changing. Some buildings are having a hard time to adapt, especially offices from the 80s. 
+            What are their potential? How can we find new uses with simple interventions? 
+            Combining sustainability and economy, this research explores how current trends of renovation and demolition can evolve. 2023 - ongoing.
+            `,
+            prio: 2,
+        },
+        {
             images: ["img/AAA014/AAA014_01_2.jpg"],
             header: ``,
             text: ``,
