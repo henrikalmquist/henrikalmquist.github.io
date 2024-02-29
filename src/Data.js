@@ -102,7 +102,7 @@ export default{
             prio: null,
         },
         {
-            images: ["img/AAA020/AAA020_Vacant_Potential_01.jpg", "img/AAA020/AAA020_Vacant_Potential_02.jpg", "img/AAA020/AAA020_Vacant_Potential_03.jpg"],
+            images: ["img/AAA020/AAA020_Vacant_Potential_01.jpg", "img/AAA020/AAA020_Vacant_Potential_02.jpg", "img/AAA020/AAA020_Vacant_Potential_03.jpg", "img/AAA020/AAA020_Vacant_Potential_04.jpg"],
             header: "AAA020 Vacant Potential",
             text: `
             The way we work and live in the city is changing. Some buildings are having a hard time to adapt, especially offices from the 80s. 
