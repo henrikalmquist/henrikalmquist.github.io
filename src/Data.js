@@ -2,18 +2,22 @@ export default{
     intro: `
     Almquist Architecture Agency is based between Stockholm and Paris. 
     In working with all sets of scales – from the exhibition space, the villa, to the urban block – the practice approaches a situation with a sensitivity to the site, the people and what is already existing. 
-    Identifying the key values, dreaming together with the client, the design aims to create something functional above the mere function. … (read more)
+    Identifying the key values, dreaming together with the client, the design aims to create something functional above the mere function. … (read more)   
     `,
+
+    // AAA är baserat mellan Stockholm och Paris. 
+    // Genom att arbeta med alla skalor - från utställningsutrymmet, villan till stadskvarteret - närmar sig byrån en situation med en känslighet för platsen, människorna och det som redan finns. 
+    // Genom att identifiera de viktigaste värdena, drömma tillsammans med kunden, syftar designen till att skapa något funktionellt utöver den rena funktionen. ... (läs mer)
     
     features: [
         {
             images: ["img/AAA019/AAA019_Generative_Care_01.jpg", "img/AAA019/AAA019_Generative_Care_02.jpg", "img/AAA019/AAA019_Generative_Care_03.jpg", "img/AAA019/AAA019_Generative_Care_04.jpg", "img/AAA019/AAA019_Generative_Care_05.jpg"],
-            header: "AAA019 Generative Care",
+            header: "AAA019 Generative Care, First Prize Europan 17",
             text: `
             Centrally located in Växjö, the brief asked, what happens with the whole built environement if the hospital moves? 
             We proposed a first phase with three interventions that helps the city to understand how the existing structures can be reused, at the same time, mediating what citizens are expecting. 
             The second phase is a hypothesis of what could be learnt from the site and how that would take form. 
-            / Winning entry in the urban planing competition Europan 17, 2023. Collaborations MA, LG, OC.
+            / Urban planning competition, 2023. Collaborations MA, LG, OC.
             `,
             prio: 1,
         },
