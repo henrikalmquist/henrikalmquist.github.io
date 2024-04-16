@@ -1,8 +1,8 @@
 export default{
     intro: `
-    Almquist Architecture Agency is based between Stockholm and Paris. 
-    In working with all sets of scales – from the exhibition space, the villa, to the urban block – the practice approaches a situation with a sensitivity to the site, the people and what is already existing. 
-    Identifying the key values, dreaming together with the client, the design aims to create something functional above the mere function. … (read more)   
+    AAA is an emerging Agency for Adaptive Architecture, working with renovations of existing buildings and their potential urban strategy. 
+    Through the lens of economic and technical know-how, the present qualities of a building or site are reinterpreted into a generous and functional space. 
+    >>> Read more <<<
     `,
 
     // AAA är baserat mellan Stockholm och Paris. 
@@ -53,7 +53,7 @@ export default{
             The versatile design allows the building to adapted to many different uses, prolonging its longevity. 
             / Public kiosk 18 sqm. Gothenburg. Competition entry 2022. Collaborations MA, MG.
             `,
-            prio: 1,
+            prio: 2,
         },
         {
             images: ["img/AAA017/AAA017_Charlottenborg_01.jpg", "img/AAA017/AAA017_Charlottenborg_02.jpg", "img/AAA017/AAA017_Charlottenborg_03.jpg", "img/AAA017/AAA017_Charlottenborg_04.jpg"],
@@ -67,7 +67,7 @@ export default{
             prio: 2,
         },
         {
-            images: ["img/AAA007/AAA007_Sofielund_01.jpg", "img/AAA007/AAA007_Sofielund_02.jpg", "img/AAA007/AAA007_Sofielund_03.jpg"],
+            images: ["img/AAA007/AAA007_Sofielund_01.jpg", "img/AAA007/AAA007_Sofielund_02.jpg"],
             header: "AAA007 Sofielund ",
             text: `
             The task lies in interacting with what already exists and to propose a solution of continuity. 
@@ -204,23 +204,13 @@ export default{
     about: 
     
 `
-Almquist Architecture Agency is based between Stockholm and Paris. In working with all sets of scales – from the exhibition space, the villa, to the urban block – the practice approaches a situation with a sensitivity to the site, the people and what is already existing. Identifying the key values, dreaming together with the client, the design aims to create something functional above the mere function. 
+AAA is an emerging Agency for Adaptive Architecture, working with renovations of existing buildings and their potential urban strategy. Through the lens of economic and technical know-how, the present qualities of a building or site are reinterpreted into a generous and functional space. 
 
-This means fully understanding the potential in the given economy of the project, mastering the technical aspects and seeking sustainable approaches in all levels of the process. All this, while making it a place for people. An open and a generous architecture that grows and can evolve over time, creating a space for many purposes and for the beauty of living. 
+AAA offers services in architecture and urban planning, committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. For any inquiries: contact@a-a-a.se
 
-Henrik Almquist (Arkitekt SAR/MSA, Architecte D.E.) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early sketches to seeing through the construction phase. A foundation that was formed by an education in architecture and engineering from TU Chalmers in Sweden and an explorative and artistic master's degree from ENSA Paris-Malaquais in France.  Lately, Henrik is also teaching at the architecture school of Lund University (LTH).
+Henrik Almquist (Founder AAA, Arkitekt SAR/MSA, Architecte D.E.) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early design phases to seeing through the construction.
 
-
-
-The photos on the front page without a legend are part of an ongoing art project investigating atmospheres and possibilities of existing spaces. Seeing the qualities of what is already there, how can the architecture be inspired by the everyday spaces that surround us. 
-
-Collaborations with MG Morgane Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. All graphical documents made by AAA or mentioned collaborators.
-
-For any inquiries: contact@a-a-a.se
-More on instagram: @almquisthenrik
-
-Almquist Architecture Agency AB
-Swedish organisation no: 556574-6152
+Collaborations with MG Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. 
 
 `,
 

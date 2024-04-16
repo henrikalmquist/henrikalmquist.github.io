@@ -1,10 +1,10 @@
 <template>
     <div class="flex flex-col h-screen justify-between font-times sm:mx-4 mx-2 cursor-cross">
         <div class="container mb-16 md:mb-auto mx-auto flex flex-col" :style="containerWidthCalculated">
-            <h1 class="sticky top-0 text-5xl my-5 md:my-5 font-stratford flex justify-between " title="Almquist Architecture Agency">
+            <h1 class="sticky top-0 text-5xl my-5 md:my-5 font-stratford flex justify-between " title="c">
                 <!-- <a class="cursor-pointer" @click="reShuffleContent">AAA</a> -->
                 <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
-                <a class="cursor-cross underline-entire" style="font-size: 75%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
+                <a class="cursor-cross underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
                 <span class="text-base xs:self-end hidden xs:inline">contact@a-a-a.se</span>
                 <!-- <span class="text-base xs:self-end hidden xs:inline">contact@a-a-a.se</span> -->
             </h1>
@@ -30,7 +30,7 @@ export default {
             introText: Data.intro,
             remUnit: Data.spacingInRem,
             aboutText: Data.about,
-            cvLcoation: "almquist-cv.pdf",
+            cvLcoation: "",
             mail: "contact@a-a-a.se",
             instagram: "https://www.instagram.com/almquisthenrik/",
         };
@@ -40,7 +40,7 @@ export default {
             return this.imagesVisible;
         },
         navigateToTherPageTextComputed() {
-            return this.imagesVisible ? "AAA - Architecture" : " AAA - Agency";
+            return this.imagesVisible ? "AAA" : " AAA";
         },
         containerWidthCalculated() {
             return `max-width: ${this.remUnit * (5 * 2 + 1)}rem;`;
