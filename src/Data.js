@@ -1,7 +1,6 @@
 export default{
     intro: `
-    AAA is an emerging Agency for Adaptive Architecture, working with renovations of existing buildings and their potential urban strategy. 
-    Through the lens of economic and technical know-how, the present qualities of a building or site are reinterpreted into a generous and functional space. 
+    AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The use and perception of a space or an urban block can be altered by simple architectural interventions. We could also call it solutions.  Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a generous and functional space.
     >>> Read more <<<
     `,
 
@@ -204,11 +203,11 @@ export default{
     about: 
     
 `
-AAA is an emerging Agency for Adaptive Architecture, working with renovations of existing buildings and their potential urban strategy. Through the lens of economic and technical know-how, the present qualities of a building or site are reinterpreted into a generous and functional space. 
+AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The use and perception of a space or an urban block can be altered by simple architectural interventions. We could also call it solutions.  Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a generous and functional space.
 
-AAA offers services in architecture and urban planning, committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. For any inquiries: contact@a-a-a.se
+AAA offers services in architecture and urban planning, committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. For any inquiries or to discuss your next project: contact@a-a-a.se
 
-Henrik Almquist (Founder AAA, Arkitekt SAR/MSA, Architecte D.E.) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early design phases to seeing through the construction.
+Henrik Almquist (Founder AAA, Arkitekt SAR/MSA, Architecte Diplôme d'État) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early design phases to seeing through the construction.
 
 Collaborations with MG Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. 
 
