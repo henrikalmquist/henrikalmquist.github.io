@@ -1,6 +1,6 @@
 export default{
     intro: `
-    AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The use and perception of a space or an urban block can be altered by simple architectural interventions. We could also call it solutions.  Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a generous and functional space.
+    AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The perception and use of a space can be altered by simple architectural interventions. Its about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a generous and functional space.
     >>> Read more <<<
     `,
 
@@ -27,7 +27,7 @@ export default{
             Walls are moved, removed and added, finding new uses and enhancing dormant qualities in the building. 
             The 70s villa is opened up between the internal spaces as well as there are new openings excavated towards the outside. 
             A room for meditation is extended in the back, offering a view of a new garden.
-            / Renovation of private residency 300 sqm. Belo Horizonte Brasil. Design proposal 2021-2022.
+            / Renovation of private residency 300 sqm. Belo Horizonte Brasil. Design proposal 2022-ongoing.
             `,
             prio: 3,
         },
@@ -203,14 +203,16 @@ export default{
     about: 
     
 `
-AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The use and perception of a space or an urban block can be altered by simple architectural interventions. We could also call it solutions.  Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a generous and functional space.
+AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The perception and use of a space can be altered by simple architectural interventions. Its about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a generous and functional space.
 
 AAA offers services in architecture and urban planning, committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. For any inquiries or to discuss your next project: contact@a-a-a.se
 
 Henrik Almquist (Founder AAA, Arkitekt SAR/MSA, Architecte Diplôme d'État) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early design phases to seeing through the construction.
 
-Collaborations with MG Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. 
+Collaborations with MG Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson.  
 
+Almquist Architecture Agency AB
+Swedish organisation number: 556574-6152 
 `,
 
 // + Renovation of and furniture design for the National Museum of Architecture in Stockholm, 1’600 sqm. Conception to construction drawings. At Arrhov Frick Arkitektkontor Stockholm, 2022-2023
