@@ -62,13 +62,13 @@ export default {
                     text: ``,
                     prio: 4,
                                     }, */
-                 {
+/*                  {
                     images: ["img/AAA000/AAA000_Postbox_01.jpg"],
                     header: ``,
                     text: ``,
                     prio: 3,
                     
-                },  
+                },   */
                 {
                     images: ["img/AAA014/AAA014_10_1.jpg"],
                     header: ``,
@@ -88,6 +88,13 @@ Henrik Almquist (grundare AAA, Arkitekt SAR/MSA, Architecte Diplôme d'État) ha
                     prio: 4,
                     
                 },
+                {
+                    images: ["img/AAA019/AAA019_Generative_Care_06.gif"],
+                    header: ``,
+                    text: ``,
+                    prio: 3,
+                    
+                }, 
             ]
         }
     },
