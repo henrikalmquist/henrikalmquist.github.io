@@ -168,12 +168,12 @@ export default{
             text: ``,
             prio: null,
         },
-        {
+         {
             images: ["img/AAA014/AAA014_10_1.jpg"],
             header: ``,
             text: ``,
-            prio: 3,
-        },
+            prio: null,
+        }, 
         {
             images: ["img/AAA014/AAA014_11_3.jpg"],
             header: ``,
@@ -203,17 +203,18 @@ export default{
     about: 
     
 `
-AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The perception and use of a space can be altered by simple architectural interventions. Its about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a generous and functional space.
+AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The perception and use of a space can be altered by simple architectural interventions. Its about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building and site are reinterpreted into a generous and functional space.
 
-AAA offers services in architecture and urban planning, committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. For any inquiries or to discuss your next project: contact@a-a-a.se
+AAA offers services in architecture and urban planning, committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. Its about listening and learning from every specific situation. For any inquiries or to discuss your next project >>> contact@a-a-a.se
 
-Henrik Almquist (Founder AAA, Arkitekt SAR/MSA, Architecte Diplôme d'État) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from early design phases to seeing through the construction.
+Henrik Almquist (Founder AAA, Arkitekt SAR/MSA, Architecte Diplôme d'État) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from in-situ dialogues to early design proposals to seeing through the construction.
 
-Collaborations with MG Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson.  
+Collaborations with MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson.  
 
 Almquist Architecture Agency AB
 Swedish organisation number: 556574-6152 
-`,
+`
+,
 
 // + Renovation of and furniture design for the National Museum of Architecture in Stockholm, 1’600 sqm. Conception to construction drawings. At Arrhov Frick Arkitektkontor Stockholm, 2022-2023
 // + Private villa of 140 sqm in Stockholm archipelago. Conception to construction drawings. At Arrhov Frick Arkitektkontor Stockholm, 2022-2023. 

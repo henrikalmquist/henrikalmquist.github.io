@@ -40,7 +40,7 @@ export default {
             return this.imagesVisible;
         },
         navigateToTherPageTextComputed() {
-            return this.imagesVisible ? "AAA" : " AAA";
+            return this.imagesVisible ? "AAA" : "An Agency for Adaptive Architecture";
         },
         containerWidthCalculated() {
             return `max-width: ${this.remUnit * (5 * 2 + 1)}rem;`;
@@ -56,12 +56,37 @@ export default {
                     prio: 1,
                     type: "intro",
                 },
-                {
+/*                  {
+                    images: ["img/AAA000/AAA000_02.jpg"],
+                    header: ``,
+                    text: ``,
+                    prio: 4,
+                                    }, */
+                 {
                     images: ["img/AAA000/AAA000_Postbox_01.jpg"],
                     header: ``,
                     text: ``,
-                    prio: 100,
-                    type: "intro",
+                    prio: 3,
+                    
+                },  
+                {
+                    images: ["img/AAA014/AAA014_10_1.jpg"],
+                    header: ``,
+                    text: ``,
+                    prio: 2,
+                    
+                }, 
+                {
+                    images: [],
+                    header: ``,
+                    text: `AAA är en Agency för en Anpassningsbar Arkitektur som arbetar med renoveringar och med att definiera den urbana potentialen i befintliga byggnader. Uppfattningen om och användningen av ett utrymme kan förändras genom enkla arkitektoniska ingrepp. Det handlar om att hitta kreativa lösningar som gör mer med mindre. Med hjälp av ekonomiskt och tekniskt kunnande omtolkas byggnadens och platsens nuvarande kvaliteter till ett generöst och funktionellt rum.
+
+AAA erbjuder tjänster inom arkitektur och stadsplanering och har som mål att hitta strategier och skapa byggnader som harmonierar med miljön och de individuella behoven och ambitionerna. Det handlar om att lyssna och lära av varje specifik situation. För förfrågningar eller för att diskutera ditt nästa projekt > contact@a-a-a.se
+
+Henrik Almquist (grundare AAA, Arkitekt SAR/MSA, Architecte Diplôme d'État) har arbetat på välrenommerade kontor i Stockholm, Paris och Tokyo. Han har ett brett perspektiv på arkitektur och stadsplanering och har genomfört projekt i alla faser, från dialoger in-situ till tidiga designförslag till genomförandet av byggnationer.
+                    `,
+                    prio: 4,
+                    
                 },
             ]
         }
@@ -77,11 +102,11 @@ export default {
             // this.features = features;
             location.reload();
         },
-        featureClicked(feature) {
+         featureClicked(feature) {
             if (feature.type === "intro") {
                 this.imagesVisible = false;
             }
-        },
+        }, 
     },
     components: { FeatureColumns, AboutText }
 }
