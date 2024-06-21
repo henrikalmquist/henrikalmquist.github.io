@@ -78,7 +78,7 @@ export default {
                 result = "mt-4"
             }
             if(this.type === "intro"){
-                result += " font-stratford leading-6";
+                result += " font-times leading-6";
             }
             else{
                 result += " leading-5";

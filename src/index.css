@@ -10,19 +10,26 @@
 }
 
 @font-face {
+/*     font-family: "ONE";
+    src: url("../src/assets/fonts/Stratford-Medium.otf");
+    font-weight: normal; */
+
     font-family: "STRATFORD";
+    /* src: url("../src/assets/fonts/Stratford-Medium.otf"); */
     src: url("../src/assets/fonts/Stratford-Medium.otf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "STRATFORD";
-    src: url("../src/assets/fonts/Stratford-W01-Roman-Italic.otf");
+    /* src: url("../src/assets/fonts/Stratford-W01-Roman-Italic.otf"); */
+    src: url("../src/assets/fonts/other/calibri-regular.ttf");
     font-style: italic;
 }
 
 @font-face {
     font-family: "TIMES";
-    src: url("../src/assets/fonts/times.ttf");
+    /* src: url("../src/assets/fonts/times.ttf"); */
+    src: url("../src/assets/fonts/other/calibri-regular.ttf");
     font-weight: normal;
 }

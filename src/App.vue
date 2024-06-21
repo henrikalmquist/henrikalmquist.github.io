@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col h-screen justify-between font-times sm:mx-4 mx-2 cursor-cross">
         <div class="container mb-16 md:mb-auto mx-auto flex flex-col" :style="containerWidthCalculated">
-            <h1 class="sticky top-0 text-5xl my-5 md:my-5 font-stratford flex justify-between " title="c">
+            <h1 class="sticky top-0 text-5xl my-5 md:my-5 font-stratford flex justify-between " title="An Agency for Adaptive Architecture">
                 <!-- <a class="cursor-pointer" @click="reShuffleContent">AAA</a> -->
                 <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
                 <a class="cursor-cross underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
@@ -40,7 +40,7 @@ export default {
             return this.imagesVisible;
         },
         navigateToTherPageTextComputed() {
-            return this.imagesVisible ? "AAA" : "An Agency for Adaptive Architecture";
+            return this.imagesVisible ? "AAA" : "AAA";
         },
         containerWidthCalculated() {
             return `max-width: ${this.remUnit * (5 * 2 + 1)}rem;`;
@@ -81,7 +81,7 @@ export default {
                     header: ``,
                     text: `AAA är en Agency för en Anpassningsbar Arkitektur som arbetar med renoveringar och med att definiera den urbana potentialen i befintliga byggnader. Uppfattningen om och användningen av ett utrymme kan förändras genom enkla arkitektoniska ingrepp. Det handlar om att hitta kreativa lösningar som gör mer med mindre. Med hjälp av ekonomiskt och tekniskt kunnande omtolkas byggnadens och platsens nuvarande kvaliteter till ett generöst och funktionellt rum.
 
-AAA erbjuder tjänster inom arkitektur och stadsplanering och har som mål att hitta strategier och skapa byggnader som harmonierar med miljön och de individuella behoven och ambitionerna. Det handlar om att lyssna och lära av varje specifik situation. För förfrågningar eller för att diskutera ditt nästa projekt > contact@a-a-a.se
+AAA erbjuder tjänster inom arkitektur och stadsplanering och har som mål att hitta strategier och skapa byggnader som harmonierar med miljön och de individuella behoven och ambitionerna. Det handlar om att lyssna och lära av varje specifik situation. För förfrågningar eller för att diskutera ditt nästa projekt -> contact@a-a-a.se
 
 Henrik Almquist (grundare AAA, Arkitekt SAR/MSA, Architecte Diplôme d'État) har arbetat på välrenommerade kontor i Stockholm, Paris och Tokyo. Han har ett brett perspektiv på arkitektur och stadsplanering och har genomfört projekt i alla faser, från dialoger in-situ till tidiga designförslag till genomförandet av byggnationer.
                     `,
@@ -132,6 +132,6 @@ Henrik Almquist (grundare AAA, Arkitekt SAR/MSA, Architecte Diplôme d'État) ha
     content: '';
 } */
 .cursor-cross{
-    cursor: crosshair; /* url("/src/assets/images/AAA_cross_128x128-01.png"),*/
+    cursor:  crosshair;     /* url("/src/assets/images/AAA_cross_128x128-01.ico");  */
 }
 </style>
