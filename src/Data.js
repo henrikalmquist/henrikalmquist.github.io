@@ -1,7 +1,6 @@
 export default{
     intro: `
-    AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The perception and use of a space can be altered by simple architectural interventions. Its about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building and site are reinterpreted into a generous and functional space.
-    -> Read more <-
+    AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The perception and use of a space can be altered by simple architectural interventions. Its about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building and site are reinterpreted into a generous and functional space.    
     `,
 
     // AAA är baserat mellan Stockholm och Paris. 

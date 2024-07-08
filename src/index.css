@@ -21,9 +21,9 @@
 }
 
 @font-face {
-    font-family: "STRATFORD";
+    font-family: "TIMES";
     /* src: url("../src/assets/fonts/Stratford-W01-Roman-Italic.otf"); */
-    src: url("../src/assets/fonts/other/calibri-regular.ttf");
+    src: url("../src/assets/fonts/other/calibri-italic.ttf");
     font-style: italic;
 }
 

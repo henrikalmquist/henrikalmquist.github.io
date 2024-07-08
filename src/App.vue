@@ -79,7 +79,7 @@ export default {
                 {
                     images: [],
                     header: ``,
-                    text: `AAA är en Agency för en Anpassningsbar Arkitektur som arbetar med renoveringar och med att definiera den urbana potentialen i befintliga byggnader. Uppfattningen om och användningen av ett utrymme kan förändras genom enkla arkitektoniska ingrepp. Det handlar om att hitta kreativa lösningar som gör mer med mindre. Med hjälp av ekonomiskt och tekniskt kunnande omtolkas byggnadens och platsens nuvarande kvaliteter till ett generöst och funktionellt rum.
+                    text: `AAA is an emerging Agency for Adaptive Architecture - som arbetar med renoveringar och med att definiera den urbana potentialen i befintliga byggnader. Upplevelsen och användningen av ett utrymme kan förändras genom enkla arkitektoniska ingrepp. Det handlar om att hitta kreativa lösningar som gör mer med mindre. Med hjälp av ekonomiskt och tekniskt kunnande omtolkas byggnadens och platsens nuvarande kvaliteter till ett generöst och funktionellt rum.
 
 AAA erbjuder tjänster inom arkitektur och stadsplanering och har som mål att hitta strategier och skapa byggnader som harmonierar med miljön och de individuella behoven och ambitionerna. Det handlar om att lyssna och lära av varje specifik situation. För förfrågningar eller för att diskutera ditt nästa projekt -> contact@a-a-a.se
 
