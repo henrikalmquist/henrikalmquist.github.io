@@ -23,13 +23,13 @@
 @font-face {
     font-family: "TIMES";
     /* src: url("../src/assets/fonts/Stratford-W01-Roman-Italic.otf"); */
-    src: url("../src/assets/fonts/other/calibri-italic.ttf");
+    src: url("../src/assets/fonts/Helvetica-Oblique.otf");
     font-style: italic;
 }
 
 @font-face {
     font-family: "TIMES";
     /* src: url("../src/assets/fonts/times.ttf"); */
-    src: url("../src/assets/fonts/other/calibri-regular.ttf");
+    src: url("../src/assets/fonts/Helvetica.otf");
     font-weight: normal;
 }

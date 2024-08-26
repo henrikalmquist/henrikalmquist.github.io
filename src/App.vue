@@ -4,8 +4,9 @@
             <h1 class="sticky top-0 text-5xl my-5 md:my-5 font-stratford flex justify-between " title="An Agency for Adaptive Architecture">
                 <!-- <a class="cursor-pointer" @click="reShuffleContent">AAA</a> -->
                 <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
-                <a class="cursor-cross underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
-                <span class="text-base xs:self-end hidden xs:inline">contact@a-a-a.se</span>
+                <a class="cursor-cross underline-entire" style="font-size: 100%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
+                <!-- <a class="cursor-cross underline-entire font-times text-base xs:self-end hidden xs:inline" style="font-size: 35%;"  @click="introClicked">Agency Architecture</a> -->
+                <span class="text-base xs:self-end hidden xs:inline font-times">contact@a-a-a.se</span>
                 <!-- <span class="text-base xs:self-end hidden xs:inline">contact@a-a-a.se</span> -->
             </h1>
             <feature-columns v-show="imagesVisibleComputed" :features="featuresComputed" :intro-text="introText" :rem-unit="remUnit" @featureClicked="featureClicked" class="h-full md:h-2/3" />
@@ -83,7 +84,7 @@ export default {
 
 AAA erbjuder tjänster inom arkitektur och stadsplanering och har som mål att hitta strategier och skapa byggnader som harmonierar med miljön och de individuella behoven och ambitionerna. Det handlar om att lyssna och lära av varje specifik situation. För förfrågningar eller för att diskutera ditt nästa projekt -> contact@a-a-a.se
 
-Henrik Almquist (grundare AAA, Arkitekt SAR/MSA, Architecte Diplôme d'État) har arbetat på välrenommerade kontor i Stockholm, Paris och Tokyo. Han har ett brett perspektiv på arkitektur och stadsplanering och har genomfört projekt i alla faser, från dialoger in-situ till tidiga designförslag till genomförandet av byggnationer.
+Henrik Almquist (grundare AAA, arkitekt SAR/MSA, architecte diplôme d'état) har arbetat på välrenommerade kontor i Stockholm, Paris och Tokyo. Han har ett brett perspektiv på arkitektur och stadsplanering och har genomfört projekt i alla faser, från dialoger in-situ till tidiga designförslag till genomförandet av byggnationer.
                     `,
                     prio: 4,
                     
