@@ -10,12 +10,12 @@ export default{
     features: [
         {
             images: ["img/AAA019/AAA019_Generative_Care_01.jpg", "img/AAA019/AAA019_Generative_Care_02.jpg", "img/AAA019/AAA019_Generative_Care_03.jpg", "img/AAA019/AAA019_Generative_Care_04.jpg", "img/AAA019/AAA019_Generative_Care_05.jpg"],
-            header: "AAA019 Generative Care, First Prize Europan 17",
+            header: "AAA019 Generative Care, 1e Prize",
             text: `
             Centrally located in Växjö, the brief asked, what happens with the whole built environement if the hospital moves? 
             We proposed a first phase with three interventions that helps the city to understand how the existing structures can be reused, at the same time, mediating what citizens are expecting. 
             The second phase is a hypothesis of what could be learnt from the site and how that would take form. 
-            / Urban planning competition, 2023. Collaborations MA, LG, OC.
+            / Urban planning competition Europan 17, 2023. Collaborations MA, LG, OC.
             `,
             prio: 1,
         },
