@@ -1,6 +1,8 @@
 export default{
     intro: `
-    AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The perception and use of a space can be altered by simple architectural interventions. Its about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building and site are reinterpreted into a generous and functional space. -> Read more <-    
+    AAA is working with renovations, additions and regenerative processes. In defining the hidden potential of an existing situation or building, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a new generous and functional space.
+    <p>
+    For any inquiries or to discuss your next project: contact@a-a-a.se 
     `,
 
     // AAA är baserat mellan Stockholm och Paris. 
@@ -198,22 +200,34 @@ export default{
             prio: 3,
         },
     ],
-    spacingInRem: 8,
+    spacingInRem: 7,
     about: 
     
 `
-AAA is an emerging Agency for Adaptive Architecture, working with renovations and in defining the urban potential of existing buildings. The perception and use of a space can be altered by simple architectural interventions. Its about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building and site are reinterpreted into a generous and functional space.
+Adaptive - a way to see
+Every landscape and every building sit on a hidden potential. The key role of an architect is to identify and enhance these qualities. Adapting to every situation, it can implicate a minimal renovation, reusing materials, a small extension or a tailored addition. The same goes for an urban environment, with the right understanding, a simple intervention can hugely impact the activities and atmosphere of a space. 
+ 
+Architecture - a way to build
+Shouldering many different perspectives - spatial, cultural, ecologic, economic, technical - a project can build a unified whole. One where all parts are speaking to each other. AAA can offer:
+* Development strategy of a building or a site through a regenerative process. How can an existing structure best be put to new use?
+* Renovation or addition that adapts to an existing situation. From design, building permit, construction drawings to assuring a smooth construction phase. 
 
-AAA offers services in architecture and urban planning, committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. Its about listening and learning from every specific situation. For any inquiries or to discuss your next project -> contact@a-a-a.se
+Agency - a way to work
+AAA is committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. It is about listening and learning from every specific situation. This means fully understanding the potential in the given economy of the project, mastering the technical aspects and seeking sustainable approaches in all levels of the process. 
 
-Henrik Almquist (founder AAA, Arkitekt SAR/MSA, Architecte Diplôme d'État) has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a wide perspective on architecture and urban planning, he has carried out projects in all phases, from in-situ dialogues to early design proposals to seeing through the construction.
+* For any inquiries or to discuss your next project: contact@a-a-a.se 
 
-Collaborations with MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson.  
+Henrik Almquist
+Henrik, founder AAA, MArch Dip. d'État, Arkitekt SAR/MSA, has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a regenerative and adaptive approach on architecture and urban planning, he has carried out projects in all phases, from in-situ dialogues to early design proposals to seeing through the construction. Henrik is  teaching at Lund University and is engaged in the omnipresent discussion of urban development and sustainability.
 
-Almquist Architecture Agency AB
-Swedish organisation number: 556574-6152 
+Collaborations with JH Josephine Harold, MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. AAA Swedish organisation number: 556574-6152.
 `
 ,
+
+/* `AAA is working with renovations, additions and regenerative processes. In defining the hidden potential of an existing situation or building, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a new generous and functional space.
+
+For any inquiries or to discuss your next project: contact@a-a-a.se 
+` */
 
 // + Renovation of and furniture design for the National Museum of Architecture in Stockholm, 1’600 sqm. Conception to construction drawings. At Arrhov Frick Arkitektkontor Stockholm, 2022-2023
 // + Private villa of 140 sqm in Stockholm archipelago. Conception to construction drawings. At Arrhov Frick Arkitektkontor Stockholm, 2022-2023. 
