@@ -1,6 +1,6 @@
 export default{
     intro: `
-    AAA is working with renovations, additions and regenerative processes. In defining the hidden potential of an existing situation or building, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a new generous and functional space.
+    AAA is an Agency for an Adaptive Architecture, working with renovations, additions and regenerative processes. In defining the hidden potential of an existing situation or building, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a new generous and functional space.
     <p>
     For any inquiries or to discuss your next project: contact@a-a-a.se 
     `,
