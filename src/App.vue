@@ -5,7 +5,7 @@
                 <!-- <a class="cursor-pointer" @click="reShuffleContent">AAA</a> -->
                 <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
                 <a class="cursor-cross underline-entire" style="font-size: 100%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
-                <a class="cursor-cross underline-entire font-times text-base xs:self-end hidden xs:inline" style="font-size: 35%;"  @click="introClicked">&emsp; &emsp; Agency for an Adaptive Architecture </a>
+                <a class="cursor-cross underline-entire font-times text-base xs:self-end hidden xs:inline" style="font-size: 35%;"  @click="introClicked">&emsp; Agency for an Adaptive Architecture </a>
                 <!-- <span class="text-base xs:self-end hidden xs:inline font-times">contact@a-a-a.se</span> -->
                 <!-- <span class="text-base xs:self-end hidden xs:inline">contact@a-a-a.se</span> -->
             </h1>

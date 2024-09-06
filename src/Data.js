@@ -204,21 +204,20 @@ export default{
     about: 
     
 `
-Adaptive - a way to see
+Adaptive - A Way to See
 Every landscape and every building sit on a hidden potential. The key role of an architect is to identify and enhance these qualities. Adapting to every situation, it can implicate a minimal renovation, reusing materials, a small extension or a tailored addition. The same goes for an urban environment, with the right understanding, a simple intervention can hugely impact the activities and atmosphere of a space. 
- 
-Architecture - a way to build
-Shouldering many different perspectives - spatial, cultural, ecologic, economic, technical - a project can build a unified whole. One where all parts are speaking to each other. AAA can offer:
+
+Architecture - A Way to Build
+Shouldering many different perspectives - spatial, cultural, ecologic, economic, technical - a project can build a unified whole. One where all parts are speaking to each other. AAA offers:
+
 * Development strategy of a building or a site through a regenerative process. How can an existing structure best be put to new use?
-* Renovation or addition that adapts to an existing situation. From design, building permit, construction drawings to assuring a smooth construction phase. 
+* Renovation or addition that adapts to an existing situation. From design, building permit and construction drawings to assuring a smooth construction phase. 
 
-Agency - a way to work
-AAA is committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. It is about listening and learning from every specific situation. This means fully understanding the potential in the given economy of the project, mastering the technical aspects and seeking sustainable approaches in all levels of the process. 
-
-* For any inquiries or to discuss your next project: contact@a-a-a.se 
+Agency - A Way to Work
+AAA is committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. It is about listening and learning from every specific situation. This means fully understanding the potential in the given economy of the project, mastering the technical aspects and seeking sustainable approaches in all levels of the process. For any inquiries or to discuss your next project: contact@a-a-a.se 
 
 Henrik Almquist
-Henrik, founder AAA, MArch Dip. d'État, Arkitekt SAR/MSA, has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a regenerative and adaptive approach on architecture and urban planning, he has carried out projects in all phases, from in-situ dialogues to early design proposals to seeing through the construction. Henrik is  teaching at Lund University and is engaged in the omnipresent discussion of urban development and sustainability.
+Henrik, founder AAA, MArch Dip. d'État, Arkitekt SAR/MSA, has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a regenerative and adaptive approach on architecture and urban planning, he has carried out projects in all phases, from in-situ dialogues to early design proposals to seeing through the construction. Henrik is also teaching at Lund University and is engaged in the omnipresent discussion of urban development and sustainability.
 
 Collaborations with JH Josephine Harold, MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. AAA Swedish organisation number: 556574-6152.
 `
