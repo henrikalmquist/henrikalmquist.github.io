@@ -96,7 +96,7 @@ Swedish organisation number: 556574-6152 `,
                 {
                     images: [],
                     header: ``,
-                    text: `[Svenska] AAA arbetar med renoveringar, tillägg och regenerativa processer. Genom att definiera den dolda potentialen i en befintlig situation eller byggnad förändras uppfattningen om och användningen av rummet med hjälp av enkla arkitektoniska ingrepp. Det handlar om att hitta kreativa lösningar som gör mer med mindre. Med hjälp av ekonomiskt och tekniskt kunnande omtolkas de befintliga kvaliteterna i en byggnad eller på en plats till ett nytt generöst och funktionellt rum.
+                    text: `[Svenska] AAA är en Agency för en Anpassningsbar Arkitektur som arbetar med renoveringar, tillägg och regenerativa processer. Genom att definiera den dolda potentialen i en befintlig situation eller byggnad förändras uppfattningen om och användningen av rummet med hjälp av enkla arkitektoniska ingrepp. Det handlar om att hitta kreativa lösningar som gör mer med mindre. Med hjälp av ekonomiskt och tekniskt kunnande omtolkas de befintliga kvaliteterna i en byggnad eller på en plats till ett nytt generöst och funktionellt rum.
   `,
                     prio: 3,
                     
