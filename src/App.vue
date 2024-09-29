@@ -10,9 +10,13 @@
                 <!-- <span class="text-base xs:self-end hidden xs:inline">contact@a-a-a.se</span> -->
             </h1>
             <feature-columns v-show="imagesVisibleComputed" :features="featuresComputed" :intro-text="introText" :rem-unit="remUnit" @featureClicked="featureClicked" class="h-full md:h-2/3" />
-            <feature-columns v-show="!imagesVisibleComputed" :features="aboutFeaturesComputed" :rem-unit="remUnit" @featureClicked="featureClicked" :use-markdown="true" class="h-full md:h-2/3" />
+            <feature-columns v-show="!imagesVisibleComputed" :features="aboutFeaturesComputed" :rem-unit="remUnit" @featureClicked="featureClicked" :use-markdown="true" :center-images="false" class="h-full md:h-2/3" />
             <!-- <about-text v-show="!imagesVisibleComputed" :description="aboutText" :rem-unit="remUnit" class="h-full md:h-2/3" /> -->
         </div>
+        <footer class="container mb-16 md:mb-auto mx-auto flex justify-start" :style="containerWidthCalculated">
+            <span class="me-4">AAA</span>
+            <span>contact@a-a-a.se</span>
+        </footer>
     </div>    
 </template>
 
@@ -93,14 +97,14 @@ Swedish organisation number: 556574-6152 `,
                     prio: 5,
                     
                 },  */
-                {
+/*                 {
                     images: [],
                     header: ``,
                     text: `[Svenska] AAA är en Agency för en Anpassningsbar Arkitektur som arbetar med renoveringar, tillägg och regenerativa processer. Genom att definiera den dolda potentialen i en befintlig situation eller byggnad förändras uppfattningen om och användningen av rummet med hjälp av enkla arkitektoniska ingrepp. Det handlar om att hitta kreativa lösningar som gör mer med mindre. Med hjälp av ekonomiskt och tekniskt kunnande omtolkas de befintliga kvaliteterna i en byggnad eller på en plats till ett nytt generöst och funktionellt rum.
   `,
                     prio: 3,
                     
-                },
+                }, */
                 {
                     images: ["img/AAA019/AAA019_Generative_Care_06.gif"],
                     header: ``,

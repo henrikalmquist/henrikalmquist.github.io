@@ -1,15 +1,15 @@
 <template>
     <div v-if="isSmallScreenComputed" class="h-full">
         <div :style="firstComlumeStyleComputed">
-            <images-container v-for="feature in singelFeatureColumnComputed" :header="feature.header" :images="feature.images" :description="feature.text" :type="feature.type" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="!useMarkdown" :isSmallScreen="isSmallScreenComputed" @descriptionClicked="featureClicked" />
+            <images-container v-for="feature in singelFeatureColumnComputed" :header="feature.header" :images="feature.images" :description="feature.text" :type="feature.type" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="centerImages" :isSmallScreen="isSmallScreenComputed" @descriptionClicked="featureClicked" />
         </div>
     </div>
     <div v-else class="h-full grid grid-cols-2" :style="gapComputed">
         <div :style="firstComlumeStyleComputed">
-            <images-container v-for="feature in featureColumnsComputed[0]" :header="feature.header" :images="feature.images" :description="feature.text" :type="feature.type" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="!useMarkdown" :isSmallScreen="isSmallScreenComputed" @descriptionClicked="featureClicked" />
+            <images-container v-for="feature in featureColumnsComputed[0]" :header="feature.header" :images="feature.images" :description="feature.text" :type="feature.type" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="centerImages" :isSmallScreen="isSmallScreenComputed" @descriptionClicked="featureClicked" />
         </div>
         <div>
-            <images-container v-for="feature in featureColumnsComputed[1]" :header="feature.header" :images="feature.images" :description="feature.text" :type="feature.type" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="!useMarkdown" :isSmallScreen="isSmallScreenComputed" @descriptionClicked="featureClicked" />
+            <images-container v-for="feature in featureColumnsComputed[1]" :header="feature.header" :images="feature.images" :description="feature.text" :type="feature.type" :rem-unit="remUnit" :use-markdown="useMarkdown" :center-content="centerImages" :isSmallScreen="isSmallScreenComputed" @descriptionClicked="featureClicked" />
         </div>
     </div>
 </template>
@@ -47,6 +47,10 @@ export default {
         introText: String,
         remUnit: Number,
         useMarkdown: Boolean,
+        centerImages: {
+            type: Boolean,
+            default: true
+        },
     },
     mounted: function () {
         this.reShuffleFeatures();
