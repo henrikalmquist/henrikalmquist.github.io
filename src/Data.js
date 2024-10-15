@@ -17,7 +17,7 @@ export default{
             Centrally located in Växjö, the brief asked, what happens with the whole built environement if the hospital moves? 
             We proposed a first phase with three interventions that helps the city to understand how the existing structures can be reused, at the same time, mediating what citizens are expecting. 
             The second phase is a hypothesis of what could be learnt from the site and how that would take form. 
-            / Urban planning competition Europan 17, 2023. Collaborations MA, LG, OC.
+            / Urban planning competition Europan 17, 2023-ongoing. Collaborations MA, LG, OC.
             `,
             prio: 1,
         },
@@ -112,6 +112,16 @@ export default{
             The way we work and live in the city is changing. Some buildings are having a hard time to adapt, especially offices from the 80s. 
             What are their potential? How can we find new uses with simple interventions? 
             Combining sustainability and economy, this research explores how current trends of renovation and demolition can evolve. 2023 - ongoing.
+            `,
+            prio: 2,
+        },
+        {
+            images: ["img/AAA024/AAA024_Extending_into_the_Sun_01w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_02w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_03w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_04w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_05w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_06w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_07w.jpg"],
+            header: "AAA024 Extending into the Sun",
+            text: `
+            The renovated façade is animated by its new inhabitants; a rich biodiversity of deep soil, people opening up their apartments outside and natural integration of solar power production. 
+            A new language for the city of Barcelona marking an important entrance to the historical city and a park. 
+            / Architecture competition Fundació Mies Van Der Rohe, UIA, UNESCO and the city of Barcelona. 2024
             `,
             prio: 2,
         },
