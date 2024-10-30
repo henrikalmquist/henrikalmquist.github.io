@@ -116,7 +116,7 @@ export default{
             prio: 2,
         },
         {
-            images: ["img/AAA024/AAA024_Extending_into_the_Sun_01w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_02w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_03w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_04w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_05w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_06w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_07w.jpg"],
+            images: ["img/AAA024/AAA024_Extending_into_the_Sun_05w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_02w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_01w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_03w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_04w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_06w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_07w.jpg"],
             header: "AAA024 Extending into the Sun",
             text: `
             The renovated façade is animated by its new inhabitants; a rich biodiversity of deep soil, people opening up their apartments outside and natural integration of solar power production. 
