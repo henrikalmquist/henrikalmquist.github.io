@@ -2,7 +2,7 @@ export default{
     intro: `
     AAA is an Agency for an Adaptive Architecture, working with renovations, additions and regenerative processes. In defining the hidden potential of an existing situation or building, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a new generous and functional space.
     <p>
-    For any inquiries or to discuss your next project: contact@a-a-a.se 
+    For any inquiries or to discuss your next project: contact@a-a-a.se
     `,
 
     // AAA är baserat mellan Stockholm och Paris. 
@@ -214,22 +214,24 @@ export default{
     about: 
     
 `
-*Adaptive - A Way to See*
-Every landscape and every building sit on a hidden potential. The key role of an architect is to identify and enhance these qualities. Adapting to every situation, it can implicate a minimal renovation, reusing materials, a small extension or a tailored addition. The same goes for an urban environment, with the right understanding, a simple intervention can hugely impact the activities and atmosphere of a space. 
+**Adaptive - Seeing Potential in Every Space**
+Every building, every landscape holds a hidden potential. Our role as architects is to recognize and elevate that potential. Sometimes it’s a small change — a touch of renovation, an extension, or a custom addition — that can completely transform how a space feels and functions. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact.
 
-*Architecture - A Way to Build*
-Shouldering many different perspectives - spatial, cultural, ecologic, economic, technical - a project can build a unified whole. One where all parts are speaking to each other. AAA proposes:
+**Architecture - Functional Above Function**
+Architecture is a balance of different needs: spatial, cultural, ecological, economic, and technical. We aim to bring these elements together into a unified whole. Our approach includes:
 
-* Development strategy of a building or a site through a regenerative process. How can an existing structure best be put to new use? How do we invite local actors and citizens to take part in shaping the process?
-* Renovation or addition that adapts to an existing situation. From design, building permit and construction drawings to assuring a seamless construction phase. 
+*    Regenerative Processes — How can an existing structure find new life? How can we bring in the voices of the community to shape it? We explore the best ways to repurpose what’s already there.
 
-*Agency - A Way to Work*
-AAA is committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. It is about listening and learning from every specific situation. This means fully understanding the potential in the given economy of the project, mastering the technical aspects and seeking sustainable approaches in all levels of the process. For any inquiries or to discuss your next project: contact@a-a-a.se 
+*    Responsive Design — Renovations and additions tailored to the existing context. We handle everything from design and permits to construction, ensuring a smooth and thoughtful process.
 
-*Henrik Almquist*
-MArch Dip. d'État, Arkitekt SAR/MSA, founder of AAA, has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a regenerative and adaptive approach on architecture and urban planning, he has carried out projects in all phases, from in-situ dialogues to early design proposals to seeing through the construction. Henrik is also teaching at Lund University and is engaged in the omnipresent discussion of urban development and sustainability.
+**Agency - Working Together**
+At AAA, we focus on creating designs that harmonize with the environment and respond to the unique needs of each client. Our approach is rooted in listening and learning from each specific situation, understanding each project’s potential and budget, choosing sustainable solutions at every stage. If you'd like to discuss a project, please feel free to reach out: contact@a-a-a.se
 
-Collaborations with JH Josephine Harold, MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. AAA Swedish organisation number: 556574-6152.
+**Henrik Almquist - MArch Dip. d'État, Arkitekt SAR/MSA**
+Is the founder of AAA and brings experience from Stockholm, Paris, and Tokyo.  Proposing a regenerative and adaptive approach on architecture and urban planning, he has carried out projects in all phases, from in-situ dialogues to early design proposals to seeing through the construction. Henrik also teaches at Lund University, directing a masterstudio on renovations and is actively involved in the ongoing dialogue on urban development and sustainability.
+
+Collaborations: JH Josephine Harold, MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. Swedish organisation number for AAA AB: 556574-6152.
+
 `
 ,
 
