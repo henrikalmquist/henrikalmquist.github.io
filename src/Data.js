@@ -215,7 +215,7 @@ export default{
     
 `
 **Adaptive - Seeing Potential in Every Space**
-Every building, every landscape holds a hidden potential. Our role as architects is to recognize and elevate that potential. Sometimes it’s a small change — a tailored renovation, a carefully crafted extension, or a thoughtful addition — that can completely transform how a space feels and functions. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact.
+Every building, every landscape holds a hidden potential. Our role as architects is to recognize and elevate that potential. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact, transforming how a space feels and functions. 
 
 **Architecture - Functional Above Function**
 Architecture is a balance of different needs: spatial, cultural, ecological, economic, and technical. We aim to bring these elements together into a unified whole. Our approach includes:
@@ -225,7 +225,7 @@ Architecture is a balance of different needs: spatial, cultural, ecological, eco
 *    Adaptive Design — Renovations and additions tailored to the existing situation. We handle everything from design and permits to construction, ensuring an inspiring and seamless process.
 
 **Agency - Working Together**
-At AAA, we focus on creating designs that harmonize with the environment and respond to the unique needs of each client. Our approach is rooted in listening and learning from each specific situation, understanding each project’s potential and budget. If you'd like to discuss a project, please feel free to reach out to contact@a-a-a.se
+We focus on creating designs that harmonize with the environment and respond to the unique needs of each client. Our approach is rooted in listening and learning from each specific situation, understanding each project’s potential and budget. If you'd like to discuss a project, please feel free to reach out to contact@a-a-a.se
 
 **Henrik Almquist - MArch Dip. d'État, Arkitekt SAR/MSA**
 Is the founder of AAA and brings experience from Stockholm, Paris, and Tokyo. He has carried out projects in all phases, from in-situ dialogues to early design proposals to seeing through the construction. Henrik also teaches architecture at Lund University, directing the masterstudio *The Renewal of Modernism* on renovations and is actively involved in the ongoing dialogue on urban development and sustainability.
