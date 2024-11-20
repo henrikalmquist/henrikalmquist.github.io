@@ -84,20 +84,20 @@
             A new language for the city of Barcelona marking an important entrance to the historical city and a park. 
             / Architecture competition Fundació Mies Van Der Rohe, UIA, UNESCO and the city of Barcelona. 2024
             `,prio:2},{images:["img/AAA014/AAA014_01_2.jpg"],header:"",text:"",prio:2},{images:["img/AAA014/AAA014_02_1.jpg"],header:"",text:"",prio:2},{images:["img/AAA014/AAA014_03_1.jpg"],header:"",text:"",prio:null},{images:["img/AAA014/AAA014_04_2.jpg"],header:"",text:"",prio:2},{images:["img/AAA014/AAA014_05_3.jpg"],header:"",text:"",prio:3},{images:["img/AAA014/AAA014_06_3.jpg"],header:"",text:"",prio:3},{images:["img/AAA014/AAA014_07_1.jpg"],header:"",text:"",prio:null},{images:["img/AAA014/AAA014_08_1.jpg"],header:"",text:"",prio:null},{images:["img/AAA014/AAA014_09_2.jpg"],header:"",text:"",prio:null},{images:["img/AAA014/AAA014_10_1.jpg"],header:"",text:"",prio:null},{images:["img/AAA014/AAA014_11_3.jpg"],header:"",text:"",prio:3},{images:["img/AAA014/AAA014_12_2.jpg"],header:"",text:"",prio:3},{images:["img/AAA014/AAA014_13_2.jpg"],header:"",text:"",prio:null},{images:["img/AAA014/AAA014_14_3.jpg"],header:"",text:"",prio:3}],spacingInRem:7,about:`
-**Adaptive - Seeing Potential in Every Space**
-Every building, every landscape holds a hidden potential. Our role as architects is to recognize and elevate that potential. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact, transforming how a space feels and functions. 
+**Seeing Potential in Every Space**
+Every building, every landscape holds a hidden potential. Our role as architects is to recognise and elevate that potential. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact, transforming how a space feels and functions. This is what we mean with an Adaptive Architecture. 
 
-**Architecture - Functional Above Function**
+**Functional Above Function**
 Architecture is a balance of different needs: spatial, cultural, ecological, economic, and technical. We aim to bring these elements together into a unified whole. Our approach includes:
 
 *    Regenerative Strategies — How can an existing structure find new life? How can we bring in the voices of the community to shape it? We explore the best ways to repurpose what’s already there.
 
 *    Adaptive Design — Renovations and additions tailored to the existing situation. We handle everything from design and permits to construction, ensuring an inspiring and seamless process.
 
-**Agency - Working Together**
-We focus on creating designs that harmonize with the environment and respond to the unique needs of each client. Our approach is rooted in listening and learning from each specific situation, understanding each project’s potential and budget. If you'd like to discuss a project, please feel free to reach out to contact@a-a-a.se
+**Working Together**
+We focus on creating designs that harmonise with the environment and respond to the unique needs of each client. Our approach is rooted in listening and learning from each specific situation, understanding each project’s potential and budget. If you'd like to discuss a project, please feel free to reach out to contact@a-a-a.se
 
-**Henrik Almquist - MArch Dip. d'État, Arkitekt SAR/MSA**
+**Henrik Almquist, MArch Dip. d'État, Arkitekt SAR/MSA**
 Is the founder of AAA and brings experience from Stockholm, Paris, and Tokyo. He has carried out projects in all phases, from in-situ dialogues to early design proposals to seeing through the construction. Henrik also teaches architecture at Lund University, directing the masterstudio *The Renewal of Modernism* on renovations and is actively involved in the ongoing dialogue on urban development and sustainability.
 
 Collaborations: JH Josephine Harold, MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. Swedish organisation number for AAA AB: 556574-6152.
