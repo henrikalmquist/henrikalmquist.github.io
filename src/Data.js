@@ -225,7 +225,7 @@ Architecture is a balance of different needs: spatial, cultural, ecological, eco
 * Adaptive Design — Renovations and additions tailored to the existing situation. It could be a refurbishment of an office or commercial space, the extension of a private home or adding a new building into a delicate context. We handle everything from design and permits to construction, ensuring an inspiring and seamless process.
 
 **Working Together**
-We focus on creating designs that harmonise with the environment and respond to the unique needs of each client. Our approach is rooted in listening and learning from each specific situation, understanding each project’s potential and budget. If you'd like to discuss a project, please feel free to reach out to contact@a-a-a.se
+We focus on creating designs that harmonise with the environment and respond to the unique needs of each client. Our approach is rooted in listening and learning from each specific situation, understanding each project’s potential and budget. If you would like to know more or discuss a project, please feel free to reach out to contact@a-a-a.se
 
 **Henrik Almquist, MArch Dip. d'État, Arkitekt SAR/MSA**
 Is the founder of AAA and brings experience from Stockholm, Paris, and Tokyo. He has carried out projects in all phases, from in-situ dialogues to early design proposals to seeing through the construction. Henrik also teaches architecture at Lund University, directing the masterstudio *The Renewal of Modernism* on renovations and is actively involved in the ongoing dialogue on urban development and sustainability.
