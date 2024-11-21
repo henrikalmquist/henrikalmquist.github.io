@@ -1,6 +1,6 @@
 export default{
     intro: `
-    AAA is an Agency for an Adaptive Architecture, working with renovations, additions and regenerative strategies. In defining the hidden potential of an existing situation or building, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, weaved together with ecological and cultural considerations, the present qualities are reinterpreted into a new generous and functional space.
+    AAA is an Agency for an Adaptive Architecture, working with renovations, additions and regenerative strategies. In defining the hidden potential of an existing situation or building, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, weaved together with ecological and cultural considerations, the present qualities are reinterpreted into a generous and functional space.
     <p>
     For any inquiries or to discuss your next project: contact@a-a-a.se
     `,
@@ -215,14 +215,14 @@ export default{
     
 `
 **Seeing Potential in Every Space**
-Every building, every landscape holds a hidden potential. Our role as architects is to recognise and elevate that potential. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact, transforming how a space feels and functions. This is what we mean with an Adaptive Architecture. 
+Every building, every landscape holds a hidden potential. Our role as architects is to recognise and elevate these qualities. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact, transforming how a space feels and functions. This is what we mean with an Adaptive Architecture. 
 
 **Functional Above Function**
 Architecture is a balance of different needs: spatial, cultural, ecological, economic, and technical. We aim to bring these elements together into a unified whole. Our approach includes:
 
-*    Regenerative Strategies — How can an existing structure find new life? How can we bring in the voices of the community to shape it? We explore the best ways to repurpose what’s already there.
+* Regenerative Strategies — How can an existing structure find new life? How can we bring in the voices of the community to shape it? We explore the best way to repurpose what's already there, be it an under performing office block, a neighbourhood derelict of public activity or the empty plot in the village. 
 
-*    Adaptive Design — Renovations and additions tailored to the existing situation. We handle everything from design and permits to construction, ensuring an inspiring and seamless process.
+* Adaptive Design — Renovations and additions tailored to the existing situation. It could be a refurbishment of an office or commercial space, the extension of a private home or adding a new building into a delicate context. We handle everything from design and permits to construction, ensuring an inspiring and seamless process.
 
 **Working Together**
 We focus on creating designs that harmonise with the environment and respond to the unique needs of each client. Our approach is rooted in listening and learning from each specific situation, understanding each project’s potential and budget. If you'd like to discuss a project, please feel free to reach out to contact@a-a-a.se
