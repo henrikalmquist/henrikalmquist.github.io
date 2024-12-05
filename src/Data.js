@@ -14,10 +14,12 @@ export default{
             images: ["img/AAA019/AAA019_Generative_Care_01.jpg", "img/AAA019/AAA019_Generative_Care_02.jpg", "img/AAA019/AAA019_Generative_Care_03.jpg", "img/AAA019/AAA019_Generative_Care_04.jpg", "img/AAA019/AAA019_Generative_Care_05.jpg"],
             header: "AAA019 Generative Care, 1e Prize",
             text: `
+            Development strategy för Växjö municipality, competition 2023 – ongoing. 
+            <i>
             Centrally located in Växjö, the brief asked, what happens with the whole built environement if the hospital moves? 
             We proposed a first phase with three interventions that helps the city to understand how the existing structures can be reused, at the same time, mediating what citizens are expecting. 
             The second phase is a hypothesis of what could be learnt from the site and how that would take form. 
-            / Urban planning competition Europan 17, 2023-ongoing. Collaborations MA, LG, OC.
+            </i>
             `,
             prio: 1,
         },
@@ -25,21 +27,24 @@ export default{
             images: ["img/AAA012/AAA012_Casa_Mangabeira_02.jpg", "img/AAA012/AAA012_Casa_Mangabeira_03.jpg", "img/AAA012/AAA012_Casa_Mangabeira_01.jpg", "img/AAA012/AAA012_Casa_Mangabeira_04.jpg"],
             header: "AAA012 Casa Mangabeira",
             text: `
+            Renovation private residence 300 sqm, Belo Horizonte Brazil, design proposal 2023 – ongoing. 
+            <i> 
             Walls are moved, removed and added, finding new uses and enhancing dormant qualities in the building. 
             The 70s villa is opened up between the internal spaces as well as there are new openings excavated towards the outside. 
-            A room for meditation is extended in the back, offering a view of a new garden.
-            / Renovation of private residency 300 sqm. Belo Horizonte Brasil. Design proposal 2022-ongoing.
+            A room for meditation is extended in the back, offering a view of a new garden. 
+            </i>                     
             `,
-            prio: 3,
+            prio: 2,
         },
         {
             images: ["img/AAA004/AAA004_Follo_Museum_01.jpg", "img/AAA004/AAA004_Follo_Museum_02.jpg", "img/AAA004/AAA004_Follo_Museum_03.jpg"],
             header: "AAA004 Along the Gallery",
             text: `
+
             Like the country road passes through a village, the visitors are guided into the courtyard framed by the existing museum and the new extension. 
             Delicately integrating the new building in the forest, augmenting the sites unique character, a natural point of arrival and space for events is created. 
             Organised along a half-tempered gallery, the visitors are invited to participate and encourages a flexible use of the building. 
-            / Workshop extension for traditional crafts 800 sqm. Follo museum Norway. Competition entry 2020. Collaborations MG, JM. 
+                     Workshop extension for traditional crafts 800 sqm. Follo museum Norway. Competition entry 2020. Collaborations MG, JM. 
             `,
             prio: null,
         },
@@ -47,22 +52,26 @@ export default{
             images: ["img/AAA013/AAA013_Brunnsparken_01.jpg", "img/AAA013/AAA013_Brunnsparken_02.jpg", "img/AAA013/AAA013_Brunnsparken_03.jpg", "img/AAA013/AAA013_Brunnsparken_04.jpg", "img/AAA013/AAA013_Brunnsparken_05.jpg"],
             header: "AAA013 Brunnsparken ",
             text: `
+            Public kiosk 18 sqm, Gothenburg, competition 2022.
+            <i>
             The small kiosk reacts differently to all of its sides, activating the public space by opening the shutters. 
             I.e., offering a pause for the passer-by, protection for a short standing coffee, calmness for a seated meal or a quick take-a-away. 
             The simple and economical wooden structure is built off site and lifted in place. 
             The versatile design allows the building to adapted to many different uses, prolonging its longevity. 
-            / Public kiosk 18 sqm. Gothenburg. Competition entry 2022. Collaborations MA, MG.
+            </i>
             `,
-            prio: 2,
+            prio: 3,
         },
         {
             images: ["img/AAA017/AAA017_Charlottenborg_01.jpg", "img/AAA017/AAA017_Charlottenborg_02.jpg", "img/AAA017/AAA017_Charlottenborg_03.jpg", "img/AAA017/AAA017_Charlottenborg_04.jpg"],
             header: "AAA017 Charlottenborg ",
             text: `
+            Meeting pavilion 15 sqm, Art Fair Charlottenborg Copenhagen, competition 2023. 
+            <i>
             Entering the courtyard all visitors are struck by the vivid activity in the space, a constantly changing landscape full of impressions. 
             Built from reusable materials, the structure creates an open framework that gives space to what is already there to grow. 
             The sound from the courtyard is recorded, delayed one day and then replayed in the interior acoustically separated room, offering a sort of collective memory. 
-            / Meeting pavilion 15 sqm. Art fair Kunsthal Charlottenborg Copenhagen. Competition entry 2023. Collaboration MA.
+            </i>
             `,
             prio: 2,
         },
@@ -70,18 +79,14 @@ export default{
             images: ["img/AAA007/AAA007_Sofielund_01.jpg", "img/AAA007/AAA007_Sofielund_02.jpg"],
             header: "AAA007 Sofielund ",
             text: `
+            Development strategy for Sofielund Industrial Area, Malmö Sweden, MArch at ENSA Paris Malaquais 2020. 
+            <i>
             The task lies in interacting with what already exists and to propose a solution of continuity. 
             Acting on all the scales of the city, this project proposes a design approach of an active form. 
             By defining a protocol, a new balance is expressed between the specificity of the local spaces/practices and the market driven urbanisation, while also giving form to an interstitial space that assures a temporality of use. 
-            / Urban strategy for Sofielund Industrial Area, Malmö Sweden. MArch at ENSA Paris Malaquais.            
+            </i>            
             `,
             prio: 3,
-        },
-        {
-            images: ["img/AAA013/AAA012_Casa_Mangabeira_01.jpg", "img/AAA012/AAA012_Casa_Mangabeira_02.jpg", "img/AAA012/AAA012_Casa_Mangabeira_03.jpg", "img/AAA012/AAA012_Casa_Mangabeira_04.jpg"],
-            header: "AAA018 Trondheime ",
-            text: `The task lies in interacting with what already exists and to propose a solution of continuity by integrating social values into the economic driven urban regeneration. By interlocking the two perspectives, a protocol driven design proposes new urban forms.`,
-            prio: null,
         },
         {
             images: ["img/AAA002/AAA002_Slide_All_Open_01.jpg", "img/AAA002/AAA002_Slide_All_Open_02.jpg", "img/AAA002/AAA002_Slide_All_Open_03.jpg"],
@@ -109,9 +114,12 @@ export default{
             images: ["img/AAA020/AAA020_Vacant_Potential_01.jpg", "img/AAA020/AAA020_Vacant_Potential_02.jpg", "img/AAA020/AAA020_Vacant_Potential_03.jpg", "img/AAA020/AAA020_Vacant_Potential_04.jpg"],
             header: "AAA020 Vacant Potential",
             text: `
+            Grant funded research on renovations, 2023 - ongoing.
+            <i>
             The way we work and live in the city is changing. Some buildings are having a hard time to adapt, especially offices from the 80s. 
             What are their potential? How can we find new uses with simple interventions? 
-            Combining sustainability and economy, this research explores how current trends of renovation and demolition can evolve. 2023 - ongoing.
+            Combining sustainability and economy, this research explores how current trends of renovation and demolition can evolve.
+            </i>
             `,
             prio: 2,
         },
@@ -119,9 +127,25 @@ export default{
             images: ["img/AAA024/AAA024_Extending_into_the_Sun_05w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_02w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_01w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_03w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_04w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_06w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_07w.jpg"],
             header: "AAA024 Extending into the Sun",
             text: `
+            Façade renovation for the City of Barcelona 1'100 sqm, competition 2024 organised by Fundació Mies Van Der Rohe, UIA, UNESCO
+            <i>
             The renovated façade is animated by its new inhabitants; a rich biodiversity of deep soil, people opening up their apartments outside and natural integration of solar power production. 
             A new language for the city of Barcelona marking an important entrance to the historical city and a park. 
-            / Architecture competition Fundació Mies Van Der Rohe, UIA, UNESCO and the city of Barcelona. 2024
+            </i>
+            `,
+            prio: 2,
+        },
+        {
+            images: ["img/AAA018/AAA018_Trondheim_02.jpg", "img/AAA018/AAA018_Trondheim_03.jpg", "img/AAA018/AAA018_Trondheim_04.jpg"],
+            header: "AAA018 In the Heart of the City",
+            text: `
+            Church in Trondheim 1’400 sqm, competition 2023. 
+            <i>
+            The new church, surrounded by greenery, is a central part of Trondheim’s east. 
+            A large square in front creates space for activities and highlights the building. 
+            Its design combines a timeless main space with adaptable rooms. 
+            A quiet courtyard and shifting daylight create calm, while green roofs, solar panels, and reused materials. 
+            </i>
             `,
             prio: 2,
         },
