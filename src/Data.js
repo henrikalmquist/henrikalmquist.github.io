@@ -14,7 +14,7 @@ export default{
             images: ["img/AAA019/AAA019_Generative_Care_01.jpg", "img/AAA019/AAA019_Generative_Care_02.jpg", "img/AAA019/AAA019_Generative_Care_03.jpg", "img/AAA019/AAA019_Generative_Care_04.jpg", "img/AAA019/AAA019_Generative_Care_05.jpg"],
             header: "AAA019 Generative Care, 1e Prize",
             text: `
-            Development strategy för Växjö municipality, competition 2023 – ongoing. 
+            Development strategy för Växjö municipality, competition 2023–ongoing /MA OC LG. 
             <i>
             Centrally located in Växjö, the brief asked, what happens with the whole built environement if the hospital moves? 
             We proposed a first phase with three interventions that helps the city to understand how the existing structures can be reused, at the same time, mediating what citizens are expecting. 
@@ -24,10 +24,10 @@ export default{
             prio: 1,
         },
         {
-            images: ["img/AAA012/AAA012_Casa_Mangabeira_02.jpg", "img/AAA012/AAA012_Casa_Mangabeira_03.jpg", "img/AAA012/AAA012_Casa_Mangabeira_01.jpg", "img/AAA012/AAA012_Casa_Mangabeira_04.jpg"],
+            images: ["img/AAA012/AAA012_Casa_Mangabeira_00.jpg", "img/AAA012/AAA012_Casa_Mangabeira_01.jpg", "img/AAA012/AAA012_Casa_Mangabeira_02.jpg", "img/AAA012/AAA012_Casa_Mangabeira_03.jpg", "img/AAA012/AAA012_Casa_Mangabeira_04.jpg"],
             header: "AAA012 Casa Mangabeira",
             text: `
-            Renovation private residence 300 sqm, Belo Horizonte Brazil, design proposal 2023 – ongoing. 
+            Renovation private residence 300 sqm, Belo Horizonte Brazil, design proposal 2023–ongoing. 
             <i> 
             Walls are moved, removed and added, finding new uses and enhancing dormant qualities in the building. 
             The 70s villa is opened up between the internal spaces as well as there are new openings excavated towards the outside. 
@@ -52,7 +52,7 @@ export default{
             images: ["img/AAA013/AAA013_Brunnsparken_01.jpg", "img/AAA013/AAA013_Brunnsparken_02.jpg", "img/AAA013/AAA013_Brunnsparken_03.jpg", "img/AAA013/AAA013_Brunnsparken_04.jpg", "img/AAA013/AAA013_Brunnsparken_05.jpg"],
             header: "AAA013 Brunnsparken ",
             text: `
-            Public kiosk 18 sqm, Gothenburg, competition 2022.
+            Public kiosk 18 sqm, Gothenburg, competition 2022 /MG MA.
             <i>
             The small kiosk reacts differently to all of its sides, activating the public space by opening the shutters. 
             I.e., offering a pause for the passer-by, protection for a short standing coffee, calmness for a seated meal or a quick take-a-away. 
@@ -66,7 +66,7 @@ export default{
             images: ["img/AAA017/AAA017_Charlottenborg_01.jpg", "img/AAA017/AAA017_Charlottenborg_02.jpg", "img/AAA017/AAA017_Charlottenborg_03.jpg", "img/AAA017/AAA017_Charlottenborg_04.jpg"],
             header: "AAA017 Charlottenborg ",
             text: `
-            Meeting pavilion 15 sqm, Art Fair Charlottenborg Copenhagen, competition 2023. 
+            Meeting pavilion 15 sqm, Art Fair Charlottenborg Copenhagen, competition 2023 /MA. 
             <i>
             Entering the courtyard all visitors are struck by the vivid activity in the space, a constantly changing landscape full of impressions. 
             Built from reusable materials, the structure creates an open framework that gives space to what is already there to grow. 
@@ -114,7 +114,7 @@ export default{
             images: ["img/AAA020/AAA020_Vacant_Potential_01.jpg", "img/AAA020/AAA020_Vacant_Potential_02.jpg", "img/AAA020/AAA020_Vacant_Potential_03.jpg", "img/AAA020/AAA020_Vacant_Potential_04.jpg"],
             header: "AAA020 Vacant Potential",
             text: `
-            Grant funded research on renovations, 2023 - ongoing.
+            Grant funded research on renovations, 2023-ongoing.
             <i>
             The way we work and live in the city is changing. Some buildings are having a hard time to adapt, especially offices from the 80s. 
             What are their potential? How can we find new uses with simple interventions? 
@@ -127,7 +127,7 @@ export default{
             images: ["img/AAA024/AAA024_Extending_into_the_Sun_05w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_02w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_01w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_03w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_04w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_06w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_07w.jpg"],
             header: "AAA024 Extending into the Sun",
             text: `
-            Façade renovation for the City of Barcelona 1'100 sqm, competition 2024 organised by Fundació Mies Van Der Rohe, UIA, UNESCO
+            Façade renovation for the City of Barcelona 1'100 sqm, competition 2024 organised by Fundació Mies Van Der Rohe, UIA, UNESCO. 
             <i>
             The renovated façade is animated by its new inhabitants; a rich biodiversity of deep soil, people opening up their apartments outside and natural integration of solar power production. 
             A new language for the city of Barcelona marking an important entrance to the historical city and a park. 
@@ -139,12 +139,12 @@ export default{
             images: ["img/AAA018/AAA018_Trondheim_02.jpg", "img/AAA018/AAA018_Trondheim_03.jpg", "img/AAA018/AAA018_Trondheim_04.jpg"],
             header: "AAA018 In the Heart of the City",
             text: `
-            Church in Trondheim 1’400 sqm, competition 2023. 
+            Church in Trondheim 1’400 sqm, competition 2023 /MG.
             <i>
             The new church, surrounded by greenery, is a central part of Trondheim’s east. 
             A large square in front creates space for activities and highlights the building. 
             Its design combines a timeless main space with adaptable rooms. 
-            A quiet courtyard and shifting daylight create calm, while green roofs, solar panels, and reused materials. 
+            A green landscape wall creates a calm courtyard while reused materials, optimised space and design integrated solar panels ensures the building's longevity.  
             </i>
             `,
             prio: 2,
