@@ -1,11 +1,11 @@
 <template>
     <div class="flex flex-col h-screen justify-between font-times sm:mx-4 mx-2 cursor-cross">
         <div class="container mb-16 md:mb-auto mx-auto flex flex-col" :style="containerWidthCalculated">
-            <h1 class="sticky top-0 text-5xl my-5 md:my-5 font-stratford flex" title="Agency for an Adaptive Architecture">
+            <h1 class="sticky top-0 text-5xl my-5 md:my-5 font-stratford flex" title="Agency for Adaptive Architecture">
                 <!-- <a class="cursor-pointer" @click="reShuffleContent">AAA</a> -->
                 <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
                 <a class="cursor-cross underline-entire" style="font-size: 100%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
-                <a class="cursor-cross underline-entire font-times text-base xs:self-end hidden xs:inline" style="font-size: 35%;"  @click="introClicked">&emsp; Agency for an Adaptive Architecture </a>
+                <a class="cursor-cross underline-entire font-times text-base xs:self-end hidden xs:inline" style="font-size: 35%;"  @click="introClicked">&emsp; Agency for Adaptive Architecture </a>
                 <!-- <span class="text-base xs:self-end hidden xs:inline font-times">contact@a-a-a.se</span> -->
                 <!-- <span class="text-base xs:self-end hidden xs:inline">contact@a-a-a.se</span> -->
             </h1>
