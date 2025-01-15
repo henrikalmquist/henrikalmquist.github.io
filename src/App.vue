@@ -15,7 +15,8 @@
         </div>
         <footer class="container mb-16 md:mb-auto mx-auto flex justify-start" :style="containerWidthCalculated">
             <span class="me-4">AAA</span>
-            <span>contact@a-a-a.se</span>
+            <span class="me-4">contact@a-a-a.se</span>
+            <span class="me-4"><a href="https://www.instagram.com/almquisthenrik/"> @almquisthenrik </a></span>
         </footer>
     </div>    
 </template>
