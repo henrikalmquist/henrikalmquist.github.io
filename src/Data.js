@@ -136,7 +136,7 @@ export default{
             prio: 2,
         },
         {
-            images: ["img/AAA018/AAA018_Trondheim_02.jpg", "img/AAA018/AAA018_Trondheim_03.jpg", "img/AAA018/AAA018_Trondheim_04.jpg"],
+            images: ["img/AAA018/AAA018_Trondheim_02.jpg", "img/AAA018/AAA018_Trondheim_01.jpg", "img/AAA018/AAA018_Trondheim_04.jpg", "img/AAA018/AAA018_Trondheim_03.jpg"],
             header: "AAA018 In the Heart of the City",
             text: `
             Church in Trondheim 1’400 sqm, competition 2023 /MG.
@@ -244,7 +244,7 @@ Every building, every landscape holds a hidden potential. Our role as architects
 **Regenerative Strategies**
 How can an existing structure find new life? How can we bring in the voices of the community to shape it? We explore the best way to repurpose what's already there, be it an under performing office block, a neighbourhood derelict of public activity or the empty plot in the village. 
 
-**Adaptive Design**
+**Adaptive Architecture**
 Renovations and additions tailored to the existing situation. It could be a refurbishment of an office or commercial space, the extension of a private home or adding a new building into a delicate context. We handle everything from design and permits to construction, ensuring an inspiring and seamless process.
 
 **Henrik Almquist, MArch Dip. d'État, Arkitekt SAR/MSA**
