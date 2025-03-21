@@ -236,7 +236,7 @@ export default{
     ],
     spacingInRem: 7,
     about: 
-    
+  
 `
 **Seeing Potential in Every Space**
 Every building, every landscape holds a hidden potential. Our role as architects is to recognise and elevate these qualities. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact, transforming how a space feels and functions. Our approach is rooted in listening and learning, to create designs that harmonise with the environment and respond to the unique needs of each client.
@@ -248,13 +248,16 @@ How can an existing structure find new life? How can we bring in the voices of t
 Renovations and additions tailored to the existing situation. It could be a refurbishment of an office or commercial space, the extension of a private home or adding a new building into a delicate context. We handle everything from design and permits to construction, ensuring an inspiring and seamless process.
 
 **Henrik Almquist, MArch Dip. d'État, Arkitekt SAR/MSA**
-Brings experience from Stockholm, Paris, and Tokyo. He has carried out projects from in-situ dialogues to early design proposals to seeing through the construction. Henrik teaches  at Lund University, directing the masterstudio *The Renewal of Modernism* on renovations and is actively involved in the ongoing dialogue on urban development and sustainability. See more on instagram [@almquisthenrik](https://www.instagram.com/almquisthenrik/).
-
-Collaborations: JH Josephine Harold, MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. Swedish organisation number for AAA AB: 556574-6152.
+Brings experience from Stockholm, Paris, and Tokyo. He has carried out projects from in-situ dialogues to early design proposals to seeing through the construction. Henrik teaches  at Lund University, directing the masterstudio [Act of Altering](https://www.instagram.com/altering_master_studios/) on renovations and is actively involved in the ongoing dialogue on urban development and sustainability. [See more](https://www.instagram.com/almquisthenrik/).
 `
+/* 
+Collaborations: JH Josephine Harold, MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. Swedish organisation number for AAA AB: 556574-6152.
+ 
+xxxxx
+
 ,
 
-/* `AAA is working with renovations, additions and regenerative processes. In defining the hidden potential of an existing situation or building, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a new generous and functional space.
+ `AAA is working with renovations, additions and regenerative processes. In defining the hidden potential of an existing situation or building, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, the present qualities of a building or site are reinterpreted into a new generous and functional space.
 
 For any inquiries or to discuss your next project: contact@a-a-a.se 
 ` */

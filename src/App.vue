@@ -16,7 +16,7 @@
         <footer class="container mb-16 md:mb-auto mx-auto flex justify-start" :style="containerWidthCalculated">
             <span class="me-4">AAA</span>
             <span class="me-4">contact@a-a-a.se</span>
-            <span class="me-4"><a href="https://www.instagram.com/almquisthenrik/"> @almquisthenrik </a></span>
+            <span class="me-4">Instagram <a href="https://www.instagram.com/almquisthenrik/"> @almquisthenrik </a></span>
         </footer>
     </div>    
 </template>
@@ -105,11 +105,40 @@ Swedish organisation number: 556574-6152 `,
   `,
                     prio: 3,
                     
+                }, 
+                {
+                    images: ["img/AAA000/AAA000_02.jpg"],
+                    header: `Seeing Potential in Every Space`,
+                    text: `Every building, every landscape holds a hidden potential. Our role as architects is to recognise and elevate these qualities. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact, transforming how a space feels and functions. Our approach is rooted in listening and learning, to create designs that harmonise with the environment and respond to the unique needs of each client.`,
+                    prio: 1,
+                    
+                }, 
+                {
+                    images: ["img/AAA000/AAA000_Postbox_01.jpg"],
+                    header: `Henrik Almquist, MArch Dip. d'État, Arkitekt SAR/MSA`,
+                    text: `Brings experience from Stockholm, Paris, and Tokyo. He has carried out projects from in-situ dialogues to early design proposals to seeing through the construction. Henrik teaches  at Lund University, directing the masterstudio *The Renewal of Modernism* on renovations and is actively involved in the ongoing dialogue on urban development and sustainability. See more on instagram [@almquisthenrik](https://www.instagram.com/almquisthenrik/).`,
+                    prio: 4,
+                    
                 }, */
+                {
+                    images: ["img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-01.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-02.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-03.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-04.jpg"],
+                    header: `Regenerative Strategies`,
+                    text: ``,
+                    prio: 3,
+                    
+                }, 
+                {
+                    images: ["img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-05.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-06.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-07.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-08.jpg"],
+                    header: `Adaptive Architecture`,
+                    text: ``,
+                    prio: 4,
+                    
+                },
+
                 {
                     images: ["img/AAA019/AAA019_Generative_Care_06.gif"],
                     header: ``,
-                    text: ``,
+                    text: `Collaborations: Josephine Harold, Morgane Martin-Alonzo, Léa Ganteil, Oscar Aparicio Chavez, Markus Gustafsson and Joel Matsson.`,
                     prio: 2,
                     
                 }, 
