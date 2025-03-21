@@ -247,8 +247,8 @@ How can an existing structure find new life? How can we bring in the voices of t
 **Adaptive Architecture**
 Renovations and additions tailored to the existing situation. It could be a refurbishment of an office or commercial space, the extension of a private home or adding a new building into a delicate context. Everything from design and permits to construction, ensuring an inspiring and seamless process.
 
-**Henrik Almquist, MArch Dip. d'État, Arkitekt SAR/MSA**
-Brings experience from Stockholm, Paris, and Tokyo. He has carried out projects from in-situ dialogues to early design proposals to seeing through the construction. Henrik teaches  at Lund University, directing the masterstudio [Act of Altering](https://www.instagram.com/altering_master_studios/) on renovations and is actively involved in the ongoing dialogue on urban development and sustainability. [See more](https://www.instagram.com/almquisthenrik/).
+**Henrik Almquist**
+MArch Dip. d'État, Arkitekt SAR/MSA. Brings experience from Stockholm, Paris, and Tokyo. He has carried out projects from in-situ dialogues to early design proposals to seeing through the construction. Henrik teaches  at Lund University, directing the masterstudio [Act of Altering](https://www.instagram.com/altering_master_studios/) on renovations and is actively involved in the ongoing dialogue on urban development and sustainability. [See more](https://www.instagram.com/almquisthenrik/).
 `
 /* 
 Collaborations: JH Josephine Harold, MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. Swedish organisation number for AAA AB: 556574-6152.
