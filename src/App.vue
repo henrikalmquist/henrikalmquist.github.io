@@ -121,14 +121,14 @@ Swedish organisation number: 556574-6152 `,
                     
                 }, */
                 {
-                    images: ["img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-01.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-02.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-03.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-04.jpg"],
+                    images: ["img/AAA025/AAA Adaptive Architecture and Regenerative Strategies Cover-01.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-02.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-03.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-04.jpg"],
                     header: `Regenerative Strategies`,
                     text: ``,
                     prio: 3,
                     
                 }, 
                 {
-                    images: ["img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-05.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-06.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-07.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-08.jpg"],
+                    images: ["img/AAA025/AAA Adaptive Architecture and Regenerative Strategies Cover-02.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-06.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-07.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-08.jpg"],
                     header: `Adaptive Architecture`,
                     text: ``,
                     prio: 4,
@@ -137,8 +137,8 @@ Swedish organisation number: 556574-6152 `,
 
                 {
                     images: ["img/AAA019/AAA019_Generative_Care_06.gif"],
-                    header: ``,
-                    text: `Collaborations: Josephine Harold, Morgane Martin-Alonzo, Léa Ganteil, Oscar Aparicio Chavez, Markus Gustafsson and Joel Matsson.`,
+                    header: `Collaborations: Josephine Harold (JH), Morgane Martin-Alonzo (MA), Léa Ganteil (LG), Oscar Aparicio Chavez (OA), Markus Gustafsson (MG) and Joel Matsson (JM).`,
+                    text: ``,
                     prio: 2,
                     
                 }, 

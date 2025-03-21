@@ -245,7 +245,7 @@ Every building, every landscape holds a hidden potential. Our role as architects
 How can an existing structure find new life? How can we bring in the voices of the community to shape it? We explore the best way to repurpose what's already there, be it an under performing office block, a neighbourhood derelict of public activity or the empty plot in the village. 
 
 **Adaptive Architecture**
-Renovations and additions tailored to the existing situation. It could be a refurbishment of an office or commercial space, the extension of a private home or adding a new building into a delicate context. We handle everything from design and permits to construction, ensuring an inspiring and seamless process.
+Renovations and additions tailored to the existing situation. It could be a refurbishment of an office or commercial space, the extension of a private home or adding a new building into a delicate context. Everything from design and permits to construction, ensuring an inspiring and seamless process.
 
 **Henrik Almquist, MArch Dip. d'État, Arkitekt SAR/MSA**
 Brings experience from Stockholm, Paris, and Tokyo. He has carried out projects from in-situ dialogues to early design proposals to seeing through the construction. Henrik teaches  at Lund University, directing the masterstudio [Act of Altering](https://www.instagram.com/altering_master_studios/) on renovations and is actively involved in the ongoing dialogue on urban development and sustainability. [See more](https://www.instagram.com/almquisthenrik/).
