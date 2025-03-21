@@ -5,7 +5,7 @@
                 <!-- <a class="cursor-pointer" @click="reShuffleContent">AAA</a> -->
                 <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
                 <a class="cursor-cross underline-entire" style="font-size: 100%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
-                <a class="cursor-cross underline-entire font-times text-base xs:self-end hidden xs:inline" style="font-size: 35%;"  @click="introClicked">&emsp; Agency for Adaptive Architecture </a>
+                <a class="cursor-cross underline-entire font-times text-base xs:self-end hidden xs:inline" style="font-size: 34%;"  @click="introClicked">&#8202; Agency for Adaptive Architecture </a>
                 <!-- <span class="text-base xs:self-end hidden xs:inline font-times">contact@a-a-a.se</span> -->
                 <!-- <span class="text-base xs:self-end hidden xs:inline">contact@a-a-a.se</span> -->
             </h1>
@@ -14,9 +14,9 @@
             <!-- <about-text v-show="!imagesVisibleComputed" :description="aboutText" :rem-unit="remUnit" class="h-full md:h-2/3" /> -->
         </div>
         <footer class="container mb-16 md:mb-auto mx-auto flex justify-start" :style="containerWidthCalculated">
-            <span class="me-4">AAA</span>
-            <span class="me-4">contact@a-a-a.se</span>
-            <span class="me-4">Instagram <a href="https://www.instagram.com/almquisthenrik/"> @almquisthenrik </a></span>
+            <span class="me-2">AAA</span>
+            <span class="me-2">contact@a-a-a.se</span>
+            <span class="me-2"><a href="https://www.instagram.com/almquisthenrik/">@almquisthenrik </a></span>
         </footer>
     </div>    
 </template>
