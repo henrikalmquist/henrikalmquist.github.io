@@ -137,7 +137,7 @@ Swedish organisation number: 556574-6152 `,
 
                 {
                     images: ["img/AAA019/AAA019_Generative_Care_06.gif"],
-                    header: `Collaborations: Josephine Harold (JH), Morgane Martin-Alonzo (MA), Léa Ganteil (LG), Oscar Aparicio Chavez (OA), Markus Gustafsson (MG) and Joel Matsson (JM).`,
+                    header: `Collaborations: Josephine Harold (architect), Morgane M. Alonzo (architect and urbanist), Léa Ganteil (architect Ex-Materia), Oscar A. Chavez (architect), Markus Gustafsson (architect engineer) and Joel Matsson (architect).`,
                     text: ``,
                     prio: 2,
                     
