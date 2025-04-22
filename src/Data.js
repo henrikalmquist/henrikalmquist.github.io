@@ -1,6 +1,6 @@
 export default{
     intro: `
-    AAA is an emerging Agency for Adaptive Architecture, working with renovations, additions and regenerative strategies. In defining the hidden potential of an existing situation or building, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, weaved together with ecological and cultural considerations, the present qualities are reinterpreted into a generous and functional space. <u>Read more here.</u>
+    AAA is an emerging Agency for Adaptive Architecture, working with renovations, additions and regenerative strategies. In identifying the hidden potential of existing situations, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, weaved with ecological and cultural considerations, the present qualities are reinterpreted into a generous and functional space. <u>Read more here.</u>
     <p>
     For any inquiries or to discuss your next project: contact@a-a-a.se
     `,
@@ -11,7 +11,7 @@ export default{
     
     features: [
         {
-            images: ["img/AAA019/AAA019_Generative_Care_01.jpg", "img/AAA019/AAA019_Generative_Care_02.jpg", "img/AAA019/AAA019_Generative_Care_03.jpg", "img/AAA019/AAA019_Generative_Care_04.jpg", "img/AAA019/AAA019_Generative_Care_05.jpg"],
+            images: ["img/AAA019/AAA019_Generative_Care_01.jpg", "img/AAA019/AAA019_Generative_Care_02.jpg", "img/AAA019/AAA019_Generative_Care_03.jpg", "img/AAA019/AAA019_Generative_Care_05.jpg", "img/AAA019/AAA019_Generative_Care_04.jpg"],
             header: "AAA019 Generative Care, 1e Prize",
             text: `
             Development strategy för Växjö municipality, competition 2023–ongoing /MA OC LG. 
@@ -249,6 +249,7 @@ Renovations and additions tailored to the existing situation. It could be a refu
 
 **Henrik Almquist**
 MArch Dip. d'État, Arkitekt SAR/MSA. Brings experience from Stockholm, Paris, and Tokyo. He has carried out projects from in-situ dialogues to early design proposals to seeing through the construction. Henrik teaches  at Lund University, directing the masterstudio [Act of Altering](https://www.instagram.com/altering_master_studios/) and is actively involved in the ongoing dialogue on urban development and sustainability. [See more](https://www.instagram.com/almquisthenrik/).
+&#8202;
 `
 /* 
 Collaborations: JH Josephine Harold, MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. Swedish organisation number for AAA AB: 556574-6152.
