@@ -124,22 +124,23 @@ Swedish organisation number: 556574-6152 `,
                     images: ["img/AAA025/AAA Adaptive Architecture and Regenerative Strategies Cover-01.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-02.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-03.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-04.jpg"],
                     header: `Regenerative Strategies`,
                     text: ``,
-                    prio: 3,
+                    prio: 4,
                     
                 }, 
                 {
                     images: ["img/AAA025/AAA Adaptive Architecture and Regenerative Strategies Cover-02.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-06.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-07.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-08.jpg"],
                     header: `Adaptive Architecture`,
                     text: ``,
-                    prio: 4,
+                    prio: 2,
                     
                 },
 
                 {
                     images: ["img/AAA019/AAA019_Generative_Care_06.gif"],
-                    header: `Collaborations: Josephine Harold (architect Berlin), Morgane M. Alonzo (architect and urbanist Hamburg), Léa Ganteil (architect material reuse Lausanne), Oscar A. Chavez (architect Paris), Markus Gustafsson (architect engineer Gothenburg) and Joel Matsson (architect Stokholm).`,
+                    header: ``,
+                    // header: `Collaborations: Josephine Harold (architect Berlin), Morgane M. Alonzo (architect and urbanist Hamburg), Léa Ganteil (architect material reuse Lausanne), Oscar A. Chavez (architect Paris), Markus Gustafsson (architect engineer Gothenburg) and Joel Matsson (architect Stokholm).`,
                     text: ``,
-                    prio: 2,
+                    prio: 3,
                     
                 }, 
 /*                 {
