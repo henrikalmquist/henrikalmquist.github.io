@@ -13,6 +13,7 @@
         "@heroicons/vue": "^2.0.16",
         "markdown-it": "^13.0.1",
         "vue": "^3.2.47",
+        "vue-router": "^4.5.1",
         "vue3-carousel": "^0.2.14"
     },
     "devDependencies": {
