@@ -1,0 +1,35 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+.prose {
+    --tw-prose-bullets: 2 6 23;
+}
+
+@font-face {
+/*     font-family: "ONE";
+    src: url("../src/assets/fonts/Stratford-Medium.otf");
+    font-weight: normal; */
+
+    font-family: "STRATFORD";
+    /* src: url("../src/assets/fonts/Stratford-Medium.otf"); */
+    src: url("../src/assets/fonts/Helvetica-Bold.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "TIMES";
+    /* src: url("../src/assets/fonts/Stratford-W01-Roman-Italic.otf"); */
+    src: url("../src/assets/fonts/Helvetica-Oblique.otf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TIMES";
+    /* src: url("../src/assets/fonts/times.ttf"); */
+    src: url("../src/assets/fonts/Helvetica.otf");
+    font-weight: normal;
+}

@@ -1,229 +1,161 @@
 <template>
-    <div class="flex flex-col h-screen justify-between font-times sm:mx-4 mx-2 cursor-cross">
-        <div class="container mb-16 md:mb-auto mx-auto flex flex-col" :style="containerWidthCalculated">
-            <h1 class="sticky top-0 text-5xl my-5 md:my-5 font-stratford flex" title="Agency for Adaptive Architecture">
-                <!-- <a class="cursor-pointer" @click="reShuffleContent">AAA</a> -->
-                <!-- <a class="ml-3 cursor-pointer underline-entire" style="font-size: 80%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a> -->
-                <a class="cursor-cross underline-entire" style="font-size: 100%;" v-text="navigateToTherPageTextComputed" @click="introClicked"></a>
-                <a class="cursor-cross underline-entire font-times text-base xs:self-end xs:inline" style="font-size: 34%;"  @click="introClicked">&#8202; Agency for Adaptive Architecture </a>
-                <!-- <span class="text-base xs:self-end hidden xs:inline font-times">contact@a-a-a.se</span> -->
-                <!-- <span class="text-base xs:self-end hidden xs:inline">contact@a-a-a.se</span> -->
-            </h1>
-            <feature-columns v-show="imagesVisibleComputed" :features="featuresComputed" :intro-text="introText" :rem-unit="remUnit" @featureClicked="featureClicked" class="h-full md:h-2/3" />
-            <feature-columns v-show="!imagesVisibleComputed" :features="aboutFeaturesComputed" :rem-unit="remUnit" @featureClicked="featureClicked" :use-markdown="true" :center-images="false" class="h-full md:h-2/3" />
-            <!-- <about-text v-show="!imagesVisibleComputed" :description="aboutText" :rem-unit="remUnit" class="h-full md:h-2/3" /> -->
+  <div class="layout-grid">
+    <!-- sticky header -->
+    <header class="site-header" :class="{ 'is-white': $route.path === '/' }">
+
+      <div class="container top-pad page-center">
+        <div class="brand-row">
+          <span class="brand-aaa">
+            <router-link to="/adaptive" class="inherit-link">AAA</router-link>
+          </span>
+         <span class="brand-sub">
+  <router-link to="/agency" class="header-link" :class="{ 'is-active': $route.path === '/agency' }">Agency</router-link>
+  <span>&nbsp;for&nbsp;</span>
+  <router-link to="/adaptive" class="header-link" :class="{ 'is-active': $route.path === '/adaptive' }">Adaptive</router-link>
+  <span>&nbsp;</span>
+  <router-link to="/architecture" class="header-link" :class="{ 'is-active': $route.path === '/architecture' }">Architecture</router-link>
+  <span>&nbsp;&nbsp;</span>
+  <!-- Language toggle -->
+  <span class="lang-toggle">
+    <a href="#" class="header-link" :class="{ 'is-active': lang === 'sv' }" @click.prevent="setLang('sv')">sv</a>&hairsp;/<a href="#" class="header-link" :class="{ 'is-active': lang === 'en' }" @click.prevent="setLang('en')">en</a>
+  </span>
+</span>
+
         </div>
-        <footer class="container mb-16 md:mb-auto mx-auto flex justify-start" :style="containerWidthCalculated">
-            <span class="me-2">AAA</span>
-            <span class="me-2">contact@a-a-a.se</span>
-            <span class="me-2"><a href="https://www.instagram.com/almquisthenrik/">@almquisthenrik </a></span>
-        </footer>
-    </div>    
+      </div>
+    </header>
+
+    <!-- centered content area with spacing below header -->
+    <main class="container main-pad page-center">
+      <router-view />
+    </main>
+
+    <footer class="container bottom-pad page-center">
+      <div>AAA&nbsp;&nbsp; contact@a-a-a.se &nbsp; @almquisthenrik</div>
+    </footer>
+  </div>
 </template>
 
+
 <script>
-// import Header from './components/Header.vue'
-// import ContactInformation from './components/ContactInformation.vue'
-import FeatureColumns from "./components/FeatureColumns.vue";
-import AboutText from "./components/AboutText.vue";
-import Data from "./Data.js"
+import { ref, provide } from 'vue';
 
 export default {
-    data() {
-        return {
-            imagesVisible: true,
-            features: Data.features,
-            introText: Data.intro,
-            remUnit: Data.spacingInRem,
-            aboutText: Data.about,
-            cvLcoation: "",
-            mail: "contact@a-a-a.se",
-            instagram: "https://www.instagram.com/almquisthenrik/",
-        };
-    },
-    computed: {
-        imagesVisibleComputed() {
-            return this.imagesVisible;
-        },
-        navigateToTherPageTextComputed() {
-            return this.imagesVisible ? "AAA" : "AAA";
-        },
-        containerWidthCalculated() {
-            return `max-width: ${this.remUnit * (5 * 2 + 1)}rem;`;
-        },
-        featuresComputed() {
-            return this.features;
-        },
-        aboutFeaturesComputed(){
-            return [
-                {
-                    images: [],
-                    text: this.aboutText,
-                    prio: 1,
-                    type: "intro",
-                },
-/*                  {
-                    images: ["img/AAA000/AAA000_02.jpg"],
-                    header: ``,
-                    text: ``,
-                    prio: 4,
-                                    }, */
-/*                  {
-                    images: ["img/AAA000/AAA000_Postbox_01.jpg"],
-                    header: ``,
-                    text: ``,
-                    prio: 3,
-                    
-                },   */
-/*                 {
-                    images: ["img/AAA014/AAA014_10_1.jpg"],
-                    header: ``,
-                    text: ``,
-                    prio: 3,
-                    
-                },  */
-/*                 {
-                    images: [],
-                    header: ``,
-                    text: `Collaborations
-Josephine Harold, Arkitekt SAR/MSA Stockholm
-Morgane Martin-Alonzo, rkitekten urbanist Hamburg
-Léa Ganteil, Architecte HMNOP Paris/Laussane
-Oscar Aparicio Chavez, Architecte HMNOP Paris
-Markus Gustafsson, Arkitekt SAR/MSA Gothenburg
-Joel Matsson, Arkitekt SAR/MSA Stockholm
-
-Almquist Architecture Agency AB
-Swedish organisation number: 556574-6152 `,
-                    prio: 5,
-                    
-                },  */
-/*                 {
-                    images: [],
-                    header: ``,
-                    text: `[Svenska] AAA är en Agency för en Anpassningsbar Arkitektur som arbetar med renoveringar, tillägg och regenerativa processer. Genom att definiera den dolda potentialen i en befintlig situation eller byggnad förändras uppfattningen om och användningen av rummet med hjälp av enkla arkitektoniska ingrepp. Det handlar om att hitta kreativa lösningar som gör mer med mindre. Med hjälp av ekonomiskt och tekniskt kunnande omtolkas de befintliga kvaliteterna i en byggnad eller på en plats till ett nytt generöst och funktionellt rum.
-  `,
-                    prio: 3,
-                    
-                }, 
-                {
-                    images: ["img/AAA000/AAA000_02.jpg"],
-                    header: `Seeing Potential in Every Space`,
-                    text: `Every building, every landscape holds a hidden potential. Our role as architects is to recognise and elevate these qualities. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact, transforming how a space feels and functions. Our approach is rooted in listening and learning, to create designs that harmonise with the environment and respond to the unique needs of each client.`,
-                    prio: 1,
-                    
-                }, 
-                {
-                    images: ["img/AAA000/AAA000_Postbox_01.jpg"],
-                    header: `Henrik Almquist, MArch Dip. d'État, Arkitekt SAR/MSA`,
-                    text: `Brings experience from Stockholm, Paris, and Tokyo. He has carried out projects from in-situ dialogues to early design proposals to seeing through the construction. Henrik teaches  at Lund University, directing the masterstudio *The Renewal of Modernism* on renovations and is actively involved in the ongoing dialogue on urban development and sustainability. See more on instagram [@almquisthenrik](https://www.instagram.com/almquisthenrik/).`,
-                    prio: 4,
-                    
-                }, */
-                {
-                    images: ["img/AAA025/AAA Adaptive Architecture and Regenerative Strategies Cover-01.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-02.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-03.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-04.jpg"],
-                    header: `Regenerative Strategies`,
-                    text: ``,
-                    prio: 4,
-                    
-                }, 
-                {
-                    images: ["img/AAA025/AAA Adaptive Architecture and Regenerative Strategies Cover-02.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-06.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-07.jpg", "img/AAA025/AAA Adaptive Architecture and Regenerative Strategies-08.jpg"],
-                    header: `Adaptive Architecture`,
-                    text: ``,
-                    prio: 2,
-                    
-                },
-
-                {
-                    images: ["img/AAA019/AAA019_Generative_Care_06.gif"],
-                    header: ``,
-                    // header: `Collaborations: Josephine Harold (architect Berlin), Morgane M. Alonzo (architect and urbanist Hamburg), Léa Ganteil (architect material reuse Lausanne), Oscar A. Chavez (architect Paris), Markus Gustafsson (architect engineer Gothenburg) and Joel Matsson (architect Stokholm).`,
-                    text: ``,
-                    prio: 3,
-                    
-                }, 
-/*                 {
-                    images: ["img/AAA019/AAA019_Generative_Care_06.gif"],
-                    header: `Adaptive - a way to see`,
-                    text: `Every landscape and every building sit on a hidden potential. The key role of an architect is to identify and enhance these qualities. Adapting to every situation, it can implicate a minimal renovation, reusing materials, a small extension or a tailored addition. The same goes for an urban environment, with the right understanding, a simple intervention can hugely impact the activities and atmosphere of a space. `,
-                    prio: 2,
-                    
-                }, 
-                {
-                    images: ["img/AAA014/AAA014_06_3.jpg"],
-                    header: `Architecture - a way to build`,
-                    text: `Shouldering many different perspectives - spatial, cultural, ecologic, economic, technical - a project can build a unified whole. One where all parts are speaking to each other. AAA can offer:
-* Development strategy of a building or a site through a regenerative process. How can an existing structure best be put to new use?
-* Renovation or addition that adapts to an existing situation. From design, building permit, construction drawings to assuring a smooth construction phase.`,
-                    prio: 3,
-                    
-                }, 
-                {
-                    images: ["img/AAA014/AAA014_14_3.jpg"],
-                    header: `Agency - a way to work`,
-                    text: `AAA is committed to find strategies and create buildings that harmonise with the environment and the individual needs and aspirations. It is about listening and learning from every specific situation. This means fully understanding the potential in the given economy of the project, mastering the technical aspects and seeking sustainable approaches in all levels of the process. `,
-                    prio: 4,
-                    
-                }, 
-                {
-                    images: ["img/AAA014/AAA014_08_1.jpg"],
-                    header: `Henrik Almquist`,
-                    text: `Henrik, founder AAA, MArch Dip. d'État, Arkitekt SAR/MSA, has worked at renowned offices from Stockholm, Paris and Tokyo. Proposing a regenerative and adaptive approach on architecture and urban planning, he has carried out projects in all phases, from in-situ dialogues to early design proposals to seeing through the construction. Henrik is  teaching at Lund University and is engaged in the omnipresent discussion of urban development and sustainability.`,
-                    prio: 5,
-                    
-                }, 
-                {
-                    images: ["img/AAA014/AAA014_10_1.jpg"],
-                    header: `Collaborations`,
-                    text: `JH Josephine Harold, MA Morgane Martin-Alonzo, LG Léa Ganteil, OC Oscar Aparicio Chavez, MG Markus Gustafsson and JM Joel Matsson. AAA Swedish organisation number: 556574-6152.`,
-                    prio: 6,
-                    
-                }, 
-                {
-                    images: ["img/AAA014/AAA014_02_1.jpg"],
-                    header: `[Svenska]`,
-                    text: `AAA arbetar med renoveringar, tillägg och regenerativa processer. Genom att definiera den dolda potentialen i en befintlig situation eller byggnad förändras uppfattningen om och användningen av rummet med hjälp av enkla arkitektoniska ingrepp. Det handlar om att hitta kreativa lösningar som gör mer med mindre. Med hjälp av ekonomiskt och tekniskt kunnande omtolkas de befintliga kvaliteterna i en byggnad eller på en plats till ett nytt generöst och funktionellt rum.`,
-                    prio: 7,
-                    
-                },  */
-            ]
-        }
-    },
-    methods: {
-        introClicked(){
-            this.imagesVisible = !this.imagesVisible;
-        },
-        reShuffleContent() {
-            // console.log("reShuffleContent");
-            // let features = this.features;
-            // this.features = null;
-            // this.features = features;
-            location.reload();
-        },
-         featureClicked(feature) {
-            if (feature.type === "intro") {
-                this.imagesVisible = false;
-            }
-        }, 
-    },
-    components: { FeatureColumns, AboutText }
-}
+  name: 'App',
+  setup() {
+    const lang = ref('en'); // default language
+    const setLang = (v) => (lang.value = v);
+    provide('lang', lang);  // make available to all child components
+    return { lang, setLang };
+  }
+};
 
 </script>
 
-<style>
-#app {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+<style scoped>
+/* layout containers */
+.container { padding: 0 24px; }
+.top-pad   { padding-top: 24px; }
+.bottom-pad{ padding: 24px 24px 64px; }
+
+/* sticky header; transparent so no white bar */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: transparent;
 }
-/* .underline-entire::after{
-    border-bottom: 1px solid black;
-    width: 5rem;
-    content: '';
-} */
-.cursor-cross{
-       cursor: crosshair; /* url(/src/assets/images/AAA_cross_64x64.png), auto;  */
+
+/* center page content */
+.page-center {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* space under header */
+.main-pad { margin-top: 16px; }
+
+/* header layout */
+.brand-row { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+
+/* AAA — the only big text (set family + weight explicitly here) */
+.brand-aaa {
+  font-family: STRATFORD, sans-serif;  /* ensure same family on all breakpoints */
+  font-weight: 700;                    /* always bold */
+  font-size: 48px;
+  line-height: 1;
+}
+
+/* subtitle: same size as body, just italic */
+.brand-sub {
+  font-style: normal;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* links */
+.inherit-link { color: inherit; text-decoration: none; font-style: normal; } /* AAA link */
+
+/* header nav links: italic by default; active = regular + underline */
+.header-link { color: inherit; text-decoration: none; font-style: italic; }
+.header-link.is-active { font-style: italic; text-decoration: none; }
+
+@media (min-width:1024px){
+  .container   { padding: 0 48px; }
+  .top-pad     { padding-top: 32px; }
+  .page-center { max-width: 1280px; }
+
+  /* Keep AAA bold on desktop too — only change size if you want */
+  .brand-aaa {
+    font-family: STRATFORD, sans-serif;
+    font-weight: 700;
+    font-size: 48px;   /* change to 56px if you want same size as mobile */
+    line-height: 1;
+  }
+}
+.site-header.is-white {
+  color: white;
+}
+
+.site-header.is-white a {
+  color: white;
+}
+
+.lang-toggle a {
+  text-decoration: underline;
+  font-style: normal;
+}
+
+.lang-toggle a.is-active {
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* Make the root fill the viewport (must be global, not scoped) */
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Grid layout: header | main | footer */
+.layout-grid {
+  min-height: 100vh;               /* use 100dvh if you prefer on mobile */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* Let the main row stretch/shrink without forcing overflow */
+.layout-grid > main {
+  min-height: 0;
+}
+
+/* Guard against margin-collapsing pulling the footer up */
+.layout-grid > main > *:first-child {
+  margin-top: 0;
+}
+
 </style>
+
+

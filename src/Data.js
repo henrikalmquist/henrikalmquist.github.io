@@ -1,3 +1,8 @@
+// helper: returns 1 with probability `p`, else 0
+function randomShowOnLoad(p = 0.3) {
+  return Math.random() < p ? 1 : 0;
+}
+
 export default{
     intro: `
     AAA is an emerging Agency for Adaptive Architecture, working with renovations, additions and regenerative strategies. In identifying the hidden potential of existing situations, the perception and use of space are altered through simple architectural interventions. It is about finding creative solutions that do more with less. Through the lens of an economic and technical know-how, weaved with ecological and cultural considerations, the present qualities are reinterpreted into a generous and functional space. <u>Read more here.</u>
@@ -22,6 +27,7 @@ export default{
             </i>
             `,
             prio: 1,
+            showonload: randomShowOnLoad(0.3), // 30% chance open 
         },
         {
             images: ["img/AAA012/AAA012_Casa_Mangabeira_00.jpg", "img/AAA012/AAA012_Casa_Mangabeira_01.jpg", "img/AAA012/AAA012_Casa_Mangabeira_02.jpg", "img/AAA012/AAA012_Casa_Mangabeira_03.jpg", "img/AAA012/AAA012_Casa_Mangabeira_04.jpg"],
@@ -35,6 +41,7 @@ export default{
             </i>                     
             `,
             prio: 2,
+            showonload: randomShowOnLoad(0.3), // 30% chance open
         },
         {
             images: ["img/AAA004/AAA004_Follo_Museum_01.jpg", "img/AAA004/AAA004_Follo_Museum_02.jpg", "img/AAA004/AAA004_Follo_Museum_03.jpg"],
@@ -47,6 +54,7 @@ export default{
                      Workshop extension for traditional crafts 800 sqm. Follo museum Norway. Competition entry 2020. Collaborations MG, JM. 
             `,
             prio: null,
+            showonload: randomShowOnLoad(0.3), // 30% chance open
         },
         {
             images: ["img/AAA013/AAA013_Brunnsparken_01.jpg", "img/AAA013/AAA013_Brunnsparken_02.jpg", "img/AAA013/AAA013_Brunnsparken_03.jpg", "img/AAA013/AAA013_Brunnsparken_04.jpg", "img/AAA013/AAA013_Brunnsparken_05.jpg"],
@@ -61,6 +69,7 @@ export default{
             </i>
             `,
             prio: 3,
+            showonload: randomShowOnLoad(0.3), // 30% chance open
         },
         {
             images: ["img/AAA017/AAA017_Charlottenborg_01.jpg", "img/AAA017/AAA017_Charlottenborg_02.jpg", "img/AAA017/AAA017_Charlottenborg_03.jpg", "img/AAA017/AAA017_Charlottenborg_04.jpg"],
@@ -74,6 +83,7 @@ export default{
             </i>
             `,
             prio: 2,
+            showonload: randomShowOnLoad(0.3), // 30% chance open
         },
         {
             images: ["img/AAA007/AAA007_Sofielund_01.jpg", "img/AAA007/AAA007_Sofielund_02.jpg"],
@@ -87,6 +97,7 @@ export default{
             </i>            
             `,
             prio: 3,
+            showonload: randomShowOnLoad(0.3), // 30% chance open
         },
         {
             images: ["img/AAA002/AAA002_Slide_All_Open_01.jpg", "img/AAA002/AAA002_Slide_All_Open_02.jpg", "img/AAA002/AAA002_Slide_All_Open_03.jpg"],
@@ -99,6 +110,7 @@ export default{
             / Tea house 15 sqm. Myrtle Beach South Carolina USA. Design and construction drawings. 
             `,
             prio: null,
+            showonload: randomShowOnLoad(0.3), // 30% chance open
         },
         {
             images: ["img/AAA006/AAA006_Sacred_Matter_01.jpg", "img/AAA006/AAA006_Sacred_Matter_02.jpg", "img/AAA006/AAA006_Sacred_Matter_03.jpg", "img/AAA006/AAA006_Sacred_Matter_04.gif"],
@@ -109,6 +121,7 @@ export default{
             / Explorative studio proposal at ENSA Paris-Malaquais. 2018.
             `,
             prio: null,
+            showonload: randomShowOnLoad(0.3), // 30% chance open
         },
         {
             images: ["img/AAA020/AAA020_Vacant_Potential_01.jpg", "img/AAA020/AAA020_Vacant_Potential_02.jpg", "img/AAA020/AAA020_Vacant_Potential_03.jpg", "img/AAA020/AAA020_Vacant_Potential_04.jpg"],
@@ -122,6 +135,7 @@ export default{
             </i>
             `,
             prio: 2,
+            showonload: randomShowOnLoad(0.3), // 30% chance open
         },
         {
             images: ["img/AAA024/AAA024_Extending_into_the_Sun_05w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_02w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_01w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_03w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_04w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_06w.jpg", "img/AAA024/AAA024_Extending_into_the_Sun_07w.jpg"],
@@ -134,111 +148,36 @@ export default{
             </i>
             `,
             prio: 2,
+            showonload: randomShowOnLoad(0.3), // 30% chance open
         },
         {
             images: ["img/AAA018/AAA018_Trondheim_02.jpg", "img/AAA018/AAA018_Trondheim_01.jpg", "img/AAA018/AAA018_Trondheim_04.jpg", "img/AAA018/AAA018_Trondheim_03.jpg"],
             header: "AAA018 In the Heart of the City",
             text: `
             Church in Trondheim 1’400 sqm, competition 2023 /MG.
-            <i>
             The new church, surrounded by greenery, is a central part of Trondheim’s east. 
             A large square in front creates space for activities and highlights the building. 
             Its design combines a timeless main space with adaptable rooms. 
             A green landscape wall creates a calm courtyard while reused materials, optimised space and design integrated solar panels ensures the building's longevity.  
-            </i>
             `,
             prio: 2,
+            showonload: randomShowOnLoad(0.3), // 30% chance open
         },
-        {
-            images: ["img/AAA014/AAA014_01_2.jpg"],
-            header: ``,
-            text: ``,
+               {
+            images: ["img/AAAvisualdiary/AAAvisualdiary000.jpg"],
+            header: "AAA Visual Diary",
+            text: `
+            Seeing the qualities of what is already there, how can the architecture be inspired by the everyday spaces that surround us. Photos ongoing investigating of atmospheres and possibilities of existing spaces. 
+            `,
             prio: 2,
-        },
-        {
-            images: ["img/AAA014/AAA014_02_1.jpg"],
-            header: ``,
-            text: ``,
-            prio: 2,
-        },
-        {
-            images: ["img/AAA014/AAA014_03_1.jpg"],
-            header: ``,
-            text: ``,
-            prio: null,
-        },
-        {
-            images: ["img/AAA014/AAA014_04_2.jpg"],
-            header: ``,
-            text: ``,
-            prio: 2,
-        },
-        {
-            images: ["img/AAA014/AAA014_05_3.jpg"],
-            header: ``,
-            text: ``,
-            prio: 3,
-        },
-        {
-            images: ["img/AAA014/AAA014_06_3.jpg"],
-            header: ``,
-            text: ``,
-            prio: 3,
-        },
-        {
-            images: ["img/AAA014/AAA014_07_1.jpg"],
-            header: ``,
-            text: ``,
-            prio: null,
-        },
-        {
-            images: ["img/AAA014/AAA014_08_1.jpg"],
-            header: ``,
-            text: ``,
-            prio: null,
-        },
-        {
-            images: ["img/AAA014/AAA014_09_2.jpg"],
-            header: ``,
-            text: ``,
-            prio: null,
-        },
-         {
-            images: ["img/AAA014/AAA014_10_1.jpg"],
-            header: ``,
-            text: ``,
-            prio: null,
-        }, 
-        {
-            images: ["img/AAA014/AAA014_11_3.jpg"],
-            header: ``,
-            text: ``,
-            prio: 3,
-        },
-        {
-            images: ["img/AAA014/AAA014_12_2.jpg"],
-            header: ``,
-            text: ``,
-            prio: 3,
-        },
-        {
-            images: ["img/AAA014/AAA014_13_2.jpg"],
-            header: ``,
-            text: ``,
-            prio: null,
-        },
-        {
-            images: ["img/AAA014/AAA014_14_3.jpg"],
-            header: ``,
-            text: ``,
-            prio: 3,
+            showonload: 1,
         },
     ],
     spacingInRem: 7,
     about: 
   
-`
-**Seeing Potential in Every Space**
+
+/* **Seeing Potential in Every Space**
 Every building, every landscape holds a hidden potential. Our role as architects is to recognise and elevate these qualities. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact, transforming how a space feels and functions. Our approach is rooted in listening and learning, to create designs that harmonise with the environment and respond to the unique needs of each client.
 
 **Regenerative Strategies**
@@ -249,6 +188,19 @@ Renovations and additions tailored to the existing situation. It could be a refu
 
 **Henrik Almquist**
 MArch Dip. d'État, Arkitekt SAR/MSA. Brings experience from Stockholm, Paris, and Tokyo. He has carried out projects from in-situ dialogues to early design proposals to seeing through the construction. Henrik teaches  at Lund University, directing the masterstudio [Act of Altering](https://www.instagram.com/altering_master_studios/) and is actively involved in the ongoing dialogue on urban development and sustainability. AAA Swedish organisation number 556574-6152, formerly Almquist Architecture Agency AB. [See more](https://www.instagram.com/almquisthenrik/).
+&#8202;
+*/ 
+`
+Every building, every situation holds a hidden potential. AAA’s role as architects is to recognise and elevate these qualities. Whether it's a single building or a whole urban area, subtle adjustments can create a significant impact, transforming how a space feels and functions. AAA’s approach is rooted in listening and learning, to create strategies and designs that harmonise with the environment and respond to the unique needs of each client.
+AAA offers specialised help in navigating and identifying values and ways forward in early-stage developments for existing buildings and places. Continuously, AAA have a long experience in leading architecture projects for a renovation or addition. 
+Lead by Henrik Almquist (MArch dip. D’État Francaise, Arkitekt SAR/MSA) who brings experience from Stockholm, Paris and Tokyo. He has carried out projects from in-situ dialogues to early design proposal to seeing through the construction. Henrik teaches at Lund University, directing the masterstudio Act of Altering and is actively involved in the ongoing dialogue on the existing environment and sustainability. 
+Operating in between practice, research and policy, Henrik has been invited to talk or be part of numerous conferences, discussions and presentations. Lately he talked at xxx, xxx
+As a specialised small practice AAA often ventures into collaborations and over the years AAA have worked with Riksbyggen, MOD Group, xxx, xxx
+In the forefront of the discussion on how we can work with the existing environment AAA have been featured or written in xxx, xxx
+AAA is a Swedish shareholder company with the organisation number 556574-6152, formerly Almquist Architecture Agency AB.
+
+
+© 2025 Agency for Adaptive Architecture (AAA). All rights reserved.
 &#8202;
 `
 /* 

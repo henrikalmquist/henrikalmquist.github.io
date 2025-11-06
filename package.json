@@ -7,14 +7,16 @@
         "build": "vite build",
         "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d dist",
+        "build:data": "node scripts/excel-to-json.mjs"
     },
     "dependencies": {
         "@heroicons/vue": "^2.0.16",
         "markdown-it": "^13.0.1",
         "vue": "^3.2.47",
-        "vue-router": "^4.5.1",
-        "vue3-carousel": "^0.2.14"
+        "vue-router": "^4.6.3",
+        "vue3-carousel": "^0.2.14",
+        "xlsx": "^0.18.5"
     },
     "devDependencies": {
         "@tailwindcss/typography": "^0.5.9",

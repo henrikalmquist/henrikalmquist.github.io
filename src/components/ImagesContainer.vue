@@ -1,118 +1,154 @@
 <template>
-    <div :style="outerMarginComputed">
-        <Transition name="fade" mode="out-in">
-        <div :key="imageIndexComputed" v-if="hasImagesComputed">
-            <image-container :image-src="imageComputed" :max-height="imageRemSizeComputed" :center-content="centerContent" :isSmallScreen="isSmallScreen" @nextClicked="nextClicked" />
+  <div :style="outerMarginComputed">
+    <Transition name="fade" mode="out-in">
+      <div :key="imageIndexComputed" v-if="hasImagesComputed">
+        <image-container
+          :image-src="imageComputed"
+          :max-height="imageRemSizeComputed"
+          :center-content="centerContent"
+          :isSmallScreen="isSmallScreen"
+          @nextClicked="nextClicked"
+        />
+      </div>
+    </Transition>
+
+    <!-- text wrapper (no click-to-next here) -->
+    <div
+      class="flex flex-col w-full prose text-black text-justify cursor-crosshair"
+      style="max-width: inherit;"
+      :class="textClassComputed"
+    >
+      <!-- header row -->
+      <div v-if="hasImagesComputed" class="w-full flex mb-0 justify-between items-center">
+        <!-- left: title -->
+        <div v-if="header" v-text="header"></div>
+
+        <!-- right: +, >, counter -->
+        <div class="flex items-center">
+          <!-- toggle text (+/−) — shown only when there is description -->
+          <button
+            v-if="hasDescription"
+            class="cursor-crosshair select-none text-xl leading-none"
+            style="margin-right: 8px;"
+            @click.stop="showText = !showText"
+            :aria-expanded="showText ? 'true' : 'false'"
+            aria-label="Toggle description"
+            title="Toggle description"
+          >
+            {{ showText ? '−' : '+' }}
+          </button>
+
+          <!-- advance image (>) -->
+          <button
+            v-if="amountOfImagesComputed > 1"
+            class="cursor-crosshair select-none text-xl leading-none"
+            style="margin-right: 8px;"
+            @click.stop="nextClicked"
+            aria-label="Next image"
+            title="Next image"
+          >
+            &gt;
+          </button>
+
+          <!-- counter -->
+          <div v-if="amountOfImagesComputed > 1">
+            {{ imageIndexComputed + 1 }}/{{ amountOfImagesComputed }}
+          </div>
         </div>
-        </Transition>
-        <div class="flex flex-col w-full prose text-black text-justify cursor-cross" style="max-width: inherit;" :class="textClassComputed" @click="nextClicked">
-            <div v-if="hasImagesComputed" class="w-full flex mb-3 justify-between">
-                <div v-if="header" v-text="header"></div>
-                <div v-if="amountOfImagesComputed > 1"> {{ imageIndexComputed + 1 }}/{{ amountOfImagesComputed }} </div>
-            </div>
-            <div v-html="imageTextComputed" @click="descriptionClicked"></div>
-        </div>
+      </div>
+
+      <!-- text: always visible for intro, collapsible otherwise -->
+      <div
+        v-if="type === 'intro' || (hasDescription && showText)"
+        class="mt-2"
+        v-html="imageTextComputed"
+        @click.stop="descriptionClicked"
+      ></div>
     </div>
+  </div>
 </template>
 
 <script>
 import ImageContainer from './ImageContainer.vue';
-import AboutText from "./AboutText.vue";
-import MarkdownIt from "markdown-it";
-const markdown = new MarkdownIt({breaks: true});
-export default {
-    name: "ImagesContainer",
-    components: {
-        ImageContainer,
-        AboutText,
-    },
-    data() {
-        return {
-            imageIndex: 0,
-        }
-    },
-    props: {
-        images: Array,
-        header: String,
-        type: String,
-        description: String,
-        remUnit: Number,
-        useMarkdown: Boolean,
-        centerContent: Boolean,
-        isSmallScreen: Boolean,
-    },
-    methods: {
-        nextClicked() {
-            let next = this.imageIndex + 1;
-            if(next >= this.amountOfImagesComputed){
-                next = 0;
-            }
-            this.imageIndex = next;
-        },
-        descriptionClicked() {
-            this.$emit('descriptionClicked', {type: this.type});
-        }
-    },
-    computed: {
-        imageIndexComputed() {
-            return this.imageIndex;
-        },
-        imageComputed() {
-            return this.images[this.imageIndexComputed];
-        },
-        amountOfImagesComputed() {
-            return this.images.length;
-        },
-        displayAboutTextComputed() {
-            return this.displayAboutText;
-        },
-        imageTextComputed(){
-            return this.useMarkdown ? markdown.render(this.description) : this.description;
-        },
-        hasImagesComputed() {
-            return this.amountOfImagesComputed > 0; 
-        },
-        textClassComputed() {
-            let result = "";
-            if(this.hasImagesComputed){
-                result = "mt-4"
-            }
-            if(this.type === "intro"){
-                result += " font-times leading-5";
-            }
-            else{
-                result += " leading-5";
-            }
-            return result;
-        },
-        outerMarginComputed(){
-            let remSize = this.isSmallScreen ? this.remUnit * 2 / 3 : this.remUnit;
-            return `margin-bottom: ${remSize}rem`;
-        },
-        imageRemSizeComputed() {
-            // let randomNumber = Math.floor(Math.random() * 3);
-            if(this.type === "intro"){
-                return this.remUnit * 5;
-            }
-            return this.remUnit * 4; // - ((this.amountOfImagesComputed + randomNumber) % 4) * 3;
+import MarkdownIt from 'markdown-it';
+const markdown = new MarkdownIt({ breaks: true });
 
-        }
-    }
+// remove common leading spaces so Markdown doesn't create code blocks
+function normalizeIndent(s) {
+  const raw = (s || '').replace(/^\n/, '');
+  const lines = raw.split('\n');
+  const indents = lines
+    .filter(l => l.trim().length > 0)
+    .map(l => (l.match(/^(\s*)/) || ['', ''])[1].length);
+  const min = indents.length ? Math.min(...indents) : 0;
+  return lines.map(l => l.slice(min)).join('\n');
 }
 
+export default {
+  name: 'ImagesContainer',
+  components: { ImageContainer },
+  props: {
+    images: { type: Array, default: () => [] },
+    header: { type: String, default: '' },
+    type: { type: String, default: '' },          // "intro" keeps text always visible
+    description: { type: String, default: '' },
+    remUnit: { type: Number, default: 7 },
+    useMarkdown: { type: Boolean, default: true },
+    centerContent: { type: Boolean, default: true },
+    isSmallScreen: { type: Boolean, default: false },
+    showonload: { type: [Number, Boolean], default: 0 }, // open text on load (non-intro)
+  },
+  data() {
+    return {
+      imageIndex: 0,
+      showText: false,
+    };
+  },
+  mounted() {
+    if (this.type !== 'intro') this.showText = !!Number(this.showonload);
+  },
+  computed: {
+    hasDescription() {
+      return !!(this.description && this.description.trim().length > 0);
+    },
+    imageIndexComputed() { return this.imageIndex; },
+    imageComputed() { return this.images[this.imageIndexComputed]; },
+    amountOfImagesComputed() { return this.images.length; },
+    imageTextComputed() {
+      if (!this.useMarkdown) return this.description || '';
+      return markdown.render(normalizeIndent(this.description || ''));
+    },
+    hasImagesComputed() { return this.amountOfImagesComputed > 0; },
+    textClassComputed() {
+      let result = this.hasImagesComputed ? 'mt-4' : '';
+      result += this.type === 'intro' ? ' font-times leading-5' : ' leading-5';
+      return result;
+    },
+    outerMarginComputed() {
+      const remSize = this.isSmallScreen ? (this.remUnit * 2) / 3 : this.remUnit;
+      return `margin-bottom: ${remSize * 0.66}rem`;
+    },
+    imageRemSizeComputed() {
+      return this.type === 'intro' ? this.remUnit * 5 : this.remUnit * 4;
+    },
+  },
+  methods: {
+    nextClicked() {
+      let next = this.imageIndex + 1;
+      if (next >= this.amountOfImagesComputed) next = 0;
+      this.imageIndex = next;
+    },
+    descriptionClicked() {
+      this.$emit('descriptionClicked', { type: this.type });
+    },
+  },
+};
 </script>
 
-<style>
-.fade-enter-active{
-  transition: opacity 0.25s ease;
-}
-.fade-leave-active {
-  transition: opacity 0.25s ease;
-  /* display: none; */
-}
 
+<style scoped>
+.fade-enter-active { transition: opacity 0.25s ease; }
+.fade-leave-active { transition: opacity 0.25s ease; }
 .fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-}
+.fade-leave-to { opacity: 0; }
 </style>

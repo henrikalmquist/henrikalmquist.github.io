@@ -1,35 +1,99 @@
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
-
 @import "tailwindcss/utilities";
 
+/* Tailwind Typography tweak (keep if you use prose anywhere) */
+.prose { --tw-prose-bullets: 2 6 23; }
 
-.prose {
-    --tw-prose-bullets: 2 6 23;
-}
-
+/* --- Fonts (correct weights + paths for Vite) --- */
 @font-face {
-/*     font-family: "ONE";
-    src: url("../src/assets/fonts/Stratford-Medium.otf");
-    font-weight: normal; */
-
-    font-family: "STRATFORD";
-    /* src: url("../src/assets/fonts/Stratford-Medium.otf"); */
-    src: url("../src/assets/fonts/Helvetica-Bold.otf");
-    font-weight: normal;
+  font-family: "STRATFORD";                 /* your display face (AAA) */
+  src: url("./assets/fonts/Helvetica-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
-    font-family: "TIMES";
-    /* src: url("../src/assets/fonts/Stratford-W01-Roman-Italic.otf"); */
-    src: url("../src/assets/fonts/Helvetica-Oblique.otf");
-    font-style: italic;
+  font-family: "TIMES";                     /* body regular */
+  src: url("./assets/fonts/Helvetica.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TIMES";                     /* body italic */
+  src: url("./assets/fonts/Helvetica-Oblique.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
+/* Body bold (so **markdown bold** looks right) */
 @font-face {
-    font-family: "TIMES";
-    /* src: url("../src/assets/fonts/times.ttf"); */
-    src: url("../src/assets/fonts/Helvetica.otf");
-    font-weight: normal;
+  font-family: "TIMES";
+  src: url("./assets/fonts/Helvetica-Bold.otf") format("opentype");
+  font-weight: 700;         /* <-- bold weight */
+  font-style: normal;
+  font-display: swap;
 }
+
+/* --- Global typography: single body size everywhere --- */
+html, body {
+  font-size: 16px;         /* single body size */
+  line-height: 1.3;       /* comfortable reading */
+  font-family: TIMES, system-ui, sans-serif;
+  font-weight: 400;
+  color: #000 !important;
+}
+
+/* Headings use same size as body; hierarchy via spacing/italics only */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 1.5rem 0 1rem;
+}
+
+/* Generic elements inherit body sizing */
+p, a, li, ol, ul, div, span, small, em, figcaption {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+/* Site-wide links (outside the header): underline */
+a { text-decoration: underline; font-style: normal; }
+
+/* Tailwind Typography / prose blocks keep same rule */
+.prose a { text-decoration: none; font-style: italic; }
+
+/* Header specifics (so sizes don’t drift) */
+.brand-aaa {            /* the only big text on the site */
+  font-family: STRATFORD, sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+}
+.brand-sub {            /* subtitle row in header */
+  font-style: italic;
+  font-size: inherit;   /* same as body */
+  line-height: inherit;
+}
+.header-link {          /* header links: same size, italic by default */
+  text-decoration: underline !important;
+  font-style: normal !important;
+}
+.header-link.is-active {  /* current page: regular (not italic) */
+  text-decoration: underline !important;
+  font-style: italic !important;
+  font-weight: 400;
+}
+
+/* Global paragraph spacing */
+p {
+  margin-top: 0;
+  margin-bottom: 1.75em; /* Adjust for desired distance (1.75–2em works well) */
+}
+
+/* If some texts use <u>…</u> but you do NOT want underlines anywhere:
+u, .prose u { text-decoration: none; } */
