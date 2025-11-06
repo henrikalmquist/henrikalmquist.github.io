@@ -6,7 +6,7 @@
       <div class="container top-pad page-center">
         <div class="brand-row">
           <span class="brand-aaa">
-            <router-link to="/adaptive" class="inherit-link">AAA</router-link>
+            <router-link to="/" class="inherit-link">AAA</router-link>
           </span>
          <span class="brand-sub">
   <router-link to="/agency" class="header-link" :class="{ 'is-active': $route.path === '/agency' }">Agency</router-link>
