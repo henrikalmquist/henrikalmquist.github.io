@@ -7,40 +7,72 @@
     <div class="quote">
       <div class="quote-inner">
         <p class="line">
-          In embracing the complexity of an existing building or place – we can do more – with less.
+          In embracing the complexity of an existing building or place – we can do more* – with less**.
         </p>
+        <!-- two-column Markdown inside the left column -->
+<div class="left-col">
+  <div v-html="renderMarkdown(moreText)"></div>
+  <div v-html="renderMarkdown(lessText)"></div>
+</div>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import MarkdownIt from "markdown-it"
+
 export default {
   name: "StartPage",
   data() {
     return {
-      bgUrl: "" // randomised background
-    };
+      bgUrl: "",
+      md: new MarkdownIt(),
+      moreText: `&ast;   
+More culture  
+More patina  
+More diversity  
+More value  
+More history  
+More memories  
+More attachment  
+More craftmanship  
+...  
+More fun `,
+      lessText: `&ast;&ast;   
+Less costs  
+Less co₂  
+Less disturbance  
+Less resources  
+Less pollution  
+Less standardisation  
+Less monotony  
+Less something  
+...  
+Less destruction`
+    }
   },
   methods: {
+    renderMarkdown(text) {
+      return this.md.render(text || "")
+    },
     go() {
-      this.$router.push("/adaptive");
+      this.$router.push("/adaptive")
     },
     pickRandom(arr) {
-      return arr[Math.floor(Math.random() * arr.length)];
+      return arr[Math.floor(Math.random() * arr.length)]
     }
   },
   mounted() {
-    // images must exist in /public/img/AAAstart/
     const images = [
       "/img/AAAstart/01.jpg",
       "/img/AAAstart/02.jpg"
-      // add more here
-    ];
-    this.bgUrl = this.pickRandom(images);
+    ]
+    this.bgUrl = this.pickRandom(images)
   }
-};
+}
 </script>
+
 
 <style scoped>
 /* full-bleed background */
@@ -60,7 +92,7 @@ export default {
   position: absolute;
   inset: 0;
   display: flex;
-  align-items: center;
+  align-items: center; 
 }
 
 /* match App.vue’s .container + .page-center */
@@ -96,6 +128,24 @@ export default {
 @media (max-width: 768px) {
   .line {
     font-size: 36px;
+  }
+}
+
+/* Anchor block within the same visual left column as Agency */
+.left-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 25rem;
+}
+
+
+/* Mobile: stack and align with mobile padding */
+@media (max-width: 768px) {
+  .left-col {
+    position: static;
+    left: auto;
+    right: auto;
+    margin: 0px;     /* align with your mobile inner padding */
   }
 }
 </style>

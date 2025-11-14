@@ -1,14 +1,16 @@
-<template>
-  <section class="adaptive">
-    <!-- Part one text + right column images -->
-    <TwoColumnTextImagesWithSlot
-      :intro-en="renderedMarkdown(currentText(adaptive.partOne))"
-      :intro-sv="''"
-      :items="rightItems"
-    />
 
-    <!-- Collapsible statements -->
-    <div class="statements">
+<template>
+  <section class="two-col" :style="{ '--rem': remUnit + 'rem' }">
+    <!-- LEFT column -->
+    <div class="left">
+      <!-- Part one -->
+      <div class="intro" v-html="renderMarkdown(currentText(adaptive.partOne))"></div>
+
+      <!-- Part two -->
+      <div class="rest2">
+
+      <!-- Collapsed statement after part two -->
+
       <ImagesContainerCollapsed
         v-for="(s, i) in statementsForLang"
         :key="i"
@@ -21,6 +23,30 @@
           <div class="statement-text" v-html="renderedMarkdown(s.text)"></div>
         </template>
       </ImagesContainerCollapsed>
+ </div>
+  </div>
+<!-- <CollapsibleText
+  :lang="lang"
+  :header-en="adaptive.statement.headerEn"
+  :header-sv="adaptive.statement.headerSv"
+  :text-en="adaptive.statement.textEn || adaptive.statement.descriptionEn"
+  :text-sv="adaptive.statement.textSv || adaptive.statement.descriptionSv"
+  :use-markdown="true"
+  :showonload="adaptive.statement.showonload"
+/> -->
+
+    <!-- RIGHT column -->
+    <div class="right">
+      <ImagesContainer
+        v-if="adaptive.rightColumnImages.length"
+        header=""
+        :images="adaptive.rightColumnImages"
+        description=""
+        :use-markdown="true"
+        :center-content="true"
+        :rem-unit="remUnit"
+        :showonload="1"
+      />
     </div>
   </section>
 </template>
@@ -28,35 +54,26 @@
 <script>
 import { inject } from 'vue';
 import MarkdownIt from 'markdown-it';
-import site from '../site.json';
-import TwoColumnTextImagesWithSlot from '../components/TwoColumnTextImagesWithSlot.vue';
+import ImagesContainer from '../components/ImagesContainer.vue';
 import ImagesContainerCollapsed from '../components/ImagesContainerCollapsed.vue';
+import site from '../site.json';
 
 const md = new MarkdownIt({ html: false, breaks: true, linkify: true });
 
 export default {
-  name: 'AdaptivePage',
-  components: { TwoColumnTextImagesWithSlot, ImagesContainerCollapsed },
+  name: 'adaptivePage',
+  components: { ImagesContainer, ImagesContainerCollapsed  },
   setup() {
     const lang = inject('lang', 'en'); // from App.vue toggle
     return { lang };
   },
-  
   data() {
-    const adaptive = site.adaptive || {
-      partOne: { en: '', sv: '' },
-      partTwo: { statements: [] },
-      rightColumnImages: []
+    return {
+      adaptive: site.adaptive || {
+        partOne: {}, partTwo: {}, statements: {}, rightColumnImages: []
+      },
+      remUnit: 7
     };
-
-    // right-column images
-    const rightItems = (adaptive.rightColumnImages || []).map(src => ({
-      header: '',
-      images: [src],
-      description: ''
-    }));
-
-    return { adaptive, rightItems };
   },
   computed: {
   statementsForLang() {
@@ -71,41 +88,55 @@ export default {
       showonload: typeof s.showonload === 'number' ? s.showonload : 0
     }));
   }
-}
-,
+  },
   methods: {
-    renderedMarkdown(txt) {
-      return md.render(txt || '');
+    renderMarkdown(text) {
+      return md.render(text || '');
     },
     currentText(section) {
       if (!section) return '';
-      return this.lang === 'sv' ? section.sv : section.en;
+      return this.lang === 'sv' ? (section.sv || '') : (section.en || '');
+    },
+    currentHeader(statements) {
+      if (!statements) return '';
+      return this.lang === 'sv' ? (statements.headerSv || statements.headerEn || '') : (statements.headerEn || statements.headerSv || '');
     }
   }
 };
 </script>
 
 <style scoped>
-.adaptive {
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--rem, 7rem);
   width: 100%;
-  color: #000;
 }
 
-.statements {
-  margin-top: 3rem;
-}
+.left,
+.right { min-width: 0; }
 
-.statement-text {
-  padding-top: 0.5rem;
-}
+/* Mobile: order = Part one → image → Part two → statements → Part three */
+@media (max-width: 768px) {
+  .two-col {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "intro"
+      "right"
+      "rest2"
+      "stmt"
+      "rest3";
+    gap: 0rem;
+  }
 
-/* Ensure collapsed body text is left-aligned */
-.body,
-.body :deep(p),
-.body :deep(li),
-.body :deep(blockquote) {
-  text-align: left !important;
-  text-justify: auto;
+  .left { display: contents; }
+
+  .intro { grid-area: intro; }
+  .right { grid-area: right; margin: 0rem 0; }
+  /* First .rest (part two) gets area rest1; second .rest (part three) becomes rest2 */
+  .rest:first-of-type { grid-area: rest1; }
+  .after-part-two { grid-area: stmt; }
+  .rest:last-of-type { grid-area: rest2; }
 }
 
 </style>
