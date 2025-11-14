@@ -56,7 +56,7 @@ export default {
 /* layout containers */
 .container { padding: 0 24px; }
 .top-pad   { padding-top: 24px; }
-.bottom-pad{ padding: 24px 24px 64px; }
+.bottom-pad{ padding: 0px 24px 12px; }
 
 /* sticky header; transparent so no white bar */
 .site-header {
