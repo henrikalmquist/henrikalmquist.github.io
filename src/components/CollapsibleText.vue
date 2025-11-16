@@ -96,26 +96,13 @@ export default {
 </script>
 
 <style scoped>
-.ct { margin: 0rem 0; }
 
 .ct-head {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  background: transparent;
-  border: 0;
-  padding: 0;
   cursor: crosshair;
-  text-align: left;
+  margin-bottom: -1rem;
 }
 
-.ct-plus {
-  margin-left: 0rem;
-  line-height: 1;
-}
-
-.ct-body {
-  margin-top: 0rem;
-}
 </style>

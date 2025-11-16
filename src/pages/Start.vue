@@ -7,7 +7,7 @@
     <div class="quote">
       <div class="quote-inner">
         <p class="line">
-          In embracing the complexity of an existing building or place – we can do more* – with less**.
+          In embracing the complexity of an existing building or place – we can do more* – with less**
         </p>
         <!-- two-column Markdown inside the left column -->
 <div class="left-col">
@@ -33,23 +33,25 @@ More culture
 More patina  
 More diversity  
 More value  
-More history  
 More memories  
 More attachment  
 More craftmanship  
+More beauty   
 ...  
-More fun `,
+More fun
+ `,
       lessText: `&ast;&ast;   
 Less costs  
 Less co₂  
 Less disturbance  
 Less resources  
 Less pollution  
-Less standardisation  
 Less monotony  
-Less something  
+Less material   
+Less large investment   
 ...  
-Less destruction`
+Less destruction
+`
     }
   },
   methods: {
@@ -66,7 +68,9 @@ Less destruction`
   mounted() {
     const images = [
       "/img/AAAstart/01.jpg",
-      "/img/AAAstart/02.jpg"
+      "/img/AAAstart/02.jpg",
+      "/img/AAAstart/04.jpg",
+      "/img/AAAstart/05.jpg"
     ]
     this.bgUrl = this.pickRandom(images)
   }

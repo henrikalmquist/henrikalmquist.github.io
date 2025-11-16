@@ -51,6 +51,13 @@ import site from '../site.json';
 
 const md = new MarkdownIt({ html: false, breaks: true, linkify: true });
 
+function normalizeIndent(s = '') {
+  const lines = s.replace(/^\n/, '').split('\n');
+  const ind = lines.filter(l => l.trim()).map(l => (l.match(/^(\s*)/) || ['', ''])[1].length);
+  const min = ind.length ? Math.min(...ind) : 0;
+  return lines.map(l => l.slice(min)).join('\n');
+}
+
 export default {
   name: 'AgencyPage',
   components: { ImagesContainer, CollapsibleText  },
@@ -73,9 +80,11 @@ export default {
     }
   },
   methods: {
-    renderMarkdown(text) {
-      return md.render(text || '');
-    },
+  renderMarkdown(text) {
+    // Normalise CRLF -> LF, add surrounding blank lines, and remove common indent
+    const t = normalizeIndent(('\n' + (text || '') + '\n').replace(/\r\n/g, '\n'));
+    return md.render(t);
+  },
     currentText(section) {
       if (!section) return '';
       return this.lang === 'sv' ? (section.sv || '') : (section.en || '');
@@ -121,5 +130,37 @@ export default {
   .after-part-two { grid-area: stmt; }
   .rest:last-of-type { grid-area: rest2; }
 }
+
+/* Scoped but reach into v-html output */
+.intro ::v-deep ul,
+.rest2 ::v-deep ul,
+.rest3 ::v-deep ul,
+.collapsible-text ::v-deep ul,
+.right ::v-deep ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1.25rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.intro ::v-deep ol,
+.rest2 ::v-deep ol,
+.rest3 ::v-deep ol,
+.collapsible-text ::v-deep ol,
+.right ::v-deep ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+}
+
+.intro ::v-deep ul li::marker,
+.rest2 ::v-deep ul li::marker,
+.rest3 ::v-deep ul li::marker,
+.collapsible-text ::v-deep ul li::marker,
+.right ::v-deep ul li::marker {
+  opacity: 1;
+  font-size: 1em;
+}
+
 
 </style>
