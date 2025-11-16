@@ -102,7 +102,7 @@ export default {
   display: flex;
   justify-content: space-between;
   cursor: crosshair;
-  margin-bottom: -1rem;
+  margin-bottom: -1.5rem;
 }
 
 </style>
