@@ -14,7 +14,7 @@
   <router-link to="/adaptive" class="header-link" :class="{ 'is-active': $route.path === '/adaptive' }">Adaptive</router-link>
   <span>&nbsp;</span>
   <router-link to="/architecture" class="header-link" :class="{ 'is-active': $route.path === '/architecture' }">Architecture</router-link>
-  <span>&nbsp;&nbsp;</span>
+  <span>&nbsp;</span>
   <!-- Language toggle -->
   <span class="lang-toggle">
     <a href="#" class="header-link" :class="{ 'is-active': lang === 'sv' }" @click.prevent="setLang('sv')">sv</a>&hairsp;/<a href="#" class="header-link" :class="{ 'is-active': lang === 'en' }" @click.prevent="setLang('en')">en</a>
@@ -31,7 +31,7 @@
     </main>
 
     <footer class="container bottom-pad page-center">
-      <div>AAA&nbsp;&nbsp; contact@a-a-a.se &nbsp; @almquisthenrik</div>
+      <div>AAA&nbsp;&nbsp; contact@a-a-a.se &nbsp; <a href="https://www.instagram.com/almquisthenrik/">@almquisthenrik</a></div>
     </footer>
   </div>
 </template>
@@ -54,9 +54,9 @@ export default {
 
 <style scoped>
 /* layout containers */
-.container { padding: 0 24px; }
-.top-pad   { padding-top: 24px; }
-.bottom-pad{ padding: 0px 24px 12px; }
+.container { padding: 0 12px; }
+.top-pad   { padding-top: 12px; }
+.bottom-pad{ padding: 0px 12px 12px; }
 
 /* sticky header; transparent so no white bar */
 .site-header {

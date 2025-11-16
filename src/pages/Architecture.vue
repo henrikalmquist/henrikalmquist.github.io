@@ -135,13 +135,15 @@ export default {
 introText() {
   if (this.lang === 'sv') {
     return `
-AAA är en framväxande byrå för anpassningsbar arkitektur som arbetar med renovering, tillägg och strategier för den befintliga miljön. Genom en kombination av ekonomisk och teknisk kunskap, sammanvävd med ekologiska och kulturella hänsyn, omtolkas de befintliga kvaliteterna till generösa och funktionella rum.
+AAA arbetar med renovering, tillägg och strategier för den befintliga miljön. Genom en kombination av ekonomisk och teknisk kunskap, sammanvävd med ekologiska och kulturella hänsyn, omtolkas de befintliga kvaliteterna till generösa och funktionella rum.
+
 `
   }
 
   // English default
   return `
-AAA is an emerging Agency for Adaptive Architecture, working with renovations, additions and strategies for the existing environment. Through the lens of an economic and technical know-how, weaved with ecological and cultural considerations, the present qualities are reinterpreted into a generous and functional space. 
+AAA works with renovations, additions and strategies for the existing environment. Through the lens of an economic and technical know-how, weaved with ecological and cultural considerations, the present qualities are reinterpreted into a generous and functional space. 
+
 `
 },
 

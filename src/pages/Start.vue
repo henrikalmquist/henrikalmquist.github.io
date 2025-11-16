@@ -93,6 +93,7 @@ Less destruction
 
 /* vertically centre the inner container, not the full viewport text */
 .quote {
+  padding-top: 15vh;
   position: absolute;
   inset: 0;
   display: flex;
