@@ -3,8 +3,9 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: './',   // relative paths for github pages
+  base: '/',    // correct for henrikalmquist.github.io
   build: {
-    outDir: 'dist'  // default, keep as dist unless you prefer docs
+    outDir: 'dist'
   }
 })
+

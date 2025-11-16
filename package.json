@@ -7,7 +7,7 @@
         "build": "vite build",
         "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist --branch adaptive",
+        "deploy": "vite build && gh-pages -d dist --branch adaptive --repo https://github.com/henrikalmquist/henrikalmquist.github.io.git --dest .",
         "build:data": "node scripts/excel-to-json.mjs"
     },
     "dependencies": {
