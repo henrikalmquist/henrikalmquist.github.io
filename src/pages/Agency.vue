@@ -121,10 +121,14 @@ export default {
     gap: 0rem;
   }
 
+    .right > div {
+    margin-bottom: 0 !important;
+  }
+
   .left { display: contents; }
 
   .intro { grid-area: intro; }
-  .right { grid-area: right; margin: 0rem 0; }
+  .right { grid-area: right; margin: 0rem 0;}
   /* First .rest (part two) gets area rest1; second .rest (part three) becomes rest2 */
   .rest:first-of-type { grid-area: rest1; }
   .after-part-two { grid-area: stmt; }

@@ -129,6 +129,10 @@ export default {
     gap: 0rem;
   }
 
+      .right > div {
+    margin-bottom: 0 !important;
+  }
+
   .left { display: contents; }
 
   .intro { grid-area: intro; }
