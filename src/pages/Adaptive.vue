@@ -36,6 +36,8 @@
 /> -->
 
     <!-- RIGHT column -->
+
+    
     <div class="right">
       <ImagesContainer
         v-if="adaptive.rightColumnImages.length"
@@ -45,7 +47,7 @@
         :use-markdown="true"
         :center-content="true"
         :rem-unit="remUnit"
-        :showonload="1"
+        :showonload="0"
       />
     </div>
   </section>
@@ -114,7 +116,19 @@ export default {
 }
 
 .left,
-.right { min-width: 0; }
+.right { min-width: 0;
+  align-self: start; /* prevents stretching */
+ }
+
+ .right > div {
+  height: auto !important;
+  margin-bottom: 0 !important;
+}
+
+.right img {
+  height: auto !important;
+  max-height: none !important;
+}
 
 /* Mobile: order = Part one → image → Part two → statements → Part three */
 @media (max-width: 768px) {
@@ -127,10 +141,6 @@ export default {
       "stmt"
       "rest3";
     gap: 0rem;
-  }
-
-      .right > div {
-    margin-bottom: 0 !important;
   }
 
   .left { display: contents; }
