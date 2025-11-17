@@ -1,4 +1,4 @@
-import{M as a}from"./index-0a696d3b.js";import{_ as i,o as l,c,a as t,n as d}from"./index-05940e7b.js";const m={name:"StartPage",data(){return{bgUrl:"",md:new a,moreText:`&ast;   
+import{M as a}from"./index-0a696d3b.js";import{_ as i,o as l,c,a as t,n as d}from"./index-2e655f3c.js";const m={name:"StartPage",data(){return{bgUrl:"",md:new a,moreText:`&ast;   
 More culture  
 More patina  
 More diversity  
