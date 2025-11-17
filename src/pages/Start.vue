@@ -37,8 +37,6 @@ More memories
 More attachment  
 More craftmanship  
 More beauty   
-...  
-More fun
  `,
       lessText: `&ast;&ast;   
 Less costs  
@@ -49,8 +47,6 @@ Less pollution
 Less monotony  
 Less material   
 Less large investment   
-...  
-Less destruction
 `
     }
   },
@@ -91,6 +87,20 @@ Less destruction
   color: #fff !important;
 }
 
+/* default: two columns (desktop and tablet) */
+.left-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* More | Less side by side */
+  gap: 1rem;                      /* space between columns */
+  max-width: 25rem;               /* restrict width so the layout doesn't stretch too wide */
+  align-items: start;             /* both columns start at same top */
+  margin-top: 1.25rem;            /* small spacing under heading */
+  /* optional: visual padding inside each column */
+}
+.left-col > div {
+  padding: 0 0.25rem;             /* small inner padding for each column */
+}
+
 /* vertically centre the inner container, not the full viewport text */
 .quote {
   padding-top: 15vh;
@@ -121,32 +131,51 @@ Less destruction
 }
 
 @media (min-width: 1024px) {
+  .quote {
+  padding-top: 15vh;
+  }
   .quote-inner {
     max-width: 1280px; /* match desktop .page-center */
     padding-left: 48px;
     padding-right: 48px;
   }
+  .start-cover {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  cursor: crosshair;
+  transition: background-image 0.4s ease-in-out;
+  color: #fff !important;
+}
   /* if you later change .brand-aaa to 56 px on desktop, mirror it here */
   /* .line { font-size: 56px; } */
 }
 
 @media (max-width: 768px) {
+    .quote {
+  padding-top: 15vh;
+  }
   .line {
     font-size: 36px;
   }
+.start-cover {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  cursor: crosshair;
+  transition: background-image 0.4s ease-in-out;
+  color: #fff !important;
 }
-
 /* Anchor block within the same visual left column as Agency */
-.left-col {
-  display: grid;
+/* Mobile: stack and align with mobile padding */
+  .left-col {
+      display: grid;
   grid-template-columns: 1fr 1fr;
   width: 25rem;
-}
-
-
-/* Mobile: stack and align with mobile padding */
-@media (max-width: 768px) {
-  .left-col {
     position: static;
     left: auto;
     right: auto;
