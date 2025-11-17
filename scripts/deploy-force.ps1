@@ -73,8 +73,28 @@ git add -A
 git commit -m "Deploy: force update $PublishBranch - $ts" 2>$null
 
 # show sha
-$sha = git rev-parse --short HEAD
-Write-Host "Prepared commit $sha in dist." -ForegroundColor Green
+# create and switch branch safely (works if branch exists or not)
+try {
+  git rev-parse --verify $PublishBranch 2>$null
+  $branchExists = $LASTEXITCODE -eq 0
+} catch {
+  $branchExists = $false
+}
+
+if ($branchExists) {
+  Write-Host "Branch $PublishBranch exists — switching to it"
+  git switch $PublishBranch 2>$null || git checkout $PublishBranch 2>$null
+} else {
+  Write-Host "Creating and switching to branch $PublishBranch"
+  git switch -c $PublishBranch 2>$null || git checkout -b $PublishBranch 2>$null
+}
+
+# continue even if git printed warnings to stderr
+
+
+
+# $sha = git rev-parse --short HEAD
+# Write-Host "Prepared commit $sha in dist." -ForegroundColor Green
 
 if ($DryRun) {
   Write-Host "`nDryRun requested. Not pushing. Cleaning up..." -ForegroundColor Yellow
