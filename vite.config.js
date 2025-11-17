@@ -3,9 +3,8 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/',    // correct for henrikalmquist.github.io
-  build: {
-    outDir: 'dist'
-  }
+  base: '/',   // must be '/' for username.github.io
+  build: { outDir: 'dist' }
 })
+
 
