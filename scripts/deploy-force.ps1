@@ -74,6 +74,7 @@ git commit -m "Deploy: force update $PublishBranch - $ts" 2>$null
 
 # show sha
 # create and switch branch safely (works if branch exists or not)
+$sha = git rev-parse --short HEAD
 try {
   git rev-parse --verify $PublishBranch 2>$null
   $branchExists = $LASTEXITCODE -eq 0
@@ -93,7 +94,7 @@ if ($branchExists) {
 
 
 
-# $sha = git rev-parse --short HEAD
+
 # Write-Host "Prepared commit $sha in dist." -ForegroundColor Green
 
 if ($DryRun) {

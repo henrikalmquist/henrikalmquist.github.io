@@ -46,7 +46,7 @@ Less resources
 Less pollution  
 Less monotony  
 Less material   
-Less large investment   
+Less investment   
 `
     }
   },
@@ -98,7 +98,7 @@ Less large investment
   /* optional: visual padding inside each column */
 }
 .left-col > div {
-  padding: 0 0.25rem;             /* small inner padding for each column */
+  padding: 0 0rem;             /* small inner padding for each column */
 }
 
 /* vertically centre the inner container, not the full viewport text */
@@ -116,8 +116,8 @@ Less large investment
   max-width: 1200px; /* same as .page-center */
   margin-left: auto;
   margin-right: auto;
-  padding-left: 24px; /* same as .container */
-  padding-right: 24px;
+  padding-left: 12px; /* same as .container */
+  padding-right: 12px;
 }
 
 /* align with AAA: same family, weight, size as .brand-aaa (48 px in App.vue) */
@@ -134,10 +134,11 @@ Less large investment
   .quote {
   padding-top: 15vh;
   }
+  
   .quote-inner {
-    max-width: 1280px; /* match desktop .page-center */
-    padding-left: 48px;
-    padding-right: 48px;
+    max-width: 400px; /* match desktop .page-center */
+    padding-left: 24px;
+    padding-right: 24px;
   }
   .start-cover {
   position: fixed;
