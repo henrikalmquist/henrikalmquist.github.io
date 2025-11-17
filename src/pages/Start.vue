@@ -98,7 +98,7 @@ Less investment
   /* optional: visual padding inside each column */
 }
 .left-col > div {
-  padding: 0 0rem;             /* small inner padding for each column */
+  padding: 0 0.25rem;             /* small inner padding for each column */
 }
 
 /* vertically centre the inner container, not the full viewport text */
@@ -134,9 +134,8 @@ Less investment
   .quote {
   padding-top: 15vh;
   }
-  
   .quote-inner {
-    max-width: 400px; /* match desktop .page-center */
+    max-width: 1280px; /* match desktop .page-center */
     padding-left: 24px;
     padding-right: 24px;
   }
