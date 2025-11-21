@@ -31,7 +31,11 @@
     </main>
 
     <footer class="container bottom-pad page-center">
-      <div>AAA&nbsp;&nbsp; contact@a-a-a.se &nbsp; <a href="https://www.instagram.com/almquisthenrik/">@almquisthenrik</a></div>
+      <div>
+          <a href="mailto:contact@a-a-a.se">contact@a-a-a.se</a>&nbsp;
+  <a href="tel:+46793513461">+46 (0)79 351 34 61</a>&nbsp;
+  <a href="https://www.instagram.com/almquisthenrik/">@almquisthenrik</a>
+</div>
     </footer>
   </div>
 </template>

@@ -28,16 +28,30 @@
 
     <!-- RIGHT column -->
     <div class="right">
-      <ImagesContainer
-        v-if="agency.rightColumnImages.length"
-        header=""
-        :images="agency.rightColumnImages"
-        description=""
-        :use-markdown="true"
-        :center-content="true"
-        :rem-unit="remUnit"
-        :showonload="1"
-      />
+  <!-- First image container -->
+  <ImagesContainer
+    v-if="agency.rightColumnImages.length > 0"
+    header=""
+    :images="[agency.rightColumnImages[0]]"
+    description=""
+    :use-markdown="true"
+    :center-content="true"
+    :rem-unit="remUnit"
+    :showonload="1"
+  />
+
+  <!-- Second image container, stacked under the first 
+  <ImagesContainer
+    v-if="agency.rightColumnImages.length > 1"
+    header=""
+    :images="[agency.rightColumnImages[1]]"
+    description=""
+    :use-markdown="true"
+    :center-content="true"
+    :rem-unit="remUnit"
+    :showonload="1"
+  />
+    -->
     </div>
   </section>
 </template>
