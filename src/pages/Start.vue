@@ -63,16 +63,17 @@ Less investment
   },
   mounted() {
     const images = [
-      "/img/AAAstart/01.jpg",
-      "/img/AAAstart/02.jpg",
-      "/img/AAAstart/04.jpg",
-      "/img/AAAstart/05.jpg"
+      "/img/AAAstart/01.jpg"
     ]
     this.bgUrl = this.pickRandom(images)
   }
 }
 </script>
 
+<!-- ,
+      "/img/AAAstart/02.jpg",
+      "/img/AAAstart/04.jpg",
+      "/img/AAAstart/05.jpg" -->
 
 <style scoped>
 /* full-bleed background */
