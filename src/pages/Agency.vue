@@ -5,6 +5,11 @@
       <!-- Part one -->
       <div class="intro" v-html="renderMarkdown(currentText(agency.partOne))"></div>
 
+
+
+      <!-- Part two -->
+      <div class="rest2" v-if="currentText(agency.partTwo)" v-html="renderMarkdown(currentText(agency.partTwo))">  </div>
+
       <!-- PROFILE SECTION -->
       <ImagesContainerCollapsed
         v-for="(p, i) in profileForLang"
@@ -15,11 +20,6 @@
         :showonload="p.showonload"
         :rem-unit="remUnit"
       />
-
-      <!-- Part two -->
-      <div class="rest2" v-if="currentText(agency.partTwo)" v-html="renderMarkdown(currentText(agency.partTwo))">  </div>
-
-
 
 
      
