@@ -1,7 +1,8 @@
 <template>
   <div class="collapsed-root" :style="outerMarginComputed">
     <!-- TITLE (always visible; markdown-enabled) -->
-    <div class="title-row prose text-black leading-5">
+    <div class="title-row text-black title-text">
+
       <div v-html="headerHTML"></div>
       <div class="controls">
         <button class="toggle" @click.stop="expanded = !expanded"
@@ -59,7 +60,7 @@ export default {
     useMarkdown: { type: Boolean, default: true },
     isSmallScreen: { type: Boolean, default: false },
     showonload: { type: [Number, String], default: 0 },
-    itemGapRem: { type: Number, default: .8 }
+    itemGapRem: { type: Number, default: 1.6 }
   },
   data: () => ({ imageIndex: 0, expanded: false }),
   mounted() { this.expanded = !!Number(this.showonload); },
@@ -90,7 +91,7 @@ export default {
 
 <style scoped>
 .title-row{
-  display:flex; justify-content:space-between; align-items:center;
+  display:flex; justify-content:space-between; align-items:flex-end;
 }
 .controls{ display:flex; align-items:center; gap:.5rem; }
 .toggle,.next{ cursor:crosshair; font-size:1.25rem; line-height:1; background:none; border:none; padding:0; }

@@ -5,6 +5,9 @@
       <!-- Part one -->
       <div class="intro" v-html="renderMarkdown(currentText(agency.partOne))"></div>
 
+      <!-- Part two -->
+      <div class="rest2" v-if="currentText(agency.partTwo)" v-html="renderMarkdown(currentText(agency.partTwo))">  </div>
+
       <!-- PROFILE SECTION -->
       <ImagesContainerCollapsed
         v-for="(p, i) in profileForLang"
@@ -15,11 +18,6 @@
         :showonload="p.showonload"
         :rem-unit="remUnit"
       />
-
-      <!-- Part two -->
-      <div class="rest2" v-if="currentText(agency.partTwo)" v-html="renderMarkdown(currentText(agency.partTwo))">  </div>
-
-
 
 
      
@@ -177,15 +175,11 @@ export default {
     gap: 0rem;
   }
 
-
-
     .right > div {
     margin-bottom: 0 !important;
   }
 
-  .left { display: contents;
-    margin-bottom: 5rem;   /* adjust to taste */
-   }
+  .left { display: contents; }
 
   .intro { grid-area: intro; }
   .right { grid-area: right; margin: 0rem 0;}

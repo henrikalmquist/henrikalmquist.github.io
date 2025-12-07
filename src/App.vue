@@ -32,9 +32,9 @@
 
     <footer class="container bottom-pad page-center">
       <div>
-          <a href="mailto:contact@a-a-a.se">contact@a-a-a.se</a>&nbsp;
-  <a href="tel:+46793513461">+46 (0)79 351 34 61</a>&nbsp;
-  <a href="https://www.instagram.com/almquisthenrik/">@almquisthenrik</a>
+          <a href="mailto:contact@a-a-a.se" title="contact@a-a-a.se" aria-label="contact@a-a-a.se">mail</a>&nbsp;
+  <a href="tel:+46793513461" title="+46793513461" aria-label="+46793513461">phone</a>&nbsp;
+  <a href="https://www.instagram.com/almquisthenrik/" title="Instagram" aria-label="@almquisthenrik">@almquisthenrik</a>
 </div>
     </footer>
   </div>
@@ -105,10 +105,21 @@ export default {
 .header-link { color: inherit; text-decoration: none; font-style: italic; }
 .header-link.is-active { font-style: italic; text-decoration: none; }
 
+  .layout-grid > main {
+    padding-bottom: 1.5rem;  /* adjust value as you like */
+  }
+
+
+/* Guard against margin-collapsing pulling the footer up */
+.layout-grid > main > *:first-child {
+  margin-top: 0;
+}
+
 @media (min-width:1024px){
   .container   { padding: 0 48px; }
   .top-pad     { padding-top: 32px; }
   .page-center { max-width: 1280px; }
+  
 
   /* Keep AAA bold on desktop too — only change size if you want */
   .brand-aaa {
@@ -122,10 +133,6 @@ export default {
   color: white;
 }
 
-.site-header.is-white a {
-  color: white;
-}
-
 .lang-toggle a {
   text-decoration: underline;
   font-style: normal;
@@ -135,6 +142,8 @@ export default {
   text-decoration: none;
   font-style: italic;
 }
+
+
 
 /* Make the root fill the viewport (must be global, not scoped) */
 html, body, #app {
@@ -159,6 +168,7 @@ html, body, #app {
 .layout-grid > main > *:first-child {
   margin-top: 0;
 }
+
 
 </style>
 

@@ -30,7 +30,7 @@ export default {
       md: new MarkdownIt(),
       moreText: `&ast;   
 More culture  
-More patina  
+More continuity  
 More diversity  
 More value  
 More memories  

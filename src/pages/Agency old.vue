@@ -1,3 +1,4 @@
+
 <template>
   <section class="two-col" :style="{ '--rem': remUnit + 'rem' }">
     <!-- LEFT column -->
@@ -5,25 +6,8 @@
       <!-- Part one -->
       <div class="intro" v-html="renderMarkdown(currentText(agency.partOne))"></div>
 
-      <!-- PROFILE SECTION -->
-      <ImagesContainerCollapsed
-        v-for="(p, i) in profileForLang"
-        :key="'profile-' + i"
-        :header="p.header"
-        :images="p.images"
-        :description="p.text"
-        :showonload="p.showonload"
-        :rem-unit="remUnit"
-      />
-
       <!-- Part two -->
-      <div class="rest2" v-if="currentText(agency.partTwo)" v-html="renderMarkdown(currentText(agency.partTwo))">  </div>
-
-
-
-
-     
-      
+      <div class="rest2" v-if="currentText(agency.partTwo)" v-html="renderMarkdown(currentText(agency.partTwo))"></div>
 
       <!-- Collapsed statement after part two -->
 <CollapsibleText
@@ -77,23 +61,20 @@ import { inject } from 'vue';
 import MarkdownIt from 'markdown-it';
 import ImagesContainer from '../components/ImagesContainer.vue';
 import CollapsibleText from '../components/CollapsibleText.vue';
-import ImagesContainerCollapsed from '../components/ImagesContainerCollapsed.vue';
 import site from '../site.json';
 
 const md = new MarkdownIt({ html: false, breaks: true, linkify: true });
 
 function normalizeIndent(s = '') {
   const lines = s.replace(/^\n/, '').split('\n');
-  const ind = lines
-    .filter(l => l.trim())
-    .map(l => (l.match(/^(\s*)/) || ['', ''])[1].length);
+  const ind = lines.filter(l => l.trim()).map(l => (l.match(/^(\s*)/) || ['', ''])[1].length);
   const min = ind.length ? Math.min(...ind) : 0;
   return lines.map(l => l.slice(min)).join('\n');
 }
 
 export default {
   name: 'AgencyPage',
-  components: { ImagesContainer, CollapsibleText, ImagesContainerCollapsed },
+  components: { ImagesContainer, CollapsibleText  },
   setup() {
     const lang = inject('lang', 'en'); // from App.vue toggle
     return { lang };
@@ -101,53 +82,30 @@ export default {
   data() {
     return {
       agency: site.agency || {
-        partOne: {},
-        partTwo: {},
-        profile: [],
-        statement: {},
-        partThree: {},
-        rightColumnImages: []
+        partOne: {}, partTwo: {}, statement: {}, partThree: {}, rightColumnImages: []
       },
       remUnit: 7
     };
   },
   computed: {
-    profileForLang() {
-      const profiles = this.agency.profile || [];
-      return profiles.map(p => ({
-        header: this.lang === 'sv'
-          ? (p.headerSv || p.header || '')
-          : (p.header || ''),
-        text: this.lang === 'sv'
-          ? (p.sv || '')
-          : (p.en || ''),
-        images: Array.isArray(p.images) ? p.images : [],
-        showonload:
-          typeof p.showonload === 'number'
-            ? p.showonload
-            : Number(p.showonload) || 0
-      }));
-    },
     hasStatement() {
       const s = this.agency.statement || {};
       return (s.headerEn || s.headerSv || s.en || s.sv);
     }
   },
   methods: {
-    renderMarkdown(text) {
-      // Normalise CRLF -> LF, add surrounding blank lines, and remove common indent
-      const t = normalizeIndent(('\n' + (text || '') + '\n').replace(/\r\n/g, '\n'));
-      return md.render(t);
-    },
+  renderMarkdown(text) {
+    // Normalise CRLF -> LF, add surrounding blank lines, and remove common indent
+    const t = normalizeIndent(('\n' + (text || '') + '\n').replace(/\r\n/g, '\n'));
+    return md.render(t);
+  },
     currentText(section) {
       if (!section) return '';
       return this.lang === 'sv' ? (section.sv || '') : (section.en || '');
     },
     currentHeader(statement) {
       if (!statement) return '';
-      return this.lang === 'sv'
-        ? (statement.headerSv || statement.headerEn || '')
-        : (statement.headerEn || statement.headerSv || '');
+      return this.lang === 'sv' ? (statement.headerSv || statement.headerEn || '') : (statement.headerEn || statement.headerSv || '');
     }
   }
 };
@@ -177,15 +135,11 @@ export default {
     gap: 0rem;
   }
 
-
-
     .right > div {
     margin-bottom: 0 !important;
   }
 
-  .left { display: contents;
-    margin-bottom: 5rem;   /* adjust to taste */
-   }
+  .left { display: contents; }
 
   .intro { grid-area: intro; }
   .right { grid-area: right; margin: 0rem 0;}
@@ -225,4 +179,6 @@ export default {
   opacity: 1;
   font-size: 1em;
 }
+
+
 </style>

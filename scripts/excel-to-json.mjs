@@ -91,9 +91,20 @@ const statement = {
   showonload: showProb(stRow.Showonload)
 };
 
+const profile = rows
+  .filter(r => match(r.Position, "profile"))
+  .map(r => ({
+    header: S(r.Title),
+    headerSv: S(r.TitleSv || r["Title Sv"]),
+    en: S(r.English),
+    sv: S(r.Swedish),
+    images: splitImages(r.Images),
+    showonload: showProb(r.Showonload)
+  }));
 
   return {
     partOne:   { en: S(partOne.English),  sv: S(partOne.Swedish) },
+    profile,
     partTwo:   { en: S(partTwo.English),  sv: S(partTwo.Swedish) },
     statement, // the new “Plus” block (collapsed)
     partThree: { en: S(partThree.English), sv: S(partThree.Swedish) },

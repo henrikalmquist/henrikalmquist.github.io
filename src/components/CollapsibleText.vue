@@ -96,7 +96,13 @@ export default {
 </script>
 
 <style scoped>
-
+.ct-plus {
+  font-size: 1.25rem; /* same as ImagesContainerCollapsed */
+  line-height: 1;
+  background: none;
+  border: none;
+  padding: 0;
+}
 .ct-head {
   width: 100%;
   display: flex;
