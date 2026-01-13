@@ -1,4 +1,4 @@
-import{M as a}from"./index-0a696d3b.js";import{_ as i,o as c,c as l,a as s,n as d}from"./index-858f56b4.js";const m={name:"StartPage",data(){return{bgUrl:"",md:new a,moreText:`&ast;   
+import{M as a}from"./index-0a696d3b.js";import{_ as i,o as c,c as l,a as s,n as d}from"./index-6f48d982.js";const m={name:"StartPage",data(){return{bgUrl:"",md:new a,moreText:`&ast;   
 More culture  
 More continuity  
 More diversity  
