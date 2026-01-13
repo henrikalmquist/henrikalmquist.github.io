@@ -11,15 +11,19 @@
           "headerSv": "**Vad kan en befintlig byggnad eller plats erbjuda?**",
           "en": "The richness inherited is often irreplaceable. Materials and elaborate craftmanship from past times, layers of human touch and stories, a tightly woven social fabric creating purpose and a sense of belonging, design of enduring quality and character, vibrant diverse uses and a strong sense of place.\r\n\r\nQualities we so often try to recreate are already present, waiting to be cared for, adapted and brought into new use.",
           "sv": "Den rikedom som finns i det vi ärvt är oftast oersättlig. Material och genomarbetat hantverk från tidigare tider, lager av mänsklig prägel och berättelser, en tätt vävd social struktur som skapar mening och tillhörighet, design av bestående kvalitet och karaktär, livfullt mångfacetterade användningsområden och en stark känsla för plats.\r\n\r\nKvaliteter vi så ofta försöker återskapa är redan närvarande, i väntan på att tas om hand, anpassas och ges en ny användning.",
-          "images": [],
-          "showonload": 1
+          "images": [
+            "/img/AAA000/AAA00.jpg"
+          ],
+          "showonload": 0
         },
         {
           "header": "**How do we identify and develop value?**",
           "headerSv": "**Hur identifierar och utvecklar vi värde?**",
           "en": "The starting point is observation and evaluation. AAA believes the concrete reality, the materials, structure and layers of use, must be understood to unlock the potential of a building or place.\r\n* Through **early-stage mapping** of materials, structure, and spatial logic, different options for reuse or adaptation are evaluated. \r\n* This **iterative process** builds a foundation for informed decision-making, where environmental, social, and architectural qualities are integrated from the start.\r\n* It is **not a phase of design**, but an iterative process of exploring scenarios of the best way forward.",
           "sv": "Utgångspunkten är observation och utvärdering. AAA anser att den konkreta verkligheten, materialen, strukturen och användningslagren, måste förstås för att frigöra potentialen i en byggnad eller plats.\r\n\r\n* Genom **tidig kartläggning** av material, struktur och rumslig logik, utvärderas olika alternativ för återanvändning eller anpassning.\r\n* Denna **iterativa process** bygger en grund för informerade beslutsfattanden, där miljömässiga, sociala och arkitektoniska kvaliteter integreras från start.\r\n* Det är **inte en designfas**, utan en iterativ process av att utforska scenarier för bästa möjliga väg framåt.",
-          "images": [],
+          "images": [
+            "/img/AAA000/AAA02.jpg"
+          ],
           "showonload": 0
         },
         {
