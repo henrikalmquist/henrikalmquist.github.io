@@ -60,8 +60,8 @@
       }
     ],
     "partTwo": {
-      "en": "For any inquiries or to discuss a project, welcome to [call](tel:+46793513461) / [mail](mailto:contact@a-a-a.se)",
-      "sv": "För frågor eller för att diskutera ett projekt, välkommen att [ringa](tel:+46793513461) / [maila](mailto:contact@a-a-a.se)"
+      "en": "For any inquiries or to discuss a project, you are welcome to get in touch at [+46 (0)79 351 34 61](tel:+46793513461) or [contact@a-a-a.se](mailto:contact@a-a-a.se)",
+      "sv": "För frågor eller för att diskutera ett projekt är du välkommen att höra av dig på [+46 (0)79 351 34 61](tel:+46793513461) eller [contact@a-a-a.se](mailto:contact@a-a-a.se)"
     },
     "statement": {
       "headerEn": "**Practice, research and policy**",

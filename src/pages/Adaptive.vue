@@ -113,13 +113,11 @@ export default {
   grid-template-columns: 1fr 1fr;
   gap: var(--rem, 7rem);
   width: 100%;
-  text-align: justify;
 }
 
 .left,
 .right { min-width: 0;
   align-self: start; /* prevents stretching */
-  text-align: justify;
  }
 
  .right > div {
