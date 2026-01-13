@@ -109,6 +109,7 @@ Less investment
   inset: 0;
   display: flex;
   align-items: center; 
+  text-align: left;
 }
 
 /* match App.vue’s .container + .page-center */
@@ -119,6 +120,7 @@ Less investment
   margin-right: auto;
   padding-left: 12px; /* same as .container */
   padding-right: 12px;
+  text-align: left;
 }
 
 /* align with AAA: same family, weight, size as .brand-aaa (48 px in App.vue) */
@@ -127,7 +129,7 @@ Less investment
   font-weight: 700;
   font-size: 48px;
   line-height: 1;
-  text-align: justify;
+  text-align: left;
   color: #ffffff; /* white text for dark images */
 }
 
