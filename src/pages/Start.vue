@@ -127,7 +127,7 @@ Less investment
   font-weight: 700;
   font-size: 48px;
   line-height: 1;
-  text-align: left;
+  text-align: justify;
   color: #ffffff; /* white text for dark images */
 }
 

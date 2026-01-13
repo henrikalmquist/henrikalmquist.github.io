@@ -159,6 +159,7 @@ export default {
   grid-template-columns: 1fr 1fr;
   gap: var(--rem, 7rem);
   width: 100%;
+  text-align: justify;
 }
 
 .left,

@@ -44,6 +44,7 @@ html, body {
   font-family: TIMES, system-ui, sans-serif;
   font-weight: 400;
   color: #000 !important;
+  text-align: justify;
 }
 
 /* Headings use same size as body; hierarchy via spacing/italics only */
@@ -52,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
   line-height: inherit;
   margin: 1.5rem 0 1rem;
+  text-align: justify;
 }
 
 /* Generic elements inherit body sizing */
@@ -59,6 +61,7 @@ p, a, li, ol, ul, div, span, small, em, figcaption {
   font-size: inherit;
   line-height: inherit;
   font-weight: inherit;
+  text-align: justify;
 }
 
 /* Site-wide links (outside the header): underline */
@@ -78,6 +81,7 @@ a { text-decoration: underline; font-style: normal; }
   font-style: italic;
   font-size: inherit;   /* same as body */
   line-height: inherit;
+  text-align: justify;
 }
 .header-link {          /* header links: same size, italic by default */
   text-decoration: underline !important;

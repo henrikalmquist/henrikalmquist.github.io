@@ -252,7 +252,7 @@ AAA works with renovations, additions and strategies for the existing environmen
 :deep(p),
 :deep(li),
 :deep(blockquote) {
-  text-align: left !important;
+  text-align: justify !important;
   text-justify: auto; /* neutralise full justification if a global rule set it */
 }
 
@@ -261,7 +261,7 @@ AAA works with renovations, additions and strategies for the existing environmen
 :deep(.description p),
 :deep(.markdown p),
 :deep(.md p) {
-  text-align: left !important;
+  text-align: justify !important;
 }
 
 /* Do NOT touch headings */

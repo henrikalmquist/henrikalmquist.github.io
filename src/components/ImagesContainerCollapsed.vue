@@ -120,7 +120,7 @@ export default {
 .body :deep(p),
 .body :deep(li),
 .body :deep(blockquote) {
-  text-align: left !important;
+  text-align: justify !important;
   text-justify: auto;
 }
 </style>
