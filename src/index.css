@@ -101,3 +101,12 @@ p {
 
 /* If some texts use <u>…</u> but you do NOT want underlines anywhere:
 u, .prose u { text-decoration: none; } */
+
+@media (max-width: 768px) {
+  html, body,
+  h1, h2, h3, h4, h5, h6,
+  p, a, li, ol, ul, div, span, small, em, figcaption,
+  .brand-sub {
+    text-align: left;
+  }
+}
