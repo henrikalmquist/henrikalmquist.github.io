@@ -17,14 +17,15 @@ const router = createRouter({
 });
 
 // GoatCounter SPA tracking
-router.afterEach(() => {
+router.afterEach((to) => {
   if (window.goatcounter && typeof window.goatcounter.count === 'function') {
-    const path = (location.hash || '#/').replace(/^#/, '');
-    window.goatcounter.count({ path });
+    window.goatcounter.count({
+      path: to.fullPath,
+    });
   }
 });
 
+
+
 export default router;
-
-
 
