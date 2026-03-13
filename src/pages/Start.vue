@@ -131,6 +131,7 @@ Less investment
   line-height: 1;
   text-align: left;
   color: #ffffff; /* white text for dark images */
+  
 }
 
 @media (min-width: 1024px) {
@@ -178,7 +179,7 @@ Less investment
   .left-col {
       display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 25rem;
+  width: 20rem;
     position: static;
     left: auto;
     right: auto;
