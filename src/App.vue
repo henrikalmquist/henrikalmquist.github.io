@@ -16,9 +16,9 @@
   <router-link to="/architecture" class="header-link" :class="{ 'is-active': $route.path === '/architecture' }">Architecture</router-link>
   <span>&nbsp;</span>
   <!-- Language toggle -->
-  <span class="lang-toggle">
+  <!-- <span class="lang-toggle">
     <a href="#" class="header-link" :class="{ 'is-active': lang === 'sv' }" @click.prevent="setLang('sv')">sv</a>&hairsp;/<a href="#" class="header-link" :class="{ 'is-active': lang === 'en' }" @click.prevent="setLang('en')">en</a>
-  </span>
+  </span> -->
 </span>
 
         </div>

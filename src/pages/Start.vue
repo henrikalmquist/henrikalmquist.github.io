@@ -55,7 +55,7 @@ Less investment
       return this.md.render(text || "")
     },
     go() {
-      this.$router.push("/agency")
+      this.$router.push("/architecture")
     },
     pickRandom(arr) {
       return arr[Math.floor(Math.random() * arr.length)]

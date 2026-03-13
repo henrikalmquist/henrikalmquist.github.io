@@ -60,22 +60,10 @@
       <!-- text: always visible for intro, collapsible otherwise -->
       <div
         v-if="type === 'intro' || (hasDescription && showText)"
-        class="mt-0"
+        class="mt-2"
+        v-html="imageTextComputed"
         @click.stop="descriptionClicked"
-      >
-        <div v-if="hasDescription" v-html="imageTextComputed"></div>
-
-        <div v-if="type !== 'intro' && hasMetaComputed && showText" class="meta-table">
-          <div
-            v-for="(item, i) in meta"
-            :key="`${header || 'meta'}-${i}`"
-            class="meta-row"
-          >
-            <div class="meta-label">{{ item.label }}</div>
-            <div class="meta-value">{{ item.value }}</div>
-          </div>
-        </div>
-      </div>
+      ></div>
     </div>
   </div>
 </template>
@@ -83,7 +71,7 @@
 <script>
 import ImageContainer from './ImageContainer.vue';
 import MarkdownIt from 'markdown-it';
-const markdown = new MarkdownIt({ breaks: true, html: true });
+const markdown = new MarkdownIt({ breaks: true });
 
 // remove common leading spaces so Markdown doesn't create code blocks
 function normalizeIndent(s) {
@@ -104,7 +92,6 @@ export default {
     header: { type: String, default: '' },
     type: { type: String, default: '' },          // "intro" keeps text always visible
     description: { type: String, default: '' },
-    meta: { type: Array, default: () => [] },
     remUnit: { type: Number, default: 7 },
     useMarkdown: { type: Boolean, default: true },
     centerContent: { type: Boolean, default: true },
@@ -124,9 +111,6 @@ export default {
     hasDescription() {
       return !!(this.description && this.description.trim().length > 0);
     },
-    hasMetaComputed() {
-      return Array.isArray(this.meta) && this.meta.length > 0;
-    },
     imageIndexComputed() { return this.imageIndex; },
     imageComputed() { return this.images[this.imageIndexComputed]; },
     amountOfImagesComputed() { return this.images.length; },
@@ -136,13 +120,13 @@ export default {
     },
     hasImagesComputed() { return this.amountOfImagesComputed > 0; },
     textClassComputed() {
-      let result = this.hasImagesComputed ? 'mt-7' : '';
+      let result = this.hasImagesComputed ? 'mt-4' : '';
       result += this.type === 'intro' ? ' font-times leading-5' : ' leading-5';
       return result;
     },
     outerMarginComputed() {
       const remSize = this.isSmallScreen ? (this.remUnit * 2) / 3 : this.remUnit;
-      return `margin-bottom: ${remSize * .8}rem`;
+      return `margin-bottom: ${remSize * 0.66}rem`;
     },
     imageRemSizeComputed() {
       return this.type === 'intro' ? this.remUnit * 5 : this.remUnit * 4;
@@ -167,30 +151,4 @@ export default {
 .fade-leave-active { transition: opacity 0.25s ease; }
 .fade-enter-from,
 .fade-leave-to { opacity: 0; }
-
-.meta-table {
-  margin-top: 1.25rem;
-}
-
-.meta-row {
-  display: grid;
-  grid-template-columns: 6rem 1fr;
-  column-gap: 0rem;
-  margin-bottom: 0.25rem;
-  align-items: start;
-}
-
-.meta-label,
-.meta-value {
-  line-height: 1.3;
-}
-
-.meta-label {
-  opacity: 1;
-}
-
-:deep(.meta-table p) {
-  margin: 0 !important;
-}
-
 </style>

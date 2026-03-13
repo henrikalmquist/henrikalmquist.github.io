@@ -73,12 +73,8 @@ function loadAgency(ws) {
   const partTwo   = rows.find(r => clean(r.Position).includes("part two"))   || {};
   const partThree = rows.find(r => clean(r.Position).includes("part three")) || {};
   const stRow     = rows.find(r => clean(r.Position).includes("plus"))       || {};
-
-  if (stRow && S(stRow.Position)) {
-    console.log("✅ Found Plus row:", stRow.Position);
-  } else {
-    console.warn("⚠️ No 'Plus' row matched. Check spelling or hidden chars in Excel.");
-  }
+  const stRow1     = rows.find(r => clean(r.Position).includes("plusone"))       || {};
+  const stRow2     = rows.find(r => clean(r.Position).includes("plustwo"))       || {};
 
 // --- Agency: "Plus" statement ---
 const statement = {
@@ -86,9 +82,25 @@ const statement = {
   headerSv:  S(stRow.TitleSv),
   textEn:    S(stRow.English),
   textSv:    S(stRow.Swedish),
-  descriptionEn: S(stRow.English),  // fallback field name for compatibility
-  descriptionSv: S(stRow.Swedish),
   showonload: showProb(stRow.Showonload)
+};
+
+// --- Agency: "plus1" plustwo ---
+const plusone = {
+  headerEn:  S(stRow1.Title),
+  headerSv:  S(stRow1.TitleSv),
+  textEn:    S(stRow1.English),
+  textSv:    S(stRow1.Swedish),
+  showonload: showProb(stRow1.Showonload)
+};
+
+// --- Agency: "plus two" plustwo ---
+const plustwo = {
+  headerEn:  S(stRow2.Title),
+  headerSv:  S(stRow2.TitleSv),
+  textEn:    S(stRow2.English),
+  textSv:    S(stRow2.Swedish),
+  showonload: showProb(stRow2.Showonload)
 };
 
 const profile = rows
@@ -107,7 +119,9 @@ const profile = rows
     profile,
     partTwo:   { en: S(partTwo.English),  sv: S(partTwo.Swedish) },
     statement, // the new “Plus” block (collapsed)
+    plusone,
     partThree: { en: S(partThree.English), sv: S(partThree.Swedish) },
+    plustwo,
     rightColumnImages: ["/img/AAA019/AAA019_Generative_Care_06.gif"] // placeholder empty array for consistency
   };
 }
@@ -116,18 +130,62 @@ const profile = rows
 
 
 // ---------- Architecture ----------
+
+
+function slugKey(str) {
+  return S(str)
+    .toLowerCase()
+    .replace(/[åä]/g, "a")
+    .replace(/ö/g, "o")
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "");
+}
+
+function parseMeta(val) {
+  const text = S(val);
+  if (!text) return [];
+
+  return text
+    .split(/\r?\n/)
+    .map(line => line.trim())
+    .filter(Boolean)
+    .map(line => {
+      const m = line.match(/^([^:]+):\s*(.*)$/);
+      if (!m) return null;
+
+      const label = S(m[1]);
+      const value = S(m[2]);
+
+      if (!label || !value) return null;
+
+      return {
+        label,
+        key: slugKey(label),
+        value
+      };
+    })
+    .filter(Boolean);
+}
+
 function loadArchitecture(ws) {
+  if (!ws) return { projects: [] };
+
   const rows = xlsx.utils.sheet_to_json(ws, { defval: "" });
-  const projects = rows.map(r => ({
-    index: S(r.Index),
-    title: S(r.Title),
-    titleSv: S(r.TitleSv),
-    en: S(r.English),
-    sv: S(r.Swedish),
-    images: splitImages(r.Images),
-    showonload: showProb(r.Showonload),
-    prio: N(r.Prio, 0)
-  }));
+
+  const projects = rows
+    .map(r => ({
+      index: S(r.Index),
+      title: S(r.Title),
+      titleSv: S(r.TitleSv),
+      en: S(r.English),
+      sv: S(r.Swedish),
+      meta: parseMeta(r.Meta),
+      images: splitImages(r.Images),
+      showonload: showProb(r.Showonload),
+      prio: N(r.Prio, 0)
+    }))
+    .filter(p => p.index || p.title || p.titleSv || p.en || p.sv || p.images.length);
+
   return { projects };
 }
 

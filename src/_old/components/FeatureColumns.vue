@@ -8,7 +8,6 @@
         :header="feature.header || ''"
         :images="feature.images || []"
         :description="feature.text || ''"
-        :meta="feature.meta || []"
         :type="feature.type"
         :rem-unit="safeRemUnit"
         :use-markdown="useMarkdown"
@@ -29,7 +28,6 @@
         :header="feature.header || ''"
         :images="feature.images || []"
         :description="feature.text || ''"
-        :meta="feature.meta || []"
         :type="feature.type"
         :rem-unit="safeRemUnit"
         :use-markdown="useMarkdown"
@@ -46,7 +44,6 @@
         :header="feature.header || ''"
         :images="feature.images || []"
         :description="feature.text || ''"
-        :meta="feature.meta || []"
         :type="feature.type"
         :rem-unit="safeRemUnit"
         :use-markdown="useMarkdown"
@@ -113,7 +110,7 @@ export default {
     gapComputed() { return `gap: ${this.safeRemUnit}rem;`; },
     firstComlumeStyleComputed() { 
       //return "";
-      return this.useMarkdown ? `margin-top: -1.2rem;` : ""; 
+      return this.useMarkdown ? `margin-top: -1.7rem;` : ""; 
       },
     isSmallScreenComputed() {
       try { return useMatchMedia("(max-width: 768px)").value; }
