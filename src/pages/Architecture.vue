@@ -80,14 +80,14 @@ AAA works with renovations, additions and strategies for the existing environmen
 <div class="service-line">
   <div class="service-title"><strong>Consultancy</strong></div>
   <div class="service-desc">
-    <a href="@#/adaptive" class="blink-link">Unlocking existing values</a>
-   in early-stage phases and providing strategic and practical decision support for municipalities and developers.
+    <a href="#/adaptive" class="blink-link">Unlocking existing values</a>
+   in early stage phases and providing strategic and practical decision support for municipalities and developers.
   </div>
 </div>
 
 <div class="service-line">
   <div class="service-title"><strong>Research</strong></div>
-  <div class="service-desc">Building knowledge and innovation at the intersection of the existing built environment, emerging technologies and building processes.</div>
+  <div class="service-desc">Developing knowledge and innovation at the intersection of the existing built environment, emerging technologies and building processes.</div>
 </div>
 
 <div class="service-line">

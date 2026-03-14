@@ -194,6 +194,27 @@ export default {
   animation-delay: 0.15s;
 }
 
+.intro ::v-deep ul {
+  margin-bottom: 1rem;
+}
+
+::v-deep ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1.25rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+::v-deep ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+}
+
+::v-deep li {
+  margin: 0.2rem 0;
+}
+
 @keyframes delayedRealFade {
   from {
     opacity: 0;
