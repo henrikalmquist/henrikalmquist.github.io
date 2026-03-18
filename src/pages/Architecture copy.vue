@@ -41,7 +41,7 @@ export default {
 
   computed: {
 
-      features() {
+    features() {
       const projectItems = this.projects.map((p, idx) => {
         const titleBase = this.pickTitle(p)
         const indexStr =
@@ -64,6 +64,15 @@ export default {
       const diaryItems = this.buildRandomDiaryItems(DIARY_COUNT)
       return projectItems.concat(diaryItems)
     },
+
+shuffle(arr) {
+  const a = arr.slice()
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+},
 
 weightedShuffleByPrio(items) {
   const pool = items.slice()
