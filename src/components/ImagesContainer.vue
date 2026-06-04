@@ -136,10 +136,10 @@ export default {
     },
     hasImagesComputed() { return this.amountOfImagesComputed > 0; },
     textClassComputed() {
-      let result = this.hasImagesComputed ? 'mt-7' : '';
-      result += this.type === 'intro' ? ' font-sans leading-5' : ' leading-5';
-      return result;
-    },
+  let result = this.hasImagesComputed ? 'mt-7' : '';
+  result += ' leading-5';
+  return result;
+},
     outerMarginComputed() {
       const remSize = this.isSmallScreen ? (this.remUnit * 2) / 3 : this.remUnit;
       return `margin-bottom: ${remSize * .8}rem`;
