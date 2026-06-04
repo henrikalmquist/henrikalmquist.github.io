@@ -137,7 +137,7 @@ export default {
     hasImagesComputed() { return this.amountOfImagesComputed > 0; },
     textClassComputed() {
       let result = this.hasImagesComputed ? 'mt-7' : '';
-      result += this.type === 'intro' ? ' font-times leading-5' : ' leading-5';
+      result += this.type === 'intro' ? ' font-sans leading-5' : ' leading-5';
       return result;
     },
     outerMarginComputed() {
