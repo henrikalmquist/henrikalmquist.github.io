@@ -5,3 +5,9 @@ npm run build:data
 github push
 npm run deploy
 
+/ or all in one
+
+git add .
+git commit -m "Fix architecture intro font"
+git push
+npm run deploy
