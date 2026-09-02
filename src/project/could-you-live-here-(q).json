@@ -5,7 +5,25 @@
     "label": "Back",
     "to": "/architecture"
   },
-  "intro": "Explores the latent potential of buildings that are no longer considered viable within current models and practices. Through an inventory, generative AI, plans, regulations, and evaluations of cost and climate impact, the project develops feasible scenarios within existing space and structure. A deeper case study of Instrumentet 17 in Örnsberg investigates how a 1950s and 1960s building once planned for demolition could support new ways of living and working. Led by Henrik Almquist.",
+  "intro": "Explores the renovation potential of existing buildings through new uses and adapted programmes. Combining building inventory, generative AI, planning and regulatory analysis, and assessments of economy and climate impact, the project develops and compares feasible scenarios within existing structures. A detailed case study of Instrumentet 17 in Örnsberg investigates how a 1950s and 1960s building can accommodate new ways of living and working.",
+  "details": [
+    {
+      "label": "Category",
+      "value": "Research and development"
+    },
+    {
+      "label": "Year",
+      "value": "2026"
+    },
+    {
+      "label": "Client/fund.",
+      "value": "Riksbyggen, Tengbom, AA Palmérs"
+    },
+    {
+      "label": "Use",
+      "value": "Renovation to housing"
+    }
+  ],
   "links": [
     {
       "label": "Full presentation here",

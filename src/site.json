@@ -160,9 +160,9 @@
             "value": "2026"
           },
           {
-            "label": "Client/funding",
-            "key": "client_funding",
-            "value": "Riksbyggen, Tengbom, Konstakademin"
+            "label": "Client/fund.",
+            "key": "client_fund",
+            "value": "Riksbyggen, Tengbom, AA Palmérs"
           },
           {
             "label": "Use",
@@ -173,7 +173,9 @@
         "images": [
           "/img/AAA021/in01_t08_00339_.png",
           "/img/AAA021/AAA021_Could_You_Live_Here_(q)_01.png",
-          "/img/AAA021/in01_t08_00196_.png"
+          "/img/AAA021/in01_t08_00196_.png",
+          "/img/AAA021/20250918_131927.jpg",
+          "/img/AAA021/_MG_6191.jpg"
         ],
         "showonload": 1,
         "prio": 1,

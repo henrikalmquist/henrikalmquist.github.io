@@ -72,6 +72,21 @@
           <div class="project-intro">
             <div v-html="renderMarkdown(project.intro)"></div>
 
+            <div
+              v-if="project.details && project.details.length"
+              class="project-details"
+              aria-label="Project information"
+            >
+              <div
+                v-for="(detail, detailIndex) in project.details"
+                :key="'project-detail-' + detailIndex"
+                class="project-detail-row"
+              >
+                <span class="project-detail-label">{{ detail.label }}</span>
+                <span class="project-detail-value">{{ detail.value }}</span>
+              </div>
+            </div>
+
             <div v-if="project.links && project.links.length" class="project-links">
               <template v-for="(link, linkIndex) in project.links" :key="'project-link-' + linkIndex">
                 <a
@@ -785,6 +800,24 @@ export default {
 .scenario-text :deep(p) {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.project-details {
+  display: grid;
+  row-gap: 0;
+  margin-top: 1.5em;
+}
+
+.project-detail-row {
+  display: grid;
+  grid-template-columns: 8.6rem minmax(0, 1fr);
+  column-gap: 0.75rem;
+  align-items: baseline;
+}
+
+.project-detail-label,
+.project-detail-value {
+  min-width: 0;
 }
 
 .project-links {
