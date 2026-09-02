@@ -1,0 +1,2621 @@
+{
+  "index": "AAA021",
+  "title": "Could You Live Here?",
+  "back": {
+    "label": "Back",
+    "to": "/architecture"
+  },
+  "intro": "Explores the latent potential of buildings that are no longer considered viable within current models and practices. Through an inventory, generative AI, plans, regulations, and evaluations of cost and climate impact, the project develops feasible scenarios within existing space and structure. A deeper case study of Instrumentet 17 in Örnsberg investigates how a 1950s and 1960s building once planned for demolition could support new ways of living and working. Led by Henrik Almquist.",
+  "links": [
+    {
+      "label": "Full presentation here",
+      "href": "/img/AAA021/AAA Could You Live Here (q) Presentation.pdf",
+      "type": "application/pdf"
+    },
+    {
+      "label": "Article in Swedish",
+      "href": "/img/AAA021/Could You Live Here (q) Article.pdf",
+      "type": "application/pdf",
+      "hidden": true
+    }
+  ],
+  "items": [
+    {
+      "index": "p03",
+      "existing": true,
+      "basedOn": null,
+      "title": "Primus 1",
+      "typology": "Office",
+      "copyName": "Primus 1 (Office)",
+      "combinedTitle": "p03 Primus 1 (Office)",
+      "image": null,
+      "description": null,
+      "cost": null,
+      "climateImpact": null,
+      "npv": null,
+      "metric": {
+        "cost": null,
+        "climateImpact": null,
+        "npv": null
+      },
+      "level": null,
+      "interventions": [],
+      "digiIndex": null
+    },
+    {
+      "index": "t06",
+      "existing": true,
+      "basedOn": null,
+      "title": "Tegelbruket 4",
+      "typology": "Hospital and Office",
+      "copyName": "Tegelbruket 4 (Hospital and Office)",
+      "combinedTitle": "t06 Tegelbruket 4 (Hospital and Office)",
+      "image": null,
+      "description": null,
+      "cost": null,
+      "climateImpact": null,
+      "npv": null,
+      "metric": {
+        "cost": null,
+        "climateImpact": null,
+        "npv": null
+      },
+      "level": null,
+      "interventions": [],
+      "digiIndex": null
+    },
+    {
+      "index": "h21",
+      "existing": true,
+      "basedOn": null,
+      "title": "Herkules 31",
+      "typology": "Office",
+      "copyName": "Herkules 31 (Office)",
+      "combinedTitle": "h21 Herkules 31 (Office)",
+      "image": "/img/AAA021/20241217_110518 copy.jpg",
+      "description": null,
+      "cost": null,
+      "climateImpact": null,
+      "npv": null,
+      "metric": {
+        "cost": null,
+        "climateImpact": null,
+        "npv": null
+      },
+      "level": null,
+      "interventions": [],
+      "digiIndex": null
+    },
+    {
+      "index": "i02",
+      "existing": true,
+      "basedOn": null,
+      "title": "Instrumentet 17",
+      "typology": "Office and Production",
+      "copyName": "Instrumentet 17 (Office and Production)",
+      "combinedTitle": "i02 Instrumentet 17 (Office and Production)",
+      "image": "/img/AAA021/_MG_6247-2.jpg",
+      "description": null,
+      "cost": null,
+      "climateImpact": null,
+      "npv": null,
+      "metric": {
+        "cost": null,
+        "climateImpact": null,
+        "npv": null
+      },
+      "level": null,
+      "interventions": [],
+      "digiIndex": null
+    },
+    {
+      "index": "i03",
+      "existing": true,
+      "basedOn": null,
+      "title": "Instrumentet 17",
+      "typology": "Office",
+      "copyName": "Instrumentet 17 (Office)",
+      "combinedTitle": "i03 Instrumentet 17 (Office)",
+      "image": "/img/AAA021/20250918_131927.jpg",
+      "description": "A cellular office interior in Instrumentet 17, with a regular concrete frame, modest window openings, parquet floors, radiators and a layered fit-out accumulated over time. The structure is robust, but the rooms are enclosed and daylight is uneven.",
+      "cost": null,
+      "climateImpact": null,
+      "npv": null,
+      "metric": {
+        "cost": null,
+        "climateImpact": null,
+        "npv": null
+      },
+      "level": null,
+      "interventions": [],
+      "digiIndex": "i03 Instrumentet 17"
+    },
+    {
+      "index": "i06",
+      "existing": true,
+      "basedOn": null,
+      "title": "Instrumentet 17",
+      "typology": "Production",
+      "copyName": "Instrumentet 17 (Production)",
+      "combinedTitle": "i06 Instrumentet 17 (Production)",
+      "image": "/img/AAA021/_MG_6127.jpg",
+      "description": null,
+      "cost": null,
+      "climateImpact": null,
+      "npv": null,
+      "metric": {
+        "cost": null,
+        "climateImpact": null,
+        "npv": null
+      },
+      "level": null,
+      "interventions": [],
+      "digiIndex": "i06 Instrumentet 17"
+    },
+    {
+      "index": "s028",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Brightness",
+      "typology": "Standard Apartment",
+      "copyName": "Brightness (Standard Apartment)",
+      "combinedTitle": "s028 Brightness (Standard Apartment)",
+      "image": "/img/AAA021/Instrumentet 17 Office Scenario 01.jpg",
+      "description": "A former office becomes a calm, generous apartment with wide views over Stockholm. The original structure and window rhythm remain legible, while new surfaces, windows and carefully integrated services make the space feel bright, quiet and distinctly residential.",
+      "cost": 20458.765126390455,
+      "climateImpact": 227.3374975829856,
+      "npv": 120098219.91103339,
+      "metric": {
+        "cost": 3,
+        "climateImpact": 5,
+        "npv": 5
+      },
+      "level": "high",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 2,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 2,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 3,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 1,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 2,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 2,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 3,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 2,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 2,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 3,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 2,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 2,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 3,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 3,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s028 apt e20459 c227 n120"
+    },
+    {
+      "index": "s051",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Chalet Chaleureux",
+      "typology": "Loft Living",
+      "copyName": "Chalet Chaleureux (Loft Living)",
+      "combinedTitle": "s051 Chalet Chaleureux (Loft Living)",
+      "image": "/img/AAA021/Instrumentet 17 Office Scenario 02.jpg",
+      "description": "The cellular office is opened into a generous loft where the existing columns and window rhythm give the home its character. New floors, windows and built-in joinery and wooden beams add warmth and order, while the larger rooms allow a relaxed way of living.",
+      "cost": 23125.133410722323,
+      "climateImpact": 238.8993984576564,
+      "npv": 106998352.5301109,
+      "metric": {
+        "cost": 4,
+        "climateImpact": 5,
+        "npv": 4
+      },
+      "level": "high",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 3,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 2,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 3,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 1,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 2,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 2,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 3,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 2,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 3,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 3,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 3,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 3,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 3,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s051 loft e23125 c239 n107"
+    },
+    {
+      "index": "s076",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Plainly Raw",
+      "typology": "Raw Living",
+      "copyName": "Plainly Raw (Raw Living)",
+      "combinedTitle": "s076 Plainly Raw (Raw Living)",
+      "image": "/img/AAA021/Instrumentet 17 Office Scenario 03.jpg",
+      "description": "A restrained loft conversion that leaves traces of the former office visible. Selected walls are opened up, while the existing windows, radiators and structure remain. Cleaned concrete, simple finishes and a generous open room give it an informal, lived-in character. It's yours to make.",
+      "cost": 15638.00670184566,
+      "climateImpact": 165.6631157345772,
+      "npv": 92898427.75054103,
+      "metric": {
+        "cost": 2,
+        "climateImpact": 3,
+        "npv": 3
+      },
+      "level": "low",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 2,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 1,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 1,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 1,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 1,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 1,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 3,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 1,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 1,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 2,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 2,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 1,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 2,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 2,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s076 raw e15638 c166 n93"
+    },
+    {
+      "index": "s084",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Shared City Room",
+      "typology": "Coliving",
+      "copyName": "Shared City Room (Coliving)",
+      "combinedTitle": "s084 Shared City Room (Coliving)",
+      "image": "/img/AAA021/in01_t08_00084_.png",
+      "description": "A bright shared home organised around a generous kitchen and dining room. The existing structural frame and window rhythm remain, while new herringbone floors, built-in storage and refined finishes make the common spaces warm, calm and domestic.",
+      "cost": 24785.848476301107,
+      "climateImpact": 218.5627573508748,
+      "npv": 98839259.41292235,
+      "metric": {
+        "cost": 4,
+        "climateImpact": 5,
+        "npv": 3
+      },
+      "level": "high",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 3,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 3,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 2,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 1,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 2,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 2,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 3,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 3,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 2,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 2,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 3,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 3,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 3,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 3,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 3,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s084 Coliving e24786 c219 n99"
+    },
+    {
+      "index": "s139",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Concrete Reality",
+      "typology": "Raw Living",
+      "copyName": "Concrete Reality (Raw Living)",
+      "combinedTitle": "s139 Concrete Reality (Raw Living)",
+      "image": "/img/AAA021/in01_t08_00139_.png",
+      "description": "A modest conversion that works with what is already there. Most walls and windows remain, while surfaces are repaired and simplified. The concrete floor and plain rooms keep the character direct and robust, with residential services added quietly around them.",
+      "cost": 12800.000000000002,
+      "climateImpact": 108.0,
+      "npv": 106841554.67670876,
+      "metric": {
+        "cost": 1,
+        "climateImpact": 2,
+        "npv": 4
+      },
+      "level": "low",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 1,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 1,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 1,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 1,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 1,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 1,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 1,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 1,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 1,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 1,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 1,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 1,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 1,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 1,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s139 raw e12800 c108 n107"
+    },
+    {
+      "index": "s144",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Paris Terrace",
+      "typology": "Raw Living",
+      "copyName": "Paris Terrace (Raw Living)",
+      "combinedTitle": "s144 Paris Terrace (Raw Living)",
+      "image": "/img/AAA021/in01_t08_00144_.png",
+      "description": "Selected walls are removed and larger glazed openings bring in daylight and connect the rooms to an exterior terrace. Raw but with prominence. The existing structure stays visible, paired with simple surfaces and an unfussy residential fit-out.",
+      "cost": 18600.479100032153,
+      "climateImpact": 157.7506415224344,
+      "npv": 92882137.5154739,
+      "metric": {
+        "cost": 3,
+        "climateImpact": 3,
+        "npv": 3
+      },
+      "level": "medium",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 2,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 2,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 3,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 2,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 2,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 1,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 2,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 2,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 1,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 2,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 2,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 2,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 2,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s144 raw e18600 c158 n93"
+    },
+    {
+      "index": "s196",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Vertical Rhythm",
+      "typology": "Loft Living",
+      "copyName": "Vertical Rhythm (Loft Living)",
+      "combinedTitle": "s196 Vertical Rhythm (Loft Living)",
+      "image": "/img/AAA021/in01_t08_00196_.png",
+      "description": "A generous loft apartment shaped by the existing concrete frame and a more open plan. Enlarged windows and doors bring the city closer, while simple new floors and finishes keep the atmosphere calm, robust and slightly unfinished rather than overly polished. Cool, calm, simple.",
+      "cost": 20644.79051617626,
+      "climateImpact": 178.9961802559872,
+      "npv": 119184277.17101571,
+      "metric": {
+        "cost": 3,
+        "climateImpact": 4,
+        "npv": 5
+      },
+      "level": "high",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 2,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 2,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 2,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 3,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 2,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 2,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 2,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 2,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 3,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 2,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 2,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 3,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 3,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 3,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 3,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s196 loft e20645 c179 n119"
+    },
+    {
+      "index": "s234",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Fully Opened",
+      "typology": "Coliving",
+      "copyName": "Fully Opened (Coliving)",
+      "combinedTitle": "s234 Fully Opened (Coliving)",
+      "image": "/img/AAA021/in01_t08_00234_.png",
+      "description": "The former office opens toward the city through impressively large windows, while warm timber surfaces soften the retained concrete frame. Generous shared rooms feel distinctly domestic, with private spaces and new residential services fitted carefully around the existing structure.",
+      "cost": 26437.216689812718,
+      "climateImpact": 220.4227210389096,
+      "npv": 90726087.3799398,
+      "metric": {
+        "cost": 5,
+        "climateImpact": 5,
+        "npv": 2
+      },
+      "level": "high",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 3,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 3,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 2,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 3,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 3,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 2,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 2,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 3,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 3,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 2,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 3,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 2,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 3,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 3,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 3,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 3,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s234 Coliving e26437 c220 n91"
+    },
+    {
+      "index": "s283",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Mixing",
+      "typology": "Raw Living",
+      "copyName": "Mixing (Raw Living)",
+      "combinedTitle": "s283 Mixing (Raw Living)",
+      "image": "/img/AAA021/in01_t08_00283_.png",
+      "description": "The apartment keeps the irregular character of the former office rather than smoothing everything away. Old and new windows sit together, simple surfaces reveal parts of the structure, and a small balcony adds a direct place to step outside above the city.",
+      "cost": 16802.60971993109,
+      "climateImpact": 144.9544694271504,
+      "npv": 101715069.77991042,
+      "metric": {
+        "cost": 2,
+        "climateImpact": 3,
+        "npv": 3
+      },
+      "level": "medium",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 2,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 2,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 2,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 2,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 1,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 1,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 2,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 2,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 1,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 2,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 2,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 2,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 2,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s283 raw e16802 c145 n102"
+    },
+    {
+      "index": "s316",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Balcon Filant",
+      "typology": "Raw Living",
+      "copyName": "Balcon Filant (Raw Living)",
+      "combinedTitle": "s316 Balcon Filant (Raw Living)",
+      "image": "/img/AAA021/in01_t08_00316_.png",
+      "description": "A large room becomes the everyday centre of the home: a place to eat, work, read and gather without losing the building’s concrete character. The finishes stay robust and informal, while a new balcony and improved openings bring more light and outdoor life.",
+      "cost": 21635.495430952607,
+      "climateImpact": 177.9328809240624,
+      "npv": 114316943.92471951,
+      "metric": {
+        "cost": 4,
+        "climateImpact": 4,
+        "npv": 5
+      },
+      "level": "high",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 3,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 2,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 2,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 2,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 2,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 1,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 3,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 3,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 2,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 1,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 3,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 3,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 3,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 3,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s316 raw e21636 c178 n114"
+    },
+    {
+      "index": "s339",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Walk Outside",
+      "typology": "Coliving",
+      "copyName": "Walk Outside (Coliving)",
+      "combinedTitle": "s339 Walk Outside (Coliving)",
+      "image": "/img/AAA021/in01_t08_00339_.png",
+      "description": "The shared room opens almost wall-to-wall toward the balcony, turning the city view into part of everyday life. The old concrete frame remains present, but new glazing, warm finishes and built-in elements make the interior feel generous, settled and distinctly domestic.",
+      "cost": 29770.234574201484,
+      "climateImpact": 243.7396265143956,
+      "npv": 74350970.51393777,
+      "metric": {
+        "cost": 5,
+        "climateImpact": 5,
+        "npv": 1
+      },
+      "level": "high",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 3,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 3,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 2,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 3,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 3,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 2,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 2,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 3,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 3,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 3,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 3,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 3,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 3,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 3,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 3,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 3,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 3,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s339 Coliving e29770 c244 n74"
+    },
+    {
+      "index": "s340",
+      "existing": false,
+      "basedOn": "i03",
+      "title": "Your Luxury",
+      "typology": "Standard Apartment",
+      "copyName": "Your Luxury (Standard Apartment)",
+      "combinedTitle": "s340 Your Luxury (Standard Apartment)",
+      "image": "/img/AAA021/in01_t08_00340_.png",
+      "description": "The apartment is organised around a bright living room opening to a new balcony. The original frame remains quietly present, while new windows, warm finishes and built-in storage make the former office feel settled and comfortable without erasing where it came from. Some simple luxury.",
+      "cost": 28149.223010667745,
+      "climateImpact": 232.96455462203517,
+      "npv": 82315000.32557905,
+      "metric": {
+        "cost": 5,
+        "climateImpact": 5,
+        "npv": 1
+      },
+      "level": "high",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 3,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 3,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 2,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 3,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 2,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 2,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 2,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 3,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 3,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 3,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 3,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 3,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 3,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 3,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 3,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 3,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s340 apt e28149 c233 n82"
+    },
+    {
+      "index": "s007",
+      "existing": false,
+      "basedOn": "i04",
+      "title": "Straight Edge",
+      "typology": "Raw Living",
+      "copyName": "Straight Edge (Raw Living)",
+      "combinedTitle": "s007 Straight Edge (Raw Living)",
+      "image": "/img/AAA021/Instrumentet 004_00007_.png",
+      "description": "Much of the room stays recognisably close to the existing building: the windows are repaired, the structure remains and selected walls are opened. New residential functions are inserted quietly, leaving a spacious home with a direct, robust character.",
+      "cost": 16775.574550928584,
+      "climateImpact": 135.7321952238432,
+      "npv": 101847893.56521973,
+      "metric": {
+        "cost": 2,
+        "climateImpact": 3,
+        "npv": 4
+      },
+      "level": "medium",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 2,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 1,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 1,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 1,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 1,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 2,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 1,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 1,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 2,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 2,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 2,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 2,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 2,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s007 raw e16776 c136 n102"
+    },
+    {
+      "index": "s041",
+      "existing": false,
+      "basedOn": "i04",
+      "title": "Factory Feeling",
+      "typology": "Raw Living",
+      "copyName": "Factory Feeling (Raw Living)",
+      "combinedTitle": "s041 Factory Feeling (Raw Living)",
+      "image": "/img/AAA021/Instrumentet 004_00041_.png",
+      "description": "The conversion relies on repair rather than replacement. Existing windows, surfaces and room proportions remain part of everyday life, with only a few walls opened and the necessary residential functions added. The result feels simple, spacious and deliberately unpolished.",
+      "cost": 11999.999999999995,
+      "climateImpact": 99.99999999999996,
+      "npv": 96233618.01948568,
+      "metric": {
+        "cost": 1,
+        "climateImpact": 2,
+        "npv": 3
+      },
+      "level": "little",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 1,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 1,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 1,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 1,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 1,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 1,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 1,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 1,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 1,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 1,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 1,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 1,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 1,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 1,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s041 raw e12000 c100 n96"
+    },
+    {
+      "index": "s093",
+      "existing": false,
+      "basedOn": "i04",
+      "title": "It's Yours to Read",
+      "typology": "Standard Apartment",
+      "copyName": "It's Yours to Read (Standard Apartment)",
+      "combinedTitle": "s093 It's Yours to Read (Standard Apartment)",
+      "image": "/img/AAA021/Instrumentet 004_00093_.png",
+      "description": "The former office becomes a generous apartment organised by a few carefully placed walls and built-in storage rather than a completely open plan. The existing facade rhythm remains, while renewed surfaces and joinery make the rooms practical, calm and distinctly domestic.",
+      "cost": 17320.454061692788,
+      "climateImpact": 155.5848371763348,
+      "npv": 99170900.52883518,
+      "metric": {
+        "cost": 2,
+        "climateImpact": 3,
+        "npv": 3
+      },
+      "level": "medium",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 2,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 2,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 1,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 1,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 2,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 2,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 2,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 2,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 2,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 2,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 2,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 2,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 2,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s093 apt e17320 c156 n99"
+    },
+    {
+      "index": "s732",
+      "existing": false,
+      "basedOn": "t06",
+      "title": "Cleared Structural Bay",
+      "typology": "Open Plan Office",
+      "copyName": "Cleared Structural Bay (Open Plan Office)",
+      "combinedTitle": "s732 Cleared Structural Bay (Open Plan Office)",
+      "image": "/img/AAA021/008.png",
+      "description": "The former cellular workplace is opened into a broad, flexible office floor. Renovated windows and the existing structural rhythm remain visible, while cleaned surfaces, improved lighting and a small number of new partitions create a bright and adaptable place to work.",
+      "cost": 16413.076923076853,
+      "climateImpact": 115.05,
+      "npv": null,
+      "metric": {
+        "cost": 2,
+        "climateImpact": 2,
+        "npv": null
+      },
+      "level": "high",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 3,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 2,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 1,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 1,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 2,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 0,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 2,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 2,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 2,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 1,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 1,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 1,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 3,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s732 office e16413 c115",
+      "hidden": true
+    },
+    {
+      "index": "s395",
+      "existing": false,
+      "basedOn": "t06",
+      "title": "Cut Slab, Larger Windows",
+      "typology": "Loft Living",
+      "copyName": "Cut Slab, Larger Windows (Loft Living)",
+      "combinedTitle": "s395 Cut Slab, Larger Windows (Loft Living)",
+      "image": "/img/AAA021/009.png",
+      "description": "Larger windows and changes to the slabs give the former institutional interior a new sense of space. The structural frame remains exposed and the finishes stay deliberately simple, creating a generous loft where rough surfaces and new residential elements sit comfortably together.",
+      "cost": 20027.69230769221,
+      "climateImpact": 175.98749999999998,
+      "npv": null,
+      "metric": {
+        "cost": 3,
+        "climateImpact": 4,
+        "npv": null
+      },
+      "level": "medium",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 2,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 3,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 3,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 3,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 2,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 2,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 1,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 2,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 2,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 1,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 2,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 2,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 2,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 2,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s395 loft e20028 c176",
+      "hidden": true
+    },
+    {
+      "index": "s024",
+      "existing": false,
+      "basedOn": "t06",
+      "title": "Raw Frame, Built-In Edge",
+      "typology": "Raw Living",
+      "copyName": "Raw Frame, Built-In Edge (Raw Living)",
+      "combinedTitle": "s024 Raw Frame, Built-In Edge (Raw Living)",
+      "image": "/img/AAA021/006.png",
+      "description": "The apartment is organised around the existing frame rather than hiding it. Larger openings bring in more daylight, while built-in elements give the rooms storage and definition. Most surfaces remain raw and cleaned, creating a home that feels robust, spacious and deliberately unfinished.",
+      "cost": 20463.076923076864,
+      "climateImpact": 166.9624999999992,
+      "npv": null,
+      "metric": {
+        "cost": 3,
+        "climateImpact": 3,
+        "npv": null
+      },
+      "level": "high",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 2,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 2,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 2,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 3,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 2,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 1,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 2,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 2,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 2,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 1,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 2,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 2,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 3,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 3,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 3,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s024 raw e20463 c167",
+      "hidden": true
+    },
+    {
+      "index": "s055",
+      "existing": false,
+      "basedOn": "p03",
+      "title": "Cleaned Existing Rooms",
+      "typology": "Raw Living",
+      "copyName": "Cleaned Existing Rooms (Raw Living)",
+      "combinedTitle": "s055 Cleaned Existing Rooms (Raw Living)",
+      "image": "/img/AAA021/primus int 002.png",
+      "description": "Very little is visually replaced. Existing rooms, windows and surfaces are cleaned and repaired, allowing the character of the building to remain part of everyday life. The new work is quiet and practical, focused on the essential services needed to live there comfortably.",
+      "cost": 12750.000000000004,
+      "climateImpact": 106.24999999999991,
+      "npv": null,
+      "metric": {
+        "cost": 1,
+        "climateImpact": 2,
+        "npv": null
+      },
+      "level": "little",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 1,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 1,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 1,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 1,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 0,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 0,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 1,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 0,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 1,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 0,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 1,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 1,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 1,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 1,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 1,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s055 raw e12750 c106",
+      "hidden": true
+    },
+    {
+      "index": "s137",
+      "existing": false,
+      "basedOn": "t06",
+      "title": "Opened Office Strip",
+      "typology": "Open Plan Office",
+      "copyName": "Opened Office Strip (Open Plan Office)",
+      "combinedTitle": "s137 Opened Office Strip (Open Plan Office)",
+      "image": "/img/AAA021/010.png",
+      "description": "The office becomes lighter and more flexible mainly by taking walls away. Renovated windows, cleaned surfaces and the existing frame do most of the architectural work, while modest technical upgrades make the floor comfortable and practical without overbuilding it.",
+      "cost": 9070.769230769232,
+      "climateImpact": 62.374999999999915,
+      "npv": null,
+      "metric": {
+        "cost": 1,
+        "climateImpact": 1,
+        "npv": null
+      },
+      "level": "low",
+      "interventions": [
+        {
+          "id": "10",
+          "level": 2,
+          "name": "Remediation & light demolition"
+        },
+        {
+          "id": "20",
+          "level": 1,
+          "name": "Hole making / shaft"
+        },
+        {
+          "id": "21",
+          "level": 1,
+          "name": "Frame – joists & beams"
+        },
+        {
+          "id": "30",
+          "level": 1,
+          "name": "Stairs"
+        },
+        {
+          "id": "31",
+          "level": 1,
+          "name": "Elevator"
+        },
+        {
+          "id": "40",
+          "level": 1,
+          "name": "Windows / exterior openings"
+        },
+        {
+          "id": "41",
+          "level": 1,
+          "name": "Exterior wall"
+        },
+        {
+          "id": "42",
+          "level": 1,
+          "name": "Inside exterior wall"
+        },
+        {
+          "id": "43",
+          "level": 0,
+          "name": "Exterior terrace / balcony"
+        },
+        {
+          "id": "50",
+          "level": 1,
+          "name": "Subfloor / leveling"
+        },
+        {
+          "id": "51",
+          "level": 1,
+          "name": "Interior walls"
+        },
+        {
+          "id": "52",
+          "level": 0,
+          "name": "Apartment dividing walls"
+        },
+        {
+          "id": "53",
+          "level": 1,
+          "name": "Ceiling"
+        },
+        {
+          "id": "54",
+          "level": 1,
+          "name": "Interior doors / glass panels"
+        },
+        {
+          "id": "60",
+          "level": 1,
+          "name": "Floor surface"
+        },
+        {
+          "id": "70",
+          "level": 1,
+          "name": "Room completion kitchen"
+        },
+        {
+          "id": "71",
+          "level": 1,
+          "name": "Room completion bathroom"
+        },
+        {
+          "id": "80",
+          "level": 1,
+          "name": "Sanitary & heating"
+        },
+        {
+          "id": "81",
+          "level": 2,
+          "name": "Cooling & air"
+        },
+        {
+          "id": "82",
+          "level": 1,
+          "name": "Electricity"
+        }
+      ],
+      "digiIndex": "s137 office e9071 c62",
+      "hidden": true
+    }
+  ]
+}

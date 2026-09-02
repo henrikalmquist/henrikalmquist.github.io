@@ -143,6 +143,28 @@
         "prio": 2
       },
       {
+        "index": "AAA021",
+        "title": "Could You Live Here?",
+        "titleSv": "Could You Live Here?",
+        "en": "Explores the latent potential of buildings that are no longer considered viable within current models and practices. Through an inventory, generative AI, plans, regulations, and evaluations of cost and climate impact, the project develops feasible scenarios within existing space and structure. A deeper case study of Instrumentet 17 in Örnsberg investigates how a 1950s and 1960s building once planned for demolition could support new ways of living and working. Led by Henrik Almquist.",
+        "sv": "",
+        "meta": [
+          {
+            "label": "Category",
+            "key": "category",
+            "value": "Research and method development"
+          }
+        ],
+        "images": [
+          "/img/AAA021/AAA021_Could_You_Live_Here_(q)_01.png",
+          "/img/AAA021/010.png",
+          "/img/AAA021/006.png"
+        ],
+        "showonload": 1,
+        "prio": 1,
+        "link": "/project/could-you-live-here-(q)"
+      },
+      {
         "index": "AAA024",
         "title": "Extending into the Sun",
         "titleSv": "Extending into the Sun",

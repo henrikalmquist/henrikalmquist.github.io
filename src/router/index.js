@@ -12,6 +12,8 @@ export default createRouter({
     { path: '/adaptive', name: 'Adaptive', component: Adaptive },
     { path: '/agency', name: 'Agency', component: Agency },
     { path: '/architecture', name: 'Architecture', component: Architecture },
+    { path: '/project/could-you-live-here-(q)', component: () => import('../pages/Project.vue')
+}
   ],
   scrollBehavior: () => ({ top: 0 }),
 });

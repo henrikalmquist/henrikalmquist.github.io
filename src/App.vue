@@ -1,7 +1,7 @@
 <template>
-  <div class="layout-grid">
+  <div class="layout-grid" :class="{ 'project-mode': $route.path.startsWith('/project') }">
     <!-- sticky header -->
-    <header class="site-header" :class="{ 'is-white': $route.path === '/' }">
+    <header v-if="!$route.path.startsWith('/project')" class="site-header" :class="{ 'is-white': $route.path === '/' }">
 
       <div class="container top-pad page-center">
         <div class="brand-row">
@@ -26,11 +26,15 @@
     </header>
 
     <!-- centered content area with spacing below header -->
-    <main class="container main-pad page-center">
+    <main
+      :class="$route.path.startsWith('/project')
+        ? 'project-main'
+        : 'container main-pad page-center'"
+    >
       <router-view />
     </main>
 
-    <footer class="container bottom-pad page-center">
+    <footer v-if="!$route.path.startsWith('/project')" class="container bottom-pad page-center">
       <div>
           <a href="mailto:contact@a-a-a.se" title="contact@a-a-a.se" aria-label="contact@a-a-a.se">mail</a>&nbsp;
   <a href="tel:+46793513461" title="+46793513461" aria-label="+46793513461">phone</a>&nbsp;
@@ -169,6 +173,24 @@ html, body, #app {
   margin-top: 0;
 }
 
+
+
+/* Project pages use their own local header and full-width horizontal canvas. */
+.layout-grid.project-mode {
+  grid-template-rows: minmax(0, 1fr);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.project-main {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
 </style>
 

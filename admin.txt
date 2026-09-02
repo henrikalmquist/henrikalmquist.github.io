@@ -8,6 +8,6 @@ npm run deploy
 / or all in one
 
 git add .
-git commit -m "Fix architecture intro font"
+git commit -m "Fix HA"
 git push
 npm run deploy

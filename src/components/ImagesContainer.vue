@@ -20,8 +20,36 @@
     >
       <!-- header row -->
       <div v-if="hasImagesComputed" class="w-full flex mb-0 justify-between items-center">
-        <!-- left: title -->
-        <div v-if="header" v-text="header"></div>
+        <!-- left: project index + title -->
+        <div v-if="headerIndex || headerTitle" class="project-heading">
+          <span v-if="headerIndex" class="project-index">
+            {{ headerIndex }}
+          </span>
+
+          <router-link
+            v-if="headerTitle && headerLink"
+            :to="headerLink"
+            class="project-link"
+            @click.stop
+          >
+            {{ headerTitle }}
+          </router-link>
+
+          <span v-else-if="headerTitle">
+            {{ headerTitle }}
+          </span>
+        </div>
+
+        <!-- Fallback for older callers that still only pass `header` -->
+        <router-link
+          v-else-if="header && headerLink"
+          :to="headerLink"
+          class="project-link"
+          @click.stop
+        >
+          {{ header }}
+        </router-link>
+        <div v-else-if="header" v-text="header"></div>
 
         <!-- right: +, >, counter -->
         <div class="flex items-center">
@@ -102,6 +130,9 @@ export default {
   props: {
     images: { type: Array, default: () => [] },
     header: { type: String, default: '' },
+    headerIndex: { type: String, default: '' },
+    headerTitle: { type: String, default: '' },
+    headerLink: { type: String, default: '' },
     type: { type: String, default: '' },          // "intro" keeps text always visible
     description: { type: String, default: '' },
     meta: { type: Array, default: () => [] },
@@ -188,6 +219,44 @@ export default {
 .meta-label {
   opacity: 1;
 }
+
+.project-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35em;
+}
+
+.project-index {
+  flex: 0 0 auto;
+}
+
+/* ACTIVE OPTION:
+   always underlined, alternating regular -> italic -> regular */
+.project-link {
+  color: inherit;
+  text-decoration: underline;
+  font-style: normal;
+  cursor: crosshair;
+  animation: projectLinkPulse 2s steps(1) infinite;
+}
+
+@keyframes projectLinkPulse {
+  0%   { font-style: normal; }
+  50%  { font-style: oblique; }
+  100% { font-style: normal; }
+}
+
+/* STATIC OPTION: always underlined, no italic animation.
+   To use this later, comment out the ACTIVE OPTION above and uncomment this block.
+
+.project-link {
+  color: inherit;
+  text-decoration: underline;
+  font-style: normal;
+  cursor: crosshair;
+  animation: none;
+}
+*/
 
 :deep(.meta-table p) {
   margin: 0 !important;

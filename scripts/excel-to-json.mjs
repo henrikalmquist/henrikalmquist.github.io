@@ -182,7 +182,8 @@ function loadArchitecture(ws) {
       meta: parseMeta(r.Meta),
       images: splitImages(r.Images),
       showonload: showProb(r.Showonload),
-      prio: N(r.Prio, 0)
+      prio: N(r.Prio, 0),
+      ...(S(r.Link) ? { link: S(r.Link) } : {})
     }))
     .filter(p => p.index || p.title || p.titleSv || p.en || p.sv || p.images.length);
 

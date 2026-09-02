@@ -51,14 +51,17 @@ export default {
         const header = `${indexStr} ${titleBase}`.trim()
         const body = this.pickBody(p)
 
-        return {
-          header,
-          text: body,
-          meta: Array.isArray(p.meta) ? p.meta : [],
-          images: Array.isArray(p.images) ? p.images : [],
-          prio: typeof p.prio === 'number' ? p.prio : 0,
-          showonload: this.probToShowOnLoad(p.showonload)
-        }
+return {
+  header,
+  index: indexStr,
+  title: titleBase,
+  text: body,
+  link: p.link || '',
+  meta: Array.isArray(p.meta) ? p.meta : [],
+  images: Array.isArray(p.images) ? p.images : [],
+  prio: typeof p.prio === 'number' ? p.prio : 0,
+  showonload: this.probToShowOnLoad(p.showonload)
+}
       })
 
       const diaryItems = this.buildRandomDiaryItems(DIARY_COUNT)
