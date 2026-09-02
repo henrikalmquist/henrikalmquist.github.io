@@ -2,7 +2,7 @@ npm run dev
 
 npm run build:data
 
-github push
+github push in github desktop
 npm run deploy
 
 / or all in one
