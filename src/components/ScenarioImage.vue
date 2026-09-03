@@ -29,6 +29,10 @@
 </template>
 
 <script>
+const EXISTING_HOLD_MS = 3000
+const AUTO_REVEAL_MIN_MS = 24000
+const AUTO_REVEAL_MAX_MS = 36000
+
 export default {
   name: 'ScenarioImage',
 
@@ -50,26 +54,59 @@ export default {
   data() {
     return {
       showingExisting: false,
-      returnTimer: null
+      returnTimer: null,
+      autoRevealTimer: null
     }
   },
 
+  mounted() {
+    this.scheduleAutoReveal()
+  },
+
   beforeUnmount() {
-    if (this.returnTimer) window.clearTimeout(this.returnTimer)
+    this.clearTimers()
   },
 
   methods: {
+    clearTimers() {
+      if (this.returnTimer) window.clearTimeout(this.returnTimer)
+      if (this.autoRevealTimer) window.clearTimeout(this.autoRevealTimer)
+      this.returnTimer = null
+      this.autoRevealTimer = null
+    },
+
+    scheduleAutoReveal() {
+      if (!this.existingSrc) return
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+
+      if (this.autoRevealTimer) window.clearTimeout(this.autoRevealTimer)
+
+      // Independent 24–36 s rhythms + 3 s existing hold = roughly 90/10 scenario/existing.
+      const delay = AUTO_REVEAL_MIN_MS +
+        Math.random() * (AUTO_REVEAL_MAX_MS - AUTO_REVEAL_MIN_MS)
+
+      this.autoRevealTimer = window.setTimeout(() => {
+        this.autoRevealTimer = null
+        this.showExisting()
+      }, delay)
+    },
+
     showExisting() {
       if (!this.existingSrc) return
 
       if (this.returnTimer) window.clearTimeout(this.returnTimer)
+      if (this.autoRevealTimer) window.clearTimeout(this.autoRevealTimer)
+      this.returnTimer = null
+      this.autoRevealTimer = null
+
       this.showingExisting = true
 
-      // Existing condition stays visible for three seconds, then cross-fades back.
+      // Same three-second reveal whether triggered by click or automatically.
       this.returnTimer = window.setTimeout(() => {
         this.showingExisting = false
         this.returnTimer = null
-      }, 3000)
+        this.scheduleAutoReveal()
+      }, EXISTING_HOLD_MS)
     }
   }
 }

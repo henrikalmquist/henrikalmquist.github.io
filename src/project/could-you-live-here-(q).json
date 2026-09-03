@@ -17,7 +17,7 @@
     },
     {
       "label": "Client/fund.",
-      "value": "Riksbyggen, Tengbom, AA Palmérs"
+      "value": "Riksbyggen, Tengbom, Konstakademin"
     },
     {
       "label": "Use",
@@ -193,17 +193,17 @@
         {
           "id": "10",
           "level": 2,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 2,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -213,12 +213,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 3,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -228,17 +228,17 @@
         {
           "id": "42",
           "level": 2,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 2,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -248,7 +248,7 @@
         {
           "id": "52",
           "level": 3,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -258,37 +258,37 @@
         {
           "id": "54",
           "level": 2,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 3,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 2,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 2,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 3,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 3,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s028 apt e20459 c227 n120"
@@ -316,17 +316,17 @@
         {
           "id": "10",
           "level": 3,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 2,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -336,12 +336,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 3,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -351,17 +351,17 @@
         {
           "id": "42",
           "level": 2,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 2,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -371,7 +371,7 @@
         {
           "id": "52",
           "level": 3,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -381,37 +381,37 @@
         {
           "id": "54",
           "level": 2,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 3,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 3,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 3,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 3,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 3,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s051 loft e23125 c239 n107"
@@ -439,17 +439,17 @@
         {
           "id": "10",
           "level": 2,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 1,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -459,12 +459,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 1,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -474,17 +474,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 1,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -494,7 +494,7 @@
         {
           "id": "52",
           "level": 3,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -504,37 +504,37 @@
         {
           "id": "54",
           "level": 1,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 1,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 2,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 2,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 1,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 2,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 2,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s076 raw e15638 c166 n93"
@@ -562,17 +562,17 @@
         {
           "id": "10",
           "level": 3,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 3,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -582,12 +582,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 2,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -597,17 +597,17 @@
         {
           "id": "42",
           "level": 2,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 2,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -617,7 +617,7 @@
         {
           "id": "52",
           "level": 3,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -627,40 +627,40 @@
         {
           "id": "54",
           "level": 2,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 3,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 3,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 3,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 3,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 3,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
-      "digiIndex": "s084 Coliving e24786 c219 n99"
+      "digiIndex": "s084 co e24786 c219 n99"
     },
     {
       "index": "s139",
@@ -685,17 +685,17 @@
         {
           "id": "10",
           "level": 1,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 1,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -705,12 +705,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 1,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -720,17 +720,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 1,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -740,7 +740,7 @@
         {
           "id": "52",
           "level": 1,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -750,37 +750,37 @@
         {
           "id": "54",
           "level": 1,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 1,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 1,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 1,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 1,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 1,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 1,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s139 raw e12800 c108 n107"
@@ -808,17 +808,17 @@
         {
           "id": "10",
           "level": 2,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 2,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -828,12 +828,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 3,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -843,17 +843,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 2,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 1,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -863,7 +863,7 @@
         {
           "id": "52",
           "level": 2,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -873,37 +873,37 @@
         {
           "id": "54",
           "level": 2,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 1,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 2,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 2,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 2,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 2,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s144 raw e18600 c158 n93"
@@ -931,17 +931,17 @@
         {
           "id": "10",
           "level": 2,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 2,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 2,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -951,12 +951,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 3,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -966,17 +966,17 @@
         {
           "id": "42",
           "level": 2,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 2,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 2,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -986,7 +986,7 @@
         {
           "id": "52",
           "level": 3,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -996,37 +996,37 @@
         {
           "id": "54",
           "level": 2,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 2,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 3,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 3,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 3,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 3,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s196 loft e20645 c179 n119"
@@ -1054,17 +1054,17 @@
         {
           "id": "10",
           "level": 3,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 3,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 2,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -1074,12 +1074,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 3,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -1089,17 +1089,17 @@
         {
           "id": "42",
           "level": 2,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 2,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -1109,7 +1109,7 @@
         {
           "id": "52",
           "level": 3,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -1119,40 +1119,40 @@
         {
           "id": "54",
           "level": 3,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 2,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 3,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 3,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 3,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 3,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
-      "digiIndex": "s234 Coliving e26437 c220 n91"
+      "digiIndex": "s234 co e26437 c220 n91"
     },
     {
       "index": "s283",
@@ -1177,17 +1177,17 @@
         {
           "id": "10",
           "level": 2,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 2,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -1197,12 +1197,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 2,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -1212,17 +1212,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 1,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 1,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -1232,7 +1232,7 @@
         {
           "id": "52",
           "level": 2,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -1242,37 +1242,37 @@
         {
           "id": "54",
           "level": 2,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 1,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 2,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 2,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 2,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 2,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s283 raw e16802 c145 n102"
@@ -1300,17 +1300,17 @@
         {
           "id": "10",
           "level": 3,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 2,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -1320,12 +1320,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 2,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -1335,17 +1335,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 2,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 1,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -1355,7 +1355,7 @@
         {
           "id": "52",
           "level": 3,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -1365,37 +1365,37 @@
         {
           "id": "54",
           "level": 2,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 1,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 3,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 3,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 3,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 3,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s316 raw e21636 c178 n114"
@@ -1423,17 +1423,17 @@
         {
           "id": "10",
           "level": 3,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 3,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 2,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -1443,12 +1443,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 3,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -1458,17 +1458,17 @@
         {
           "id": "42",
           "level": 2,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 2,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 3,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -1478,7 +1478,7 @@
         {
           "id": "52",
           "level": 3,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -1488,40 +1488,40 @@
         {
           "id": "54",
           "level": 3,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 3,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 3,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 3,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 3,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 3,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
-      "digiIndex": "s339 Coliving e29770 c244 n74"
+      "digiIndex": "s339 co e29770 c244 n74"
     },
     {
       "index": "s340",
@@ -1546,17 +1546,17 @@
         {
           "id": "10",
           "level": 3,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 3,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 2,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -1566,12 +1566,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 3,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -1581,17 +1581,17 @@
         {
           "id": "42",
           "level": 2,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 2,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 3,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -1601,7 +1601,7 @@
         {
           "id": "52",
           "level": 3,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -1611,37 +1611,37 @@
         {
           "id": "54",
           "level": 3,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 3,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 3,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 3,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 3,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 3,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s340 apt e28149 c233 n82"
@@ -1669,17 +1669,17 @@
         {
           "id": "10",
           "level": 2,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 1,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -1689,12 +1689,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 1,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -1704,17 +1704,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 1,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -1724,7 +1724,7 @@
         {
           "id": "52",
           "level": 2,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -1734,37 +1734,37 @@
         {
           "id": "54",
           "level": 1,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 1,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 2,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 2,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 2,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 2,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 2,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s007 raw e16776 c136 n102"
@@ -1792,17 +1792,17 @@
         {
           "id": "10",
           "level": 1,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 1,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -1812,12 +1812,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 1,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -1827,17 +1827,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 1,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -1847,7 +1847,7 @@
         {
           "id": "52",
           "level": 1,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -1857,37 +1857,37 @@
         {
           "id": "54",
           "level": 1,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 1,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 1,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 1,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 1,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 1,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 1,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s041 raw e12000 c100 n96"
@@ -1915,17 +1915,17 @@
         {
           "id": "10",
           "level": 2,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 2,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -1935,12 +1935,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 1,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -1950,17 +1950,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 2,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -1970,7 +1970,7 @@
         {
           "id": "52",
           "level": 2,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -1980,37 +1980,37 @@
         {
           "id": "54",
           "level": 2,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 2,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 2,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 2,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 2,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 2,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 2,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s093 apt e17320 c156 n99"
@@ -2038,17 +2038,17 @@
         {
           "id": "10",
           "level": 3,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 2,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -2058,12 +2058,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 1,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -2073,17 +2073,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 2,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -2093,7 +2093,7 @@
         {
           "id": "52",
           "level": 0,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -2103,37 +2103,37 @@
         {
           "id": "54",
           "level": 2,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 2,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 1,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 1,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 1,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 3,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s732 office e16413 c115",
@@ -2162,17 +2162,17 @@
         {
           "id": "10",
           "level": 2,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 3,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 3,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -2182,12 +2182,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 3,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -2197,17 +2197,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 2,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -2217,7 +2217,7 @@
         {
           "id": "52",
           "level": 2,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -2227,37 +2227,37 @@
         {
           "id": "54",
           "level": 2,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 1,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 2,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 2,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 2,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 2,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s395 loft e20028 c176",
@@ -2286,17 +2286,17 @@
         {
           "id": "10",
           "level": 2,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 2,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 2,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -2306,12 +2306,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 3,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -2321,17 +2321,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 1,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -2341,7 +2341,7 @@
         {
           "id": "52",
           "level": 2,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -2351,37 +2351,37 @@
         {
           "id": "54",
           "level": 2,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 1,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 2,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 2,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 3,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 3,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 3,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s024 raw e20463 c167",
@@ -2410,17 +2410,17 @@
         {
           "id": "10",
           "level": 1,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 1,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -2430,12 +2430,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 1,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -2445,17 +2445,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 0,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -2465,7 +2465,7 @@
         {
           "id": "52",
           "level": 1,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -2475,37 +2475,37 @@
         {
           "id": "54",
           "level": 1,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 0,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 1,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 1,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 1,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 1,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 1,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s055 raw e12750 c106",
@@ -2534,17 +2534,17 @@
         {
           "id": "10",
           "level": 2,
-          "name": "Remediation & light demolition"
+          "name": "Remediation / demolition"
         },
         {
           "id": "20",
           "level": 1,
-          "name": "Hole making / shaft"
+          "name": "Openings / shafts"
         },
         {
           "id": "21",
           "level": 1,
-          "name": "Frame – joists & beams"
+          "name": "Structure"
         },
         {
           "id": "30",
@@ -2554,12 +2554,12 @@
         {
           "id": "31",
           "level": 1,
-          "name": "Elevator"
+          "name": "Lift"
         },
         {
           "id": "40",
           "level": 1,
-          "name": "Windows / exterior openings"
+          "name": "Windows / openings"
         },
         {
           "id": "41",
@@ -2569,17 +2569,17 @@
         {
           "id": "42",
           "level": 1,
-          "name": "Inside exterior wall"
+          "name": "Wall lining"
         },
         {
           "id": "43",
           "level": 0,
-          "name": "Exterior terrace / balcony"
+          "name": "Terrace / balcony"
         },
         {
           "id": "50",
           "level": 1,
-          "name": "Subfloor / leveling"
+          "name": "Subfloor"
         },
         {
           "id": "51",
@@ -2589,7 +2589,7 @@
         {
           "id": "52",
           "level": 0,
-          "name": "Apartment dividing walls"
+          "name": "Separating walls"
         },
         {
           "id": "53",
@@ -2599,37 +2599,37 @@
         {
           "id": "54",
           "level": 1,
-          "name": "Interior doors / glass panels"
+          "name": "Doors / glazing"
         },
         {
           "id": "60",
           "level": 1,
-          "name": "Floor surface"
+          "name": "Floor finish"
         },
         {
           "id": "70",
           "level": 1,
-          "name": "Room completion kitchen"
+          "name": "Kitchen"
         },
         {
           "id": "71",
           "level": 1,
-          "name": "Room completion bathroom"
+          "name": "Bathroom"
         },
         {
           "id": "80",
           "level": 1,
-          "name": "Sanitary & heating"
+          "name": "Plumbing / heating"
         },
         {
           "id": "81",
           "level": 2,
-          "name": "Cooling & air"
+          "name": "Cooling / air"
         },
         {
           "id": "82",
           "level": 1,
-          "name": "Electricity"
+          "name": "Electrical"
         }
       ],
       "digiIndex": "s137 office e9071 c62",

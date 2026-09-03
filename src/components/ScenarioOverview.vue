@@ -285,7 +285,7 @@ export default {
   margin-top: 0.25rem;
   white-space: nowrap;
   font-family: 'Consola', Helvetica, Arial, sans-serif;
-  font-size: 0.78em;
+  font-size: 0.85em; /* matched to intervention + vote diagram scenario text */
   line-height: inherit;
 }
 

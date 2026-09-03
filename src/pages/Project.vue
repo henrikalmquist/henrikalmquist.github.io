@@ -37,6 +37,7 @@
           role="img"
           aria-label="Collective Could You Live Here votes by scenario"
         >
+          <div class="vote-diagram-title">Vote for your favourite scenario:</div>
           <div
             v-for="row in voteDiagramRows"
             :key="'overview-diagram-' + row.id"
@@ -119,6 +120,7 @@
               role="img"
               aria-label="Collective Could You Live Here votes by scenario"
             >
+            <div class="vote-diagram-title">Vote for your favourite scenario:</div>
             <div
               v-for="row in voteDiagramRows"
               :key="'diagram-' + row.id"
@@ -197,9 +199,9 @@
                 </span>
               </div>
               <div class="scenario-value-row">
-                <span class="scenario-value-label">NPV</span>
+                <span class="scenario-value-label">NPV 30y</span>
                 <span class="scenario-value-number">{{ formatNpv(item.npv) }}</span>
-                <span class="scenario-metric" :aria-label="metricAria('NPV', item.metric?.npv)">
+                <span class="scenario-metric" :aria-label="metricAria('NPV 30y', item.metric?.npv)">
                   <span
                     v-for="dot in 5"
                     :key="'npv-dot-' + item.index + '-' + dot"
@@ -266,6 +268,7 @@
             role="img"
             aria-label="Collective Could You Live Here votes by scenario"
           >
+            <div class="vote-diagram-title">Vote for your favourite scenario:</div>
             <div
               v-for="row in voteDiagramRows"
               :key="'mobile-diagram-' + row.id"
@@ -303,6 +306,9 @@ const md = new MarkdownIt({
 
 // Stable sXXX scenario IDs are now used for local and Supabase voting.
 const VOTE_STORAGE_KEY = 'aaa021-live-here-votes-v2'
+// One anonymous browser ID is reused across AAA project pages.
+// Supabase combines it with project.index, so each browser counts once per project.
+const VISITOR_STORAGE_KEY = 'aaa-anonymous-browser-id-v1'
 const COUNTS_REFRESH_MS = 10000 // refresh collective counts every 10 seconds
 
 export default {
@@ -387,6 +393,7 @@ export default {
 
   mounted() {
     this.loadLocalVotes()
+    this.registerUniqueVisitor()
     this.loadScenarioCounts()
     this.startCountsPolling()
     this.updateViewportMode()
@@ -480,6 +487,49 @@ export default {
       if (!max) return '0%'
 
       return `${(Math.max(0, Number(votes) || 0) / max) * 100}%`
+    },
+
+    getAnonymousBrowserId() {
+      try {
+        let visitorId = localStorage.getItem(VISITOR_STORAGE_KEY)
+
+        if (!visitorId) {
+          if (window.crypto && typeof window.crypto.randomUUID === 'function') {
+            visitorId = window.crypto.randomUUID()
+          } else {
+            // Fallback UUID for older browsers. It is random, not a fingerprint.
+            visitorId = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, character => {
+              const random = Math.floor(Math.random() * 16)
+              const value = character === 'x' ? random : (random & 0x3) | 0x8
+              return value.toString(16)
+            })
+          }
+
+          localStorage.setItem(VISITOR_STORAGE_KEY, visitorId)
+        }
+
+        return visitorId
+      } catch (error) {
+        // If persistent browser storage is unavailable, do not register a visitor.
+        // This avoids turning every reload into a false "unique" visitor.
+        return null
+      }
+    },
+
+    async registerUniqueVisitor() {
+      if (!supabase || !this.project?.index) return
+
+      const visitorId = this.getAnonymousBrowserId()
+      if (!visitorId) return
+
+      const { error } = await supabase.rpc('register_project_visitor', {
+        p_project_id: this.project.index,
+        p_visitor_id: visitorId
+      })
+
+      if (error) {
+        console.warn('Could not register unique project visitor:', error.message)
+      }
     },
 
     loadLocalVotes() {
@@ -840,12 +890,28 @@ export default {
   user-select: none;
 }
 
+.vote-diagram-title {
+  margin-bottom: 0.8rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: inherit;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* Scenario rows use the same Consola size as the intervention data.
+   The title above intentionally stays normal-size Helvetica. */
+.vote-diagram-row {
+  font-family: 'Consola', Helvetica, Arial, sans-serif;
+  font-size: 0.85em;
+  line-height: 1.2;
+}
+
 .vote-diagram-row {
   display: grid;
   grid-template-columns: 16rem minmax(0, 1fr) 2.5em;
   align-items: center;
   column-gap: 0.65rem;
-  margin-top: 0.35rem;
+  margin-top: 0.08rem;
 }
 
 .vote-diagram-label,
@@ -974,7 +1040,7 @@ export default {
   column-gap: 1.25rem;
   row-gap: 0.08rem;
   font-family: 'Consola', Helvetica, Arial, sans-serif;
-  font-size: 0.68em;
+  font-size: 0.85em;
   line-height: 1.2;
 }
 
@@ -1053,6 +1119,15 @@ export default {
     top: 12px;
     left: 12px;
     width: calc(100vw - 24px);
+  }
+
+  /* Project links stay underlined but never become bold on phones. */
+  .project-local-header a,
+  .project-link,
+  .view-switch-link,
+  .scenario-interventions-toggle {
+    font-weight: 400 !important;
+    text-decoration: underline;
   }
 
   .overview-controls {
