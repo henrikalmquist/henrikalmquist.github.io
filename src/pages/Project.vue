@@ -38,6 +38,26 @@
           aria-label="Collective Could You Live Here votes by scenario"
         >
           <div class="vote-diagram-title">Vote for your favourite scenario:</div>
+          <div class="project-vote-key vote-diagram-key" aria-label="Voting key">
+            <div class="project-vote-key-row">
+              <img
+                class="project-vote-key-icon"
+                :src="voteIconQuestion"
+                alt=""
+                draggable="false"
+              />
+              <span>Could you live here?</span>
+            </div>
+            <div class="project-vote-key-row">
+              <img
+                class="project-vote-key-icon"
+                :src="voteIconYes"
+                alt=""
+                draggable="false"
+              />
+              <span>Yes!</span>
+            </div>
+          </div>
           <div
             v-for="row in voteDiagramRows"
             :key="'overview-diagram-' + row.id"
@@ -105,14 +125,6 @@
           </div>
 
           <div class="scenario-bottom-controls">
-            <button
-              class="view-switch-link"
-              type="button"
-              @click="switchView('overview')"
-            >
-              Switch to overview
-            </button>
-
             <!-- Collective vote diagram. Uses the same Supabase counts as the voting buttons. -->
             <div
               v-if="!isMobile"
@@ -120,19 +132,48 @@
               role="img"
               aria-label="Collective Could You Live Here votes by scenario"
             >
-            <div class="vote-diagram-title">Vote for your favourite scenario:</div>
-            <div
-              v-for="row in voteDiagramRows"
-              :key="'diagram-' + row.id"
-              class="vote-diagram-row"
-            >
-              <span class="vote-diagram-label">{{ row.label }}</span>
-              <div class="vote-diagram-track">
-                <div
-                  class="vote-diagram-bar"
-                  :style="{ width: voteBarWidth(row.votes) }"
-                ></div>
+              <div class="vote-diagram-title">Vote for your favourite scenario:</div>
+              <div class="project-vote-key vote-diagram-key" aria-label="Voting key">
+                <div class="project-vote-key-row">
+                  <img
+                    class="project-vote-key-icon"
+                    :src="voteIconQuestion"
+                    alt=""
+                    draggable="false"
+                  />
+                  <span>Could you live here?</span>
+                </div>
+                <div class="project-vote-key-row">
+                  <img
+                    class="project-vote-key-icon"
+                    :src="voteIconYes"
+                    alt=""
+                    draggable="false"
+                  />
+                  <span>Yes!</span>
+                </div>
               </div>
+
+              <button
+                class="view-switch-link vote-diagram-switch"
+                type="button"
+                @click="switchView('overview')"
+              >
+                Switch to overview
+              </button>
+
+              <div
+                v-for="row in voteDiagramRows"
+                :key="'diagram-' + row.id"
+                class="vote-diagram-row"
+              >
+                <span class="vote-diagram-label">{{ row.label }}</span>
+                <div class="vote-diagram-track">
+                  <div
+                    class="vote-diagram-bar"
+                    :style="{ width: voteBarWidth(row.votes) }"
+                  ></div>
+                </div>
                 <span class="vote-diagram-count">{{ row.votes }}</span>
               </div>
             </div>
@@ -269,6 +310,33 @@
             aria-label="Collective Could You Live Here votes by scenario"
           >
             <div class="vote-diagram-title">Vote for your favourite scenario:</div>
+          <div class="project-vote-key vote-diagram-key" aria-label="Voting key">
+            <div class="project-vote-key-row">
+              <img
+                class="project-vote-key-icon"
+                :src="voteIconQuestion"
+                alt=""
+                draggable="false"
+              />
+              <span>Could you live here?</span>
+            </div>
+            <div class="project-vote-key-row">
+              <img
+                class="project-vote-key-icon"
+                :src="voteIconYes"
+                alt=""
+                draggable="false"
+              />
+              <span>Yes!</span>
+            </div>
+          </div>
+            <button
+              class="view-switch-link vote-diagram-switch"
+              type="button"
+              @click="switchView('overview')"
+            >
+              Switch to overview
+            </button>
             <div
               v-for="row in voteDiagramRows"
               :key="'mobile-diagram-' + row.id"
@@ -673,6 +741,8 @@ export default {
   --column-gap: 7rem;
   --row-gap: 2rem;
   --controls-bottom: 22px; /* shared bottom position for both diagrams */
+  --space-large: 1.3rem; /* main gap between content blocks */
+  --space-small: 0rem; /* continuous rows: line break only, no extra gap */
 
   /*
     Same two-column logic as the existing 1280px desktop layout:
@@ -843,7 +913,7 @@ export default {
 
 /* Header is fixed, so this creates one normal text-space below it. */
 .project-intro {
-  padding-top: 2em;
+  padding-top: calc(1em + var(--space-large));
 }
 
 .project-intro :deep(p),
@@ -854,8 +924,8 @@ export default {
 
 .project-details {
   display: grid;
-  row-gap: 0;
-  margin-top: 1.5em;
+  row-gap: var(--space-small);
+  margin-top: var(--space-large);
 }
 
 .project-detail-row {
@@ -870,11 +940,48 @@ export default {
   min-width: 0;
 }
 
+.project-vote-key {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: var(--space-small);
+  margin-top: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.project-vote-key-row {
+  display: flex;
+  align-items: center;
+  column-gap: 0.4em;
+}
+
+.project-vote-key-icon {
+  display: block;
+  width: 1.22em;
+  height: 1.22em;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.vote-diagram-key {
+  margin-top: 0;
+  margin-bottom: var(--space-small);
+}
+
+/* The view switch now belongs to the vote legend, directly before the diagram rows. */
+.vote-diagram-switch {
+  display: block;
+  margin-top: var(--space-large);
+  margin-bottom: var(--space-large);
+}
+
 .project-links {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 1em;
+  margin-top: var(--space-large);
 }
 
 .project-link {
@@ -885,13 +992,13 @@ export default {
    The longest bar is always the scenario with the most votes. */
 .vote-diagram {
   width: 100%;
-  margin-top: 0.8rem;
+  margin-top: var(--space-large);
   padding-bottom: 0;
   user-select: none;
 }
 
 .vote-diagram-title {
-  margin-bottom: 0.8rem;
+  margin-bottom: var(--space-small);
   font-family: Helvetica, Arial, sans-serif;
   font-size: inherit;
   font-weight: 400;
@@ -949,7 +1056,7 @@ export default {
 .scenario-heading {
   display: flex;
   gap: 1rem;
-  margin-top: 0.5rem;
+  margin-top: 0.5rem; /* deliberate exception: title stays close to image */
 }
 
 .scenario-image-placeholder {
@@ -972,13 +1079,13 @@ export default {
 }
 
 .scenario-text {
-  margin-top: 0.5rem;
+  margin-top: var(--space-large);
   line-height: inherit;
   text-align: left;
 }
 
 .scenario-values {
-  margin-top: 0.5rem;
+  margin-top: var(--space-large);
 }
 
 .scenario-value-row {
@@ -1015,7 +1122,7 @@ export default {
 }
 
 .scenario-interventions {
-  margin-top: 0.55rem;
+  margin-top: var(--space-large);
   line-height: inherit;
 }
 
@@ -1034,11 +1141,11 @@ export default {
 }
 
 .scenario-interventions-panel {
-  margin-top: 0.45rem;
+  margin-top: var(--space-small);
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   column-gap: 1.25rem;
-  row-gap: 0.08rem;
+  row-gap: var(--space-small);
   font-family: 'Consola', Helvetica, Arial, sans-serif;
   font-size: 0.85em;
   line-height: 1.2;
@@ -1068,7 +1175,7 @@ export default {
   display: block;
   width: 38px; /* VOTE ICON SIZE */
   height: 38px;
-  margin-top: 0.65rem;
+  margin-top: var(--space-large);
   padding: 0;
   border: 0;
   background: transparent;
@@ -1109,6 +1216,8 @@ export default {
     --column-width: calc(100vw - 24px);
     --column-gap: 0;
     --row-gap: 3rem;
+    --space-large: 1.1rem;
+    --space-small: 0rem;
 
     height: 100dvh;
     padding: 0;
@@ -1143,9 +1252,7 @@ export default {
   }
 
   .scenario-bottom-controls {
-    position: static;
-    margin-top: 4rem;
-    padding-bottom: 0;
+    display: none;
   }
 
   .project-scroll {
@@ -1177,12 +1284,12 @@ export default {
   }
 
   .project-intro {
-    padding-top: 2em;
+    padding-top: calc(1em + var(--space-large));
   }
 
   .vote-diagram {
     width: 100%;
-    margin-top: 0.8rem;
+    margin-top: var(--space-large);
     padding-bottom: 0;
   }
 
