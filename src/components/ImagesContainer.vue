@@ -280,6 +280,7 @@ export default {
   color: inherit;
   text-decoration: underline;
   font-style: normal;
+  font-weight: 400 !important;
   cursor: crosshair;
   animation: none;
 }

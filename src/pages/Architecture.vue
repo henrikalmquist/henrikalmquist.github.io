@@ -222,6 +222,7 @@ AAA works with renovations, additions and strategies for the existing environmen
 
 :deep(a) {
   font-style: normal;
+  font-weight: 400 !important;
 }
 
 :deep(.service-line) {
