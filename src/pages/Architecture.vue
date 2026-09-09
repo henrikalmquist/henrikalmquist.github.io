@@ -20,7 +20,7 @@ import site from '../site.json'
 import MarkdownIt from 'markdown-it'
 
 const md = new MarkdownIt()
-const DIARY_COUNT = 10
+const DIARY_COUNT = 6
 
 export default {
   name: 'ArchitecturePage',

@@ -29,7 +29,10 @@
           <router-link
             v-if="headerTitle && headerLink"
             :to="headerLink"
-            class="project-link"
+            :class="[
+              'project-link',
+              { 'project-link-blink': shouldBlinkProjectLink }
+            ]"
             @click.stop
           >
             {{ headerTitle }}
@@ -111,7 +114,23 @@
 <script>
 import ImageContainer from './ImageContainer.vue';
 import MarkdownIt from 'markdown-it';
+
 const markdown = new MarkdownIt({ breaks: true, html: true });
+
+/*
+  PROJECT LINK HIGHLIGHTING
+  -------------------------
+  Put the project indices that should blink here.
+
+  Example:
+  const BLINK_PROJECTS = new Set(['AAA021', 'AAA026']);
+
+  Any project with a Link but NOT listed here will still be
+  underlined and clickable, but will remain visually static.
+*/
+const BLINK_PROJECTS = new Set([
+  'AAA021'
+]);
 
 // remove common leading spaces so Markdown doesn't create code blocks
 function normalizeIndent(s) {
@@ -127,13 +146,14 @@ function normalizeIndent(s) {
 export default {
   name: 'ImagesContainer',
   components: { ImageContainer },
+
   props: {
     images: { type: Array, default: () => [] },
     header: { type: String, default: '' },
     headerIndex: { type: String, default: '' },
     headerTitle: { type: String, default: '' },
     headerLink: { type: String, default: '' },
-    type: { type: String, default: '' },          // "intro" keeps text always visible
+    type: { type: String, default: '' }, // "intro" keeps text always visible
     description: { type: String, default: '' },
     meta: { type: Array, default: () => [] },
     remUnit: { type: Number, default: 7 },
@@ -142,56 +162,81 @@ export default {
     isSmallScreen: { type: Boolean, default: false },
     showonload: { type: [Number, Boolean], default: 0 }, // open text on load (non-intro)
   },
+
   data() {
     return {
       imageIndex: 0,
       showText: false,
     };
   },
+
   mounted() {
     if (this.type !== 'intro') this.showText = !!Number(this.showonload);
   },
+
   computed: {
+    shouldBlinkProjectLink() {
+      return BLINK_PROJECTS.has(String(this.headerIndex || '').trim());
+    },
+
     hasDescription() {
       return !!(this.description && this.description.trim().length > 0);
     },
+
     hasMetaComputed() {
       return Array.isArray(this.meta) && this.meta.length > 0;
     },
-    imageIndexComputed() { return this.imageIndex; },
-    imageComputed() { return this.images[this.imageIndexComputed]; },
-    amountOfImagesComputed() { return this.images.length; },
+
+    imageIndexComputed() {
+      return this.imageIndex;
+    },
+
+    imageComputed() {
+      return this.images[this.imageIndexComputed];
+    },
+
+    amountOfImagesComputed() {
+      return this.images.length;
+    },
+
     imageTextComputed() {
       if (!this.useMarkdown) return this.description || '';
       return markdown.render(normalizeIndent(this.description || ''));
     },
-    hasImagesComputed() { return this.amountOfImagesComputed > 0; },
+
+    hasImagesComputed() {
+      return this.amountOfImagesComputed > 0;
+    },
+
     textClassComputed() {
-  let result = this.hasImagesComputed ? 'mt-7' : '';
-  result += ' leading-5';
-  return result;
-},
+      let result = this.hasImagesComputed ? 'mt-7' : '';
+      result += ' leading-5';
+      return result;
+    },
+
     outerMarginComputed() {
       const remSize = this.isSmallScreen ? (this.remUnit * 2) / 3 : this.remUnit;
       return `margin-bottom: ${remSize * .8}rem`;
     },
+
     imageRemSizeComputed() {
       return this.type === 'intro' ? this.remUnit * 5 : this.remUnit * 4;
     },
   },
+
   methods: {
     nextClicked() {
       let next = this.imageIndex + 1;
       if (next >= this.amountOfImagesComputed) next = 0;
       this.imageIndex = next;
     },
+
     descriptionClicked() {
       this.$emit('descriptionClicked', { type: this.type });
     },
   },
 };
 </script>
-
 
 <style scoped>
 .fade-enter-active { transition: opacity 0.25s ease; }
@@ -230,13 +275,17 @@ export default {
   flex: 0 0 auto;
 }
 
-/* ACTIVE OPTION:
-   always underlined, alternating regular -> italic -> regular */
+/* Every project page link: static + underlined */
 .project-link {
   color: inherit;
   text-decoration: underline;
   font-style: normal;
   cursor: crosshair;
+  animation: none;
+}
+
+/* Only projects listed in BLINK_PROJECTS get this extra class */
+.project-link-blink {
   animation: projectLinkPulse 2s steps(1) infinite;
 }
 
@@ -246,20 +295,7 @@ export default {
   100% { font-style: normal; }
 }
 
-/* STATIC OPTION: always underlined, no italic animation.
-   To use this later, comment out the ACTIVE OPTION above and uncomment this block.
-
-.project-link {
-  color: inherit;
-  text-decoration: underline;
-  font-style: normal;
-  cursor: crosshair;
-  animation: none;
-}
-*/
-
 :deep(.meta-table p) {
   margin: 0 !important;
 }
-
 </style>

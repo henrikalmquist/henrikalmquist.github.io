@@ -143,6 +143,97 @@
         "prio": 2
       },
       {
+        "index": "AAA027",
+        "title": "Tingvalla Ruderal",
+        "titleSv": "",
+        "en": "Tingvalla Ruderal treats urban voids, leftover spaces and spontaneous vegetation as active parts of urban development. In Tingvallastaden, Karlstad, the project maps ecological and social conditions and develops 1:1 pilot gardens using low-intensity interventions. The work tests how biodiversity, climate adaptation and public use can be combined with temporary landscapes, and how these spaces can inform planning, stewardship and future development before construction begins.",
+        "sv": "",
+        "meta": [
+          {
+            "label": "Category",
+            "key": "category",
+            "value": "Research"
+          },
+          {
+            "label": "Year",
+            "key": "year",
+            "value": "2026  - 2029"
+          },
+          {
+            "label": "Funding",
+            "key": "funding",
+            "value": "Formas, Shift Sweden"
+          },
+          {
+            "label": "Budget",
+            "key": "budget",
+            "value": "5.0 Msek"
+          },
+          {
+            "label": "Use",
+            "key": "use",
+            "value": "Planning process, landscape, civic"
+          },
+          {
+            "label": "Team",
+            "key": "team",
+            "value": "Love Di Marco, Outer Space Arkitekter, Evigheten Studio, Karlstad Kommun, Henrik Sjöman"
+          }
+        ],
+        "images": [
+          "/img/AAA027/tingvalla_ruderal_01.jpg",
+          "/img/AAA027/tingvalla_ruderal_02.jpg"
+        ],
+        "showonload": 0,
+        "prio": 2
+      },
+      {
+        "index": "AAA026",
+        "title": "Common Values Nyhamnen",
+        "titleSv": "",
+        "en": "Explores how culture and existing buildings can become active resources in urban development. Using Nyhamnen in Malmö as a testing ground, the project combines spatial mapping with economic, legal and organisational analysis and real-scale pilots in existing buildings. The work develops and tests a planning and business model for how cultural activities can be established early, how shared values can be identified and managed, and how existing places can remain in use throughout long urban development processes.",
+        "sv": "",
+        "meta": [
+          {
+            "label": "Category",
+            "key": "category",
+            "value": "Research"
+          },
+          {
+            "label": "Year",
+            "key": "year",
+            "value": "2026  - 2029"
+          },
+          {
+            "label": "Funding",
+            "key": "funding",
+            "value": "Formas, Shift Sweden"
+          },
+          {
+            "label": "Budget",
+            "key": "budget",
+            "value": "5.0 Msek"
+          },
+          {
+            "label": "Use",
+            "key": "use",
+            "value": "Planning process, culture, existing env."
+          },
+          {
+            "label": "Team",
+            "key": "team",
+            "value": "Evigheten Studio, Victoria Percovich Gutierrez, Love Di Marco, STPLN, Inkonst, Fastighetsägarna Syd, Plateau Urbain, Malmö Universitet"
+          }
+        ],
+        "images": [
+          "/img/AAA026/common_values_nyhamnen_02.jpg",
+          "/img/AAA026/common_values_nyhamnen_01.jpg"
+        ],
+        "showonload": 0,
+        "prio": 2,
+        "link": "/project/common-values-nyhamnen"
+      },
+      {
         "index": "AAA021",
         "title": "Could You Live Here?",
         "titleSv": "Could You Live Here?",
