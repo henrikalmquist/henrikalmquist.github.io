@@ -1,7 +1,11 @@
 <template>
-    <div>
-        <img class="md:h-full object-contain cursor-crosshair" :class="imageClassComputed" :style="imageStyleComputed" :src="imageSrc" @click="$emit('nextClicked')">                
-    </div>
+  <div class="image-frame" :class="imageClassComputed">
+    <img
+      class="image-frame__img cursor-crosshair"
+      :src="imageSrc"
+      @click="$emit('nextClicked')"
+    >
+  </div>
 </template>
 
 <script>
@@ -31,4 +35,18 @@ export default {
 </script>
 
 <style scoped>
+.image-frame {
+  width: 100%;
+  aspect-ratio: 5 / 4;
+  overflow: hidden;
+  background: white;
+}
+
+.image-frame__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
 </style>

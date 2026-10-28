@@ -119,7 +119,7 @@ export default {
     featureColumnsComputed() { return this.featureColumns; },
     singelFeatureColumnComputed() { return this.singelFeatureColumn; },
     safeRemUnit() { return Number(this.remUnit) || 7; },
-    gapComputed() { return `gap: ${this.safeRemUnit}rem;`; },
+    gapComputed() { return `gap: ${this.safeRemUnit*.8}rem;`; },
     firstComlumeStyleComputed() { 
       //return "";
       return this.useMarkdown ? `margin-top: -1.2rem;` : ""; 
