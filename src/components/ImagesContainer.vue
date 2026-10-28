@@ -216,7 +216,7 @@ export default {
 
     outerMarginComputed() {
       const remSize = this.isSmallScreen ? (this.remUnit * 2) / 3 : this.remUnit;
-      return `margin-bottom: ${remSize * .8}rem`;
+      return `margin-bottom: ${remSize * 0.5}rem`;
     },
 
     imageRemSizeComputed() {

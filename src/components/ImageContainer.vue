@@ -37,7 +37,7 @@ export default {
 <style scoped>
 .image-frame {
   width: 100%;
-  aspect-ratio: 5 / 4;
+  aspect-ratio: 5 / 5;
   overflow: hidden;
   background: white;
 }
@@ -47,6 +47,6 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  object-position: center;
+  object-position: center bottom;
 }
 </style>
