@@ -2,7 +2,7 @@
   "adaptive": {
     "partOne": {
       "en": "Through an adaptive approach AAA responds to the rapid changes in how we plan, build and live as a society. A building can stand for more than 100 years, while a use of space can change quickly. Caring for the environment and the buildings we already have, challenges us to be creative and put to the best use of our economic and ecological resources.\r\n\r\nWe are building for a new future, with the beautiful legacy that came before us.",
-      "sv": "**Genom ett adaptivt förhållningssätt** svarar vi på de snabba förändringar som präglar hur vi planerar, bygger och lever som samhälle. En byggnad kan stå i över 100 år, medan ett rum kan byta användningsområde snabbt. Omsorg om miljön och de byggnader vi redan har utmanar oss att vara kreativa och att på bästa sätt nyttja våra ekonomiska och ekologiska resurser. \r\n\r\nVi bygger för en ny framtid, med det vackra arvet från för."
+      "sv": ""
     },
     "partTwo": {
       "statements": [
@@ -39,7 +39,7 @@
       ]
     },
     "rightColumnImages": [
-      "/img/AAA000/Potential.gif"
+      "/img/AAA000/AAA03.png"
     ]
   },
   "agency": {
