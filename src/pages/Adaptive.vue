@@ -1,4 +1,3 @@
-
 <template>
   <section class="adaptive-page">
 
@@ -12,19 +11,20 @@
             <div class="adaptive-intro__text">
               <p>AAA helps property owners, developers and municipalities unlock the potential of existing buildings and places.</p>
 
-<p>We identify opportunities for reuse, adaptation and development, combining architectural insight with strategic, economic and environmental thinking to evaluate alternatives and shape a clear way forward.</p>
+              <p>We identify opportunities for reuse, adaptation and development, combining architectural insight with strategic, economic and environmental thinking to evaluate alternatives and shape a clear way forward.</p>
 
-<p>From early investigations to concrete strategies, AAA brings clarity to complex situations, helping to make informed decisions and put existing resources to their best use.</p> </div>
+              <p>From early investigations to concrete strategies, AAA brings clarity to complex situations, helping to make informed decisions and put existing resources to their best use.</p>
+            </div>
           </div>
         </div>
       </div>
 
       <figcaption
-  class="adaptive-legend"
-  :style="{ '--legend-position': (images[0].legendPosition ?? 50) + '%' }"
->
-  {{ images[0].legend }}
-</figcaption>
+        class="adaptive-legend"
+        :style="{ '--legend-position': (images[0].legendPosition ?? 50) + '%' }"
+      >
+        {{ images[0].legend }}
+      </figcaption>
     </figure>
 
     <!-- Remaining images -->
@@ -36,12 +36,12 @@
       >
         <img :src="image.src" :alt="image.alt" loading="lazy" />
 
-       <figcaption
-  class="adaptive-legend"
-  :style="{ '--legend-position': (image.legendPosition ?? 50) + '%' }"
->
-  {{ image.legend }}
-</figcaption>
+        <figcaption
+          class="adaptive-legend"
+          :style="{ '--legend-position': (image.legendPosition ?? 50) + '%' }"
+        >
+          {{ image.legend }}
+        </figcaption>
       </figure>
     </div>
 
@@ -163,9 +163,26 @@ export default {
 
 /* Mobile */
 
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
+  /* Place the intro in a white area before the first image. */
+  .adaptive-image--intro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .adaptive-intro {
+    position: relative;
+    inset: auto;
+    order: 0;
+    background: #fff;
+  }
+
+  .adaptive-image--intro > img {
+    order: 1;
+  }
+
   .adaptive-intro__grid {
-    padding: 4.4rem 12px 0;
+    padding: 0rem 12px 1rem;
     grid-template-columns: 1fr;
     gap: 0;
   }
@@ -175,15 +192,18 @@ export default {
   }
 
   .adaptive-intro__text p {
-    background: rgba(255,255,255,.65);
-    padding: 0.1rem;
+    background: none;
+    padding: 0;
+    margin-bottom: 1rem;
   }
 
+  /* Keep the first image legend visible, like the other image legends. */
   .adaptive-legend {
 
     width: calc(100% - 24px);
     font-size: 1rem;
-    font-weight: 400;
+    line-height: 1.2;
+    font-weight: 700;
   }
 }
 </style>
